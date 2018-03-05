@@ -1,0 +1,796 @@
+{
+    "__meta__": {
+        "version": [
+            2,
+            5
+        ],
+        "compiler": "https://github.com/p4lang/p4c-bm"
+    },
+    "header_types": [
+        {
+            "name": "standard_metadata_t",
+            "id": 0,
+            "fields": [
+                [
+                    "ingress_port",
+                    9
+                ],
+                [
+                    "packet_length",
+                    32
+                ],
+                [
+                    "egress_spec",
+                    9
+                ],
+                [
+                    "egress_port",
+                    9
+                ],
+                [
+                    "egress_instance",
+                    32
+                ],
+                [
+                    "instance_type",
+                    32
+                ],
+                [
+                    "clone_spec",
+                    32
+                ],
+                [
+                    "_padding",
+                    5
+                ]
+            ],
+            "length_exp": null,
+            "max_length": null
+        },
+        {
+            "name": "ingress_intrinsic_metadata_t",
+            "id": 1,
+            "fields": [
+                [
+                    "resubmit_flag",
+                    1
+                ],
+                [
+                    "ingress_global_timestamp",
+                    48
+                ],
+                [
+                    "mcast_grp",
+                    16
+                ],
+                [
+                    "deflection_flag",
+                    1
+                ],
+                [
+                    "deflect_on_drop",
+                    1
+                ],
+                [
+                    "enq_congest_stat",
+                    2
+                ],
+                [
+                    "deq_congest_stat",
+                    2
+                ],
+                [
+                    "mcast_hash",
+                    13
+                ],
+                [
+                    "egress_rid",
+                    16
+                ],
+                [
+                    "lf_field_list",
+                    32
+                ],
+                [
+                    "priority",
+                    3
+                ],
+                [
+                    "ingress_cos",
+                    3
+                ],
+                [
+                    "packet_color",
+                    2
+                ],
+                [
+                    "qid",
+                    5
+                ],
+                [
+                    "_padding",
+                    7
+                ]
+            ],
+            "length_exp": null,
+            "max_length": null
+        },
+        {
+            "name": "ethernet_t",
+            "id": 2,
+            "fields": [
+                [
+                    "dstAddr",
+                    48
+                ],
+                [
+                    "srcAddr",
+                    48
+                ],
+                [
+                    "etherType",
+                    16
+                ]
+            ],
+            "length_exp": null,
+            "max_length": null
+        },
+        {
+            "name": "arp_t",
+            "id": 3,
+            "fields": [
+                [
+                    "hw_type",
+                    16
+                ],
+                [
+                    "protocol_type",
+                    16
+                ],
+                [
+                    "hw_Addr_length",
+                    8
+                ],
+                [
+                    "protocol_Addr_length",
+                    8
+                ],
+                [
+                    "operation",
+                    16
+                ],
+                [
+                    "sender_hw_Addr",
+                    48
+                ],
+                [
+                    "sender_ip_Addr",
+                    32
+                ],
+                [
+                    "target_hw_Addr",
+                    48
+                ],
+                [
+                    "target_ip_Addr",
+                    32
+                ]
+            ],
+            "length_exp": null,
+            "max_length": null
+        },
+        {
+            "name": "ipv4_t",
+            "id": 4,
+            "fields": [
+                [
+                    "version",
+                    4
+                ],
+                [
+                    "ihl",
+                    4
+                ],
+                [
+                    "diffserv",
+                    8
+                ],
+                [
+                    "totalLen",
+                    16
+                ],
+                [
+                    "identification",
+                    16
+                ],
+                [
+                    "flags",
+                    3
+                ],
+                [
+                    "tragOffset",
+                    13
+                ],
+                [
+                    "ttl",
+                    8
+                ],
+                [
+                    "protocol",
+                    8
+                ],
+                [
+                    "hdrChecksum",
+                    16
+                ],
+                [
+                    "srcAddr",
+                    32
+                ],
+                [
+                    "dstAddr",
+                    32
+                ]
+            ],
+            "length_exp": null,
+            "max_length": null
+        },
+        {
+            "name": "svef_t",
+            "id": 5,
+            "fields": [
+                [
+                    "lid",
+                    8
+                ],
+                [
+                    "tid",
+                    8
+                ],
+                [
+                    "qid",
+                    8
+                ],
+                [
+                    "l",
+                    1
+                ],
+                [
+                    "ty",
+                    2
+                ],
+                [
+                    "d",
+                    1
+                ],
+                [
+                    "t",
+                    1
+                ],
+                [
+                    "two",
+                    1
+                ],
+                [
+                    "res",
+                    2
+                ],
+                [
+                    "naluid",
+                    32
+                ],
+                [
+                    "total_size",
+                    16
+                ],
+                [
+                    "frame_num",
+                    16
+                ]
+            ],
+            "length_exp": null,
+            "max_length": null
+        }
+    ],
+    "headers": [
+        {
+            "name": "standard_metadata",
+            "id": 0,
+            "header_type": "standard_metadata_t",
+            "metadata": true
+        },
+        {
+            "name": "intrinsic_metadata",
+            "id": 1,
+            "header_type": "ingress_intrinsic_metadata_t",
+            "metadata": true
+        },
+        {
+            "name": "ethernet",
+            "id": 2,
+            "header_type": "ethernet_t",
+            "metadata": false
+        },
+        {
+            "name": "arp",
+            "id": 3,
+            "header_type": "arp_t",
+            "metadata": false
+        },
+        {
+            "name": "ipv4",
+            "id": 4,
+            "header_type": "ipv4_t",
+            "metadata": false
+        },
+        {
+            "name": "svef",
+            "id": 5,
+            "header_type": "svef_t",
+            "metadata": false
+        }
+    ],
+    "header_stacks": [],
+    "parsers": [
+        {
+            "name": "parser",
+            "id": 0,
+            "init_state": "start",
+            "parse_states": [
+                {
+                    "name": "start",
+                    "id": 0,
+                    "parser_ops": [],
+                    "transition_key": [],
+                    "transitions": [
+                        {
+                            "type": "default",
+                            "value": null,
+                            "mask": null,
+                            "next_state": "parse_ethernet"
+                        }
+                    ]
+                },
+                {
+                    "name": "parse_ethernet",
+                    "id": 1,
+                    "parser_ops": [
+                        {
+                            "op": "extract",
+                            "parameters": [
+                                {
+                                    "type": "regular",
+                                    "value": "ethernet"
+                                }
+                            ]
+                        }
+                    ],
+                    "transition_key": [
+                        {
+                            "type": "field",
+                            "value": [
+                                "ethernet",
+                                "etherType"
+                            ]
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "type": "hexstr",
+                            "value": "0x0806",
+                            "mask": null,
+                            "next_state": "parse_arp"
+                        },
+                        {
+                            "type": "hexstr",
+                            "value": "0x0800",
+                            "mask": null,
+                            "next_state": "parse_ipv4"
+                        },
+                        {
+                            "type": "default",
+                            "value": null,
+                            "mask": null,
+                            "next_state": null
+                        }
+                    ]
+                },
+                {
+                    "name": "parse_arp",
+                    "id": 2,
+                    "parser_ops": [
+                        {
+                            "op": "extract",
+                            "parameters": [
+                                {
+                                    "type": "regular",
+                                    "value": "arp"
+                                }
+                            ]
+                        }
+                    ],
+                    "transition_key": [],
+                    "transitions": [
+                        {
+                            "type": "default",
+                            "value": null,
+                            "mask": null,
+                            "next_state": null
+                        }
+                    ]
+                },
+                {
+                    "name": "parse_ipv4",
+                    "id": 3,
+                    "parser_ops": [
+                        {
+                            "op": "extract",
+                            "parameters": [
+                                {
+                                    "type": "regular",
+                                    "value": "ipv4"
+                                }
+                            ]
+                        }
+                    ],
+                    "transition_key": [
+                        {
+                            "type": "field",
+                            "value": [
+                                "ipv4",
+                                "protocol"
+                            ]
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "type": "default",
+                            "value": null,
+                            "mask": null,
+                            "next_state": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "parse_vsets": [],
+    "deparsers": [
+        {
+            "name": "deparser",
+            "id": 0,
+            "order": [
+                "ethernet",
+                "ipv4",
+                "arp"
+            ]
+        }
+    ],
+    "meter_arrays": [],
+    "actions": [
+        {
+            "name": "action_pkt",
+            "id": 0,
+            "runtime_data": [
+                {
+                    "name": "port",
+                    "bitwidth": 9
+                }
+            ],
+            "primitives": [
+                {
+                    "op": "modify_field",
+                    "parameters": [
+                        {
+                            "type": "field",
+                            "value": [
+                                "standard_metadata",
+                                "egress_spec"
+                            ]
+                        },
+                        {
+                            "type": "runtime_data",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "action_arp",
+            "id": 1,
+            "runtime_data": [
+                {
+                    "name": "port",
+                    "bitwidth": 9
+                }
+            ],
+            "primitives": [
+                {
+                    "op": "modify_field",
+                    "parameters": [
+                        {
+                            "type": "field",
+                            "value": [
+                                "standard_metadata",
+                                "egress_spec"
+                            ]
+                        },
+                        {
+                            "type": "runtime_data",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "_drop",
+            "id": 2,
+            "runtime_data": [],
+            "primitives": [
+                {
+                    "op": "drop",
+                    "parameters": []
+                }
+            ]
+        }
+    ],
+    "pipelines": [
+        {
+            "name": "ingress",
+            "id": 0,
+            "init_table": "_condition_0",
+            "tables": [
+                {
+                    "name": "route_arp",
+                    "id": 0,
+                    "match_type": "lpm",
+                    "type": "simple",
+                    "max_size": 2,
+                    "with_counters": false,
+                    "direct_meters": null,
+                    "support_timeout": false,
+                    "key": [
+                        {
+                            "match_type": "lpm",
+                            "target": [
+                                "arp",
+                                "sender_ip_Addr"
+                            ],
+                            "mask": null
+                        }
+                    ],
+                    "actions": [
+                        "action_arp"
+                    ],
+                    "next_tables": {
+                        "action_arp": "_condition_1"
+                    },
+                    "base_default_next": "_condition_1"
+                },
+                {
+                    "name": "route_pkt",
+                    "id": 1,
+                    "match_type": "lpm",
+                    "type": "simple",
+                    "max_size": 3,
+                    "with_counters": false,
+                    "direct_meters": null,
+                    "support_timeout": false,
+                    "key": [
+                        {
+                            "match_type": "lpm",
+                            "target": [
+                                "ipv4",
+                                "dstAddr"
+                            ],
+                            "mask": null
+                        },
+                        {
+                            "match_type": "exact",
+                            "target": [
+                                "svef",
+                                "d"
+                            ],
+                            "mask": null
+                        }
+                    ],
+                    "actions": [
+                        "_drop",
+                        "action_pkt"
+                    ],
+                    "next_tables": {
+                        "_drop": null,
+                        "action_pkt": null
+                    },
+                    "base_default_next": null
+                },
+                {
+                    "name": "table_drop",
+                    "id": 2,
+                    "match_type": "exact",
+                    "type": "simple",
+                    "max_size": 16384,
+                    "with_counters": false,
+                    "direct_meters": null,
+                    "support_timeout": false,
+                    "key": [
+                        {
+                            "match_type": "exact",
+                            "target": [
+                                "svef",
+                                "qid"
+                            ],
+                            "mask": null
+                        }
+                    ],
+                    "actions": [
+                        "_drop"
+                    ],
+                    "next_tables": {
+                        "_drop": null
+                    },
+                    "base_default_next": null
+                }
+            ],
+            "action_profiles": [],
+            "conditionals": [
+                {
+                    "name": "_condition_0",
+                    "id": 0,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "==",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "ethernet",
+                                    "etherType"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x806"
+                            }
+                        }
+                    },
+                    "true_next": "route_arp",
+                    "false_next": "route_pkt"
+                },
+                {
+                    "name": "_condition_1",
+                    "id": 1,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "==",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "svef",
+                                    "d"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x1"
+                            }
+                        }
+                    },
+                    "true_next": "table_drop",
+                    "false_next": null
+                }
+            ]
+        },
+        {
+            "name": "egress",
+            "id": 1,
+            "init_table": null,
+            "tables": [],
+            "action_profiles": [],
+            "conditionals": []
+        }
+    ],
+    "calculations": [],
+    "checksums": [],
+    "learn_lists": [],
+    "field_lists": [],
+    "counter_arrays": [],
+    "register_arrays": [],
+    "force_arith": [
+        [
+            "standard_metadata",
+            "ingress_port"
+        ],
+        [
+            "standard_metadata",
+            "packet_length"
+        ],
+        [
+            "standard_metadata",
+            "egress_spec"
+        ],
+        [
+            "standard_metadata",
+            "egress_port"
+        ],
+        [
+            "standard_metadata",
+            "egress_instance"
+        ],
+        [
+            "standard_metadata",
+            "instance_type"
+        ],
+        [
+            "standard_metadata",
+            "clone_spec"
+        ],
+        [
+            "standard_metadata",
+            "_padding"
+        ],
+        [
+            "intrinsic_metadata",
+            "resubmit_flag"
+        ],
+        [
+            "intrinsic_metadata",
+            "ingress_global_timestamp"
+        ],
+        [
+            "intrinsic_metadata",
+            "mcast_grp"
+        ],
+        [
+            "intrinsic_metadata",
+            "deflection_flag"
+        ],
+        [
+            "intrinsic_metadata",
+            "deflect_on_drop"
+        ],
+        [
+            "intrinsic_metadata",
+            "enq_congest_stat"
+        ],
+        [
+            "intrinsic_metadata",
+            "deq_congest_stat"
+        ],
+        [
+            "intrinsic_metadata",
+            "mcast_hash"
+        ],
+        [
+            "intrinsic_metadata",
+            "egress_rid"
+        ],
+        [
+            "intrinsic_metadata",
+            "lf_field_list"
+        ],
+        [
+            "intrinsic_metadata",
+            "priority"
+        ],
+        [
+            "intrinsic_metadata",
+            "ingress_cos"
+        ],
+        [
+            "intrinsic_metadata",
+            "packet_color"
+        ],
+        [
+            "intrinsic_metadata",
+            "qid"
+        ],
+        [
+            "intrinsic_metadata",
+            "_padding"
+        ]
+    ]
+}

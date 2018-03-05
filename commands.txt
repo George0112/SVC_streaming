@@ -1,0 +1,11 @@
+table_set_default ethType _route_pkt 
+table_set_default route_pkt action_pkt 0
+table_set_default route_arp action_arp 0
+table_set_default table_drop _drop
+
+table_add route_pkt action_pkt 0x0a000001/32 0 => 1
+table_add route_pkt action_pkt 0x0a000002/32 0 => 2
+table_add route_pkt _drop 0x00000000/0 1 => 
+table_add ethType _route_arp 0x8060 =>
+table_add route_arp action_arp 0x0a000001/32 => 2
+table_add route_arp action_arp 0x0a000002/32 => 1
