@@ -16,6 +16,7 @@ limitations under the License.
 
 #include "headers.p4"
 #include "parsers.p4"
+#include "ipv4_checksum.p4"
 
 action _drop() {
     drop();
@@ -27,6 +28,9 @@ action action_pkt(port) {
 
 action action_arp(port) {
 	modify_field(standard_metadata.egress_spec, port);
+}
+
+action _no_action() {
 }
 
 table route_arp {
@@ -42,7 +46,6 @@ table route_arp {
 table route_pkt {
     reads {
         ipv4.dstAddr: lpm;
-		svef.d: exact;
     }
     actions {
         _drop;
@@ -53,22 +56,36 @@ table route_pkt {
 
 table table_drop {
 	reads {
-		svef.qid: exact;
+		ethernet.srcAddr: valid;
 	}
 	actions {
 		_drop;
+		_no_action;
 	}
 }
 
 control ingress {
 	if(ethernet.etherType == 0x0806) {
 		apply(route_arp);
-		if(svef.d == 1) {
-			apply(table_drop);
-		}
+	}
+	else if(valid(ipv4)){
+			if(svef.qid == 1){
+				apply(route_pkt);
+			} else {
+				apply(table_drop);
+			}
+		/*
+		if(ipv4.protocol == 0x01){
+			apply(route_pkt);
+		}else if(ipv4.protocol == 0x11){
+			if(svef.d == 0){
+				apply(route_pkt);
+			}
+		}*/
 	}
 	else {
-		apply(route_pkt);
+		//apply(route_pkt);
+		apply(table_drop);
 	}
 }
 

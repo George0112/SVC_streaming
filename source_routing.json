@@ -208,7 +208,7 @@
                     3
                 ],
                 [
-                    "tragOffset",
+                    "fragOffset",
                     13
                 ],
                 [
@@ -236,8 +236,80 @@
             "max_length": null
         },
         {
-            "name": "svef_t",
+            "name": "udp_t",
             "id": 5,
+            "fields": [
+                [
+                    "src_port",
+                    16
+                ],
+                [
+                    "dst_port",
+                    16
+                ],
+                [
+                    "pkt_length",
+                    16
+                ],
+                [
+                    "checksum",
+                    16
+                ]
+            ],
+            "length_exp": null,
+            "max_length": null
+        },
+        {
+            "name": "tcp_t",
+            "id": 6,
+            "fields": [
+                [
+                    "src_port",
+                    16
+                ],
+                [
+                    "dst_port",
+                    16
+                ],
+                [
+                    "seq_no",
+                    32
+                ],
+                [
+                    "ack_nu",
+                    32
+                ],
+                [
+                    "data_offset",
+                    4
+                ],
+                [
+                    "res",
+                    4
+                ],
+                [
+                    "flags",
+                    8
+                ],
+                [
+                    "window",
+                    16
+                ],
+                [
+                    "checksum",
+                    16
+                ],
+                [
+                    "urgent_ptr",
+                    16
+                ]
+            ],
+            "length_exp": null,
+            "max_length": null
+        },
+        {
+            "name": "svef_t",
+            "id": 7,
             "fields": [
                 [
                     "lid",
@@ -324,8 +396,20 @@
             "metadata": false
         },
         {
-            "name": "svef",
+            "name": "udp",
             "id": 5,
+            "header_type": "udp_t",
+            "metadata": false
+        },
+        {
+            "name": "tcp",
+            "id": 6,
+            "header_type": "tcp_t",
+            "metadata": false
+        },
+        {
+            "name": "svef",
+            "id": 7,
             "header_type": "svef_t",
             "metadata": false
         }
@@ -444,6 +528,90 @@
                     ],
                     "transitions": [
                         {
+                            "type": "hexstr",
+                            "value": "0x11",
+                            "mask": null,
+                            "next_state": "parse_udp"
+                        },
+                        {
+                            "type": "hexstr",
+                            "value": "0x06",
+                            "mask": null,
+                            "next_state": "parse_tcp"
+                        },
+                        {
+                            "type": "default",
+                            "value": null,
+                            "mask": null,
+                            "next_state": null
+                        }
+                    ]
+                },
+                {
+                    "name": "parse_udp",
+                    "id": 4,
+                    "parser_ops": [
+                        {
+                            "op": "extract",
+                            "parameters": [
+                                {
+                                    "type": "regular",
+                                    "value": "udp"
+                                }
+                            ]
+                        }
+                    ],
+                    "transition_key": [],
+                    "transitions": [
+                        {
+                            "type": "default",
+                            "value": null,
+                            "mask": null,
+                            "next_state": "parse_svef"
+                        }
+                    ]
+                },
+                {
+                    "name": "parse_svef",
+                    "id": 5,
+                    "parser_ops": [
+                        {
+                            "op": "extract",
+                            "parameters": [
+                                {
+                                    "type": "regular",
+                                    "value": "svef"
+                                }
+                            ]
+                        }
+                    ],
+                    "transition_key": [],
+                    "transitions": [
+                        {
+                            "type": "default",
+                            "value": null,
+                            "mask": null,
+                            "next_state": null
+                        }
+                    ]
+                },
+                {
+                    "name": "parse_tcp",
+                    "id": 6,
+                    "parser_ops": [
+                        {
+                            "op": "extract",
+                            "parameters": [
+                                {
+                                    "type": "regular",
+                                    "value": "tcp"
+                                }
+                            ]
+                        }
+                    ],
+                    "transition_key": [],
+                    "transitions": [
+                        {
                             "type": "default",
                             "value": null,
                             "mask": null,
@@ -461,8 +629,11 @@
             "id": 0,
             "order": [
                 "ethernet",
+                "arp",
                 "ipv4",
-                "arp"
+                "udp",
+                "svef",
+                "tcp"
             ]
         }
     ],
@@ -497,8 +668,14 @@
             ]
         },
         {
-            "name": "action_arp",
+            "name": "_no_action",
             "id": 1,
+            "runtime_data": [],
+            "primitives": []
+        },
+        {
+            "name": "action_arp",
+            "id": 2,
             "runtime_data": [
                 {
                     "name": "port",
@@ -526,7 +703,7 @@
         },
         {
             "name": "_drop",
-            "id": 2,
+            "id": 3,
             "runtime_data": [],
             "primitives": [
                 {
@@ -565,9 +742,9 @@
                         "action_arp"
                     ],
                     "next_tables": {
-                        "action_arp": "_condition_1"
+                        "action_arp": null
                     },
-                    "base_default_next": "_condition_1"
+                    "base_default_next": null
                 },
                 {
                     "name": "route_pkt",
@@ -584,14 +761,6 @@
                             "target": [
                                 "ipv4",
                                 "dstAddr"
-                            ],
-                            "mask": null
-                        },
-                        {
-                            "match_type": "exact",
-                            "target": [
-                                "svef",
-                                "d"
                             ],
                             "mask": null
                         }
@@ -617,19 +786,18 @@
                     "support_timeout": false,
                     "key": [
                         {
-                            "match_type": "exact",
-                            "target": [
-                                "svef",
-                                "qid"
-                            ],
+                            "match_type": "valid",
+                            "target": "ethernet",
                             "mask": null
                         }
                     ],
                     "actions": [
-                        "_drop"
+                        "_drop",
+                        "_no_action"
                     ],
                     "next_tables": {
-                        "_drop": null
+                        "_drop": null,
+                        "_no_action": null
                     },
                     "base_default_next": null
                 }
@@ -657,11 +825,28 @@
                         }
                     },
                     "true_next": "route_arp",
-                    "false_next": "route_pkt"
+                    "false_next": "_condition_1"
                 },
                 {
                     "name": "_condition_1",
                     "id": 1,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "valid",
+                            "left": null,
+                            "right": {
+                                "type": "header",
+                                "value": "ipv4"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_2",
+                    "false_next": "table_drop"
+                },
+                {
+                    "name": "_condition_2",
+                    "id": 2,
                     "expression": {
                         "type": "expression",
                         "value": {
@@ -670,7 +855,7 @@
                                 "type": "field",
                                 "value": [
                                     "svef",
-                                    "d"
+                                    "qid"
                                 ]
                             },
                             "right": {
@@ -679,8 +864,8 @@
                             }
                         }
                     },
-                    "true_next": "table_drop",
-                    "false_next": null
+                    "true_next": "route_pkt",
+                    "false_next": "table_drop"
                 }
             ]
         },
@@ -693,8 +878,121 @@
             "conditionals": []
         }
     ],
-    "calculations": [],
-    "checksums": [],
+    "calculations": [
+        {
+            "name": "ipv4_checksum",
+            "id": 0,
+            "input": [
+                {
+                    "type": "field",
+                    "value": [
+                        "ipv4",
+                        "version"
+                    ]
+                },
+                {
+                    "type": "field",
+                    "value": [
+                        "ipv4",
+                        "ihl"
+                    ]
+                },
+                {
+                    "type": "field",
+                    "value": [
+                        "ipv4",
+                        "diffserv"
+                    ]
+                },
+                {
+                    "type": "field",
+                    "value": [
+                        "ipv4",
+                        "totalLen"
+                    ]
+                },
+                {
+                    "type": "field",
+                    "value": [
+                        "ipv4",
+                        "identification"
+                    ]
+                },
+                {
+                    "type": "field",
+                    "value": [
+                        "ipv4",
+                        "flags"
+                    ]
+                },
+                {
+                    "type": "field",
+                    "value": [
+                        "ipv4",
+                        "fragOffset"
+                    ]
+                },
+                {
+                    "type": "field",
+                    "value": [
+                        "ipv4",
+                        "ttl"
+                    ]
+                },
+                {
+                    "type": "field",
+                    "value": [
+                        "ipv4",
+                        "protocol"
+                    ]
+                },
+                {
+                    "type": "field",
+                    "value": [
+                        "ipv4",
+                        "srcAddr"
+                    ]
+                },
+                {
+                    "type": "field",
+                    "value": [
+                        "ipv4",
+                        "dstAddr"
+                    ]
+                }
+            ],
+            "algo": "csum16"
+        }
+    ],
+    "checksums": [
+        {
+            "name": "ipv4.hdrChecksum|ipv4_checksum",
+            "id": 0,
+            "target": [
+                "ipv4",
+                "hdrChecksum"
+            ],
+            "type": "generic",
+            "calculation": "ipv4_checksum",
+            "if_cond": {
+                "type": "expression",
+                "value": {
+                    "op": "==",
+                    "left": {
+                        "type": "field",
+                        "value": [
+                            "ipv4",
+                            "ihl"
+                        ]
+                    },
+                    "right": {
+                        "type": "hexstr",
+                        "value": "0x5"
+                    }
+                }
+            }
+        }
+    ],
     "learn_lists": [],
     "field_lists": [],
     "counter_arrays": [],

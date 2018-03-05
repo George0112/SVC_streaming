@@ -19,14 +19,15 @@ parser parse_arp {
 parser parse_ipv4 {
     extract(ipv4);
     return select(ipv4.protocol){
-		//0x11: parse_udp;
+		0x11: parse_udp;
+		0x06: parse_tcp;
 		default: ingress;
 	}
 }
 
-parser parse_option {
-	extract(option);
-	return parse_udp;
+parser parse_tcp {
+	extract(tcp);
+	return ingress;
 }
 
 parser parse_udp {
@@ -38,3 +39,9 @@ parser parse_svef {
 	extract(svef);
 	return ingress;
 }
+/*
+parser parse_option {
+	extract(option);
+	return parse_udp;
+}
+*/

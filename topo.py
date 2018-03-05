@@ -51,7 +51,7 @@ class MyTopo(Topo):
                                     json_path = json_path,
                                     thrift_port = _THRIFT_BASE_PORT + i,
                                     pcap_dump = True,
-                                    device_id = i)
+                                    device_id = i, debugger = 1)
         
         for h in xrange(nb_hosts):
             host = self.addHost('h%d' % (h + 1))
