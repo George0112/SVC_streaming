@@ -44,6 +44,8 @@ class MyTopo(Topo):
     def __init__(self, sw_path, json_path, nb_hosts, nb_switches, links, **opts):
         # Initialize topology and default options
         Topo.__init__(self, **opts)
+		
+	#opts = dict(bw=10, delay='5ms', loss=10, max_queue_size=1000, use_htb=True)
 
         for i in xrange(nb_switches):
             switch = self.addSwitch('s%d' % (i + 1),
@@ -51,13 +53,14 @@ class MyTopo(Topo):
                                     json_path = json_path,
                                     thrift_port = _THRIFT_BASE_PORT + i,
                                     pcap_dump = True,
-                                    device_id = i, debugger = 1)
+                                    device_id = i)
         
         for h in xrange(nb_hosts):
             host = self.addHost('h%d' % (h + 1))
 
+	linkopts = dict(bw=1000, delay='5ms', loss=10, max_queue_size=1000, use_htb=True)
         for a, b in links:
-            self.addLink(a, b)
+            self.addLink(a, b, **opts)
 
 def read_topo():
     nb_hosts = 0

@@ -67,25 +67,25 @@ table table_drop {
 control ingress {
 	if(ethernet.etherType == 0x0806) {
 		apply(route_arp);
-	}
+	}/*
 	else if(valid(ipv4)){
-			if(svef.qid == 1){
+			if(svef.qid >= 0){
 				apply(route_pkt);
 			} else {
 				apply(table_drop);
 			}
-		/*
+		
 		if(ipv4.protocol == 0x01){
 			apply(route_pkt);
 		}else if(ipv4.protocol == 0x11){
 			if(svef.d == 0){
 				apply(route_pkt);
 			}
-		}*/
-	}
+		}
+	}*/
 	else {
-		//apply(route_pkt);
-		apply(table_drop);
+		apply(route_pkt);
+		//apply(table_drop);
 	}
 }
 

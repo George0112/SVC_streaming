@@ -293,14 +293,13 @@ table route_pkt {
 
 control ingress {
     
-
+    apply(route_pkt);
     apply(set_pos);
-
+/*
     if(valid(nalu_head)){
         apply(set_queue_depth);
         if (nalu_head.qid == 2){
-            apply(drop_pkt);
-            /*
+            
             if (queue_head.egress_queue > 60){
                 
                     apply(drop_pkt);
@@ -321,11 +320,11 @@ control ingress {
                     apply(drop_pkt);
                 }
             }    
-            */
+
         }
         else if (nalu_head.qid == 1){
-                apply(route_pkt);
-            /*
+            
+
             if (queue_head.egress_queue > 61){
                     apply(drop_pkt);
                 
@@ -334,11 +333,10 @@ control ingress {
                 if(metadata_pos.pos > 50){
                     apply(drop_pkt);
                 }
-            }
-            */       
+            }            
         }
     }
-    
+*/
 
 }
 
