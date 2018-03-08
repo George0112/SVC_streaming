@@ -630,10 +630,10 @@
             "order": [
                 "ethernet",
                 "ipv4",
-                "tcp",
                 "udp",
                 "svef",
-                "arp"
+                "arp",
+                "tcp"
             ]
         }
     ],
