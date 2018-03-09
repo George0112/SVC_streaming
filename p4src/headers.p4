@@ -94,7 +94,7 @@ header_type svef_t {
 		d: 1;
 		t: 1;
 		two: 1;
-		res: 2;
+		rdo: 2;
 		naluid: 32;
 		total_size: 16;
 		frame_num: 16;

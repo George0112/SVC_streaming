@@ -19,6 +19,7 @@ from mininet.topo import Topo
 from mininet.log import setLogLevel, info
 from mininet.cli import CLI
 from mininet.link import TCLink
+from mininet.node import Controller, RemoteController
 
 from p4_mininet import P4Switch, P4Host
 
@@ -54,13 +55,17 @@ class MyTopo(Topo):
                                     thrift_port = _THRIFT_BASE_PORT + i,
                                     pcap_dump = True,
                                     device_id = i)
+
         
         for h in xrange(nb_hosts):
-            host = self.addHost('h%d' % (h + 1))
+			#host = self.addHost('h%d' % (h + 1))
+            host = self.addHost('h%d' %(h+1), ip='10.0.0.%d' %(h+1), mac = '00:00:00:00:00:0%d' %(h+1))
 
-	linkopts = dict(bw=1000, delay='5ms', loss=10, max_queue_size=1000, use_htb=True)
+	linkopts = dict(bw=1000, delay='5ms', loss=10, max_queue_size=10000, use_htb=True)
         for a, b in links:
             self.addLink(a, b, **opts)
+
+        #self.addController('c1', controller = RemoteController, ip = '172.17.0.1', port = 6633)
 
 def read_topo():
     nb_hosts = 0
@@ -90,7 +95,7 @@ def main():
     net = Mininet(topo = topo,
                   host = P4Host,
                   switch = P4Switch,
-                  controller = None )
+                  controller = RemoteController)
     net.start()
 
     for n in xrange(nb_hosts):

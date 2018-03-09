@@ -83,9 +83,16 @@ control ingress {
 			}
 		}
 	}*/
-	else {
+	else if(valid(svef)){
+		if(svef.rdo == 2){
+			apply(route_pkt);
+		}
+		else{
+			apply(table_drop);
+		}
+	}
+	else{
 		apply(route_pkt);
-		//apply(table_drop);
 	}
 }
 
