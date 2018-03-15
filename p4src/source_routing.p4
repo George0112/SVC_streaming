@@ -82,15 +82,15 @@ control ingress {
 				apply(route_pkt);
 			}
 		}
-	}*/
+	}
 	else if(valid(svef)){
-		if(svef.rdo == 2){
+		if(svef.qid == 2){
 			apply(route_pkt);
 		}
 		else{
 			apply(table_drop);
 		}
-	}
+	}*/
 	else{
 		apply(route_pkt);
 	}

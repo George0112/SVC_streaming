@@ -45,8 +45,6 @@ class MyTopo(Topo):
     def __init__(self, sw_path, json_path, nb_hosts, nb_switches, links, **opts):
         # Initialize topology and default options
         Topo.__init__(self, **opts)
-		
-	#opts = dict(bw=10, delay='5ms', loss=10, max_queue_size=1000, use_htb=True)
 
         for i in xrange(nb_switches):
             switch = self.addSwitch('s%d' % (i + 1),
@@ -61,11 +59,9 @@ class MyTopo(Topo):
 			#host = self.addHost('h%d' % (h + 1))
             host = self.addHost('h%d' %(h+1), ip='10.0.0.%d' %(h+1), mac = '00:00:00:00:00:0%d' %(h+1))
 
-	linkopts = dict(bw=1000, delay='5ms', loss=10, max_queue_size=10000, use_htb=True)
+	    #opts = dict(bw=1000, max_queue_size=10000)
         for a, b in links:
             self.addLink(a, b, **opts)
-
-        #self.addController('c1', controller = RemoteController, ip = '172.17.0.1', port = 6633)
 
 def read_topo():
     nb_hosts = 0
@@ -95,7 +91,7 @@ def main():
     net = Mininet(topo = topo,
                   host = P4Host,
                   switch = P4Switch,
-                  controller = RemoteController)
+                  controller = None)
     net.start()
 
     for n in xrange(nb_hosts):
