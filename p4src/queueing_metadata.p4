@@ -8,6 +8,8 @@ header_type queueing_metadata_t {
 
         deq_qdepth: 16;
 
+        qid: 8;
+
     }
 }
 

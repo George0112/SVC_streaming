@@ -215,16 +215,16 @@ action read_pos() {
 }
 
 action set_queue1(){
-    modify_field(queue_head.egress_queue, queue_head.queue1);
+    modify_field(queue_head.egress_queue, queue_head.queue1); // queue_head.queue1 = size of egress port 1
 }
 action set_queue2(){
-    modify_field(queue_head.egress_queue, queue_head.queue2);
+    modify_field(queue_head.egress_queue, queue_head.queue2); 
 }
 action set_queue3(){
-    modify_field(queue_head.egress_queue, queue_head.queue3);
+    modify_field(queue_head.egress_queue, queue_head.queue3); 
 }
 action set_queue4(){
-    modify_field(queue_head.egress_queue, queue_head.queue4);
+    modify_field(queue_head.egress_queue, queue_head.queue4); 
 }
 
 
