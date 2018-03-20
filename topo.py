@@ -52,7 +52,8 @@ class MyTopo(Topo):
                                     json_path = json_path,
                                     thrift_port = _THRIFT_BASE_PORT + i,
                                     pcap_dump = True,
-                                    device_id = i)
+                                    device_id = i,
+                                    enable_debugger = False)
 
         
         for h in xrange(nb_hosts):
@@ -61,7 +62,7 @@ class MyTopo(Topo):
 
 	    #opts = dict(bw=1000, max_queue_size=10000)
         for a, b in links:
-            self.addLink(a, b, **opts)
+            self.addLink(a, b)
 
 def read_topo():
     nb_hosts = 0

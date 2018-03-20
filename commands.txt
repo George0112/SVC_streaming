@@ -1,12 +1,11 @@
-table_set_default ipv4_lpm _drop
-table_set_default forward _drop
-table_set_default send_frame _drop
+table_set_default ethType _route_pkt 
+table_set_default route_pkt action_pkt 0
+table_set_default route_arp action_arp 0
+table_set_default table_drop _no_action
 
-table_add ipv4_lpm set_nhop 10.0.0.1/32 => 10.0.0.1 1
-table_add ipv4_lpm set_nhop 10.0.0.2/32 => 10.0.0.2 2
+table_add route_pkt action_pkt 0x0a000001/32 => 1
+table_add route_pkt action_pkt 0x0a000002/32 => 2
+table_add route_arp action_arp 0x0a000001/32 => 2
+table_add route_arp action_arp 0x0a000002/32 => 1
 
-table_add forward set_dmac 10.0.0.1 => 00:00:00:00:00:01
-table_add forward set_dmac 10.0.0.2 => 00:00:00:00:00:02
-
-table_add send_frame rewrite_mac 1 => 00:00:00:00:00:00
-table_add send_frame rewrite_mac 2 => 00:00:00:00:00:00
+set_queue_rate 5000
