@@ -33,6 +33,11 @@ action action_arp(port) {
 action _no_action() {
 }
 
+action rewrite_mac(smac) {
+    modify_field(ethernet.srcAddr, smac);
+	modify_field(ipv4.ttl, queueing_metadata.deq_qdepth);
+}
+
 table route_arp {
 	reads {
 		arp.sender_ip_Addr: lpm;
@@ -64,15 +69,33 @@ table table_drop {
 	}
 }
 
+table send_frame {
+    reads {
+        standard_metadata.egress_port: exact;
+    }
+    actions {
+        rewrite_mac;
+        _drop;
+    }
+    size: 256;
+}
+
 control ingress {
 	if(ethernet.etherType == 0x0806) {
 		apply(route_arp);
 	}
-	else{
-		apply(route_pkt);
-	}
+	else apply(route_pkt);
 }
 
 control egress {
-    // leave empty
+	if(valid(udp)){
+		if(udp.dst_port == 4455){
+			//if(queueing_metadata.deq_qdepth > 5){
+				if(svef.qid > 0){
+					apply(table_drop);
+				}
+			//}
+		}
+	}
+	apply(send_frame);
 }
