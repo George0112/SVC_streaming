@@ -1,0 +1,54 @@
+#!/bin/bash
+set -e
+
+function usage() {
+cat << EOF
+USAGE:
+  ./shaper start <interface> <bw as XXX kbit>
+  ./shaper clear <interface>
+  ./shaper show  <interface>
+EOF
+}
+
+## Input arguments are `interface`, `bw`
+function shaper_start() {
+    ## Packet -> Filter -> Class -> Qdisc -> Network
+    ## We create in the reverse order
+    sudo tc qdisc add dev $1 root handle 1: htb
+    sudo tc class add dev $1 parent 1: classid 1:10 htb \
+         rate $2
+    sudo tc filter add dev $1 protocol ip parent 1: prio 1 u32 \
+         match ip dport 80 0xffff flowid 1:10
+    sudo tc filter add dev $1 protocol ip parent 1: prio 1 u32 \
+         match ip dport 9999 0xffff flowid 1:10
+    sudo tc filter add dev $1 protocol ip parent 1: prio 1 u32 \
+         match ip dport 5201 0xffff flowid 1:10
+}
+
+function shaper_clear() {
+    sudo tc qdisc del dev $1 root
+}
+
+function shaper_show() {
+    tc qdisc show dev $1
+    tc class show dev $1
+    tc filter show dev $1
+}
+
+function main() {
+    case $1 in
+        show)
+            shaper_show $2
+        ;;
+        start)
+            shaper_start $2 $3 $4
+        ;;
+        clear)
+            shaper_clear $2
+            ;;
+        *)
+            usage
+    esac
+}
+
+main $@

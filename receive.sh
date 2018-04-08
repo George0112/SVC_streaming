@@ -1,5 +1,9 @@
 #!/bin/bash
 
-echo 'receiving'
+cd ../customed_svef
+./receiver 4455 out.264 10000 > receivedtrace.txt
+sleep 2
+python demo.py &
 
-../customed_svef/receiver 4455 ../customed_svef/out.264 50200 > ../customed_svef/receivedtrace.txt
+
+sh play.sh

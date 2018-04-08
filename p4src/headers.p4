@@ -94,10 +94,12 @@ header_type svef_t {
 		d: 1;
 		t: 1;
 		two: 1;
-		rdo: 2;
+		to_drop: 1;
+		res: 1;
 		naluid: 32;
 		total_size: 16;
 		frame_num: 16;
+		rdo: 32;
 	}
 }
 

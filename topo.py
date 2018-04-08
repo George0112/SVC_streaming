@@ -107,6 +107,7 @@ def main():
         h.cmd("sysctl -w net.ipv6.conf.lo.disable_ipv6=1")
         h.cmd("sysctl -w net.ipv4.tcp_congestion_control=reno")
         h.cmd("iptables -I OUTPUT -p icmp --icmp-type destination-unreachable -j DROP")
+        h.cmd("ifconfig eth0 mtu 40000")
 
     sleep(1)
 
@@ -121,6 +122,10 @@ def main():
             except subprocess.CalledProcessError as e:
                 print e
                 print e.output
+
+    s1 = net.get('s1')
+    s1.cmd("ifconfig s1-eth1 mtu 40000")
+    s1.cmd("ifconfig s1-eth2 mtu 40000")
 
     sleep(1)
 
