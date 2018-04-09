@@ -22,8 +22,8 @@ P4C_BM_SCRIPT=$P4C_BM_PATH/p4c_bm/__main__.py
 
 SWITCH_PATH=$BMV2_PATH/targets/simple_switch/simple_switch
 
-#CLI_PATH=$BMV2_PATH/tools/runtime_CLI.py
-CLI_PATH=$BMV2_PATH/targets/simple_switch/simple_switch_CLI
+CLI_PATH=$BMV2_PATH/tools/runtime_CLI.py
+#CLI_PATH=$BMV2_PATH/targets/simple_switch/simple_switch_CLI
 
 #$P4C_BM_SCRIPT p4src/l2_switch.p4 --json source_routing.json
 $P4C_BM_SCRIPT p4src/rdo.p4 --json source_routing.json

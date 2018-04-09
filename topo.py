@@ -85,14 +85,35 @@ def read_topo():
 def main():
     nb_hosts, nb_switches, links = read_topo()
 
-    topo = MyTopo(args.behavioral_exe,
-                  args.json,
-                  nb_hosts, nb_switches, links)
+    #topo = MyTopo(args.behavioral_exe,
+    #              args.json,
+    #              nb_hosts, nb_switches, links)
 
-    net = Mininet(topo = topo,
+    net = Mininet(#topo = topo,
                   host = P4Host,
                   switch = P4Switch,
                   controller = None)
+
+
+
+    for i in xrange(nb_switches):
+        switch = net.addSwitch('s%d' % (i + 1),
+                                sw_path = args.behavioral_exe,
+                                json_path = args.json,
+                                thrift_port = _THRIFT_BASE_PORT + i,
+                                pcap_dump = True,
+                                device_id = i,
+                                enable_debugger = False)
+
+        
+    for h in xrange(nb_hosts):
+			#host = self.addHost('h%d' % (h + 1))
+        host = net.addHost('h%d' %(h+1), ip='10.0.0.%d' %(h+1), mac = '00:00:00:00:00:0%d' %(h+1))
+
+	    #opts = dict(bw=1000, max_queue_size=10000)
+    link = []
+    for a, b in links:
+        link.append(net.addLink(a, b, cls=TCLink))
     net.start()
 
     for n in xrange(nb_hosts):
@@ -130,8 +151,15 @@ def main():
     sleep(1)
 
     print "Ready !"
+    net.startTerms()
+    while True:
+        for i in range (5):
+            for j in range(len(link)):
+                link[j].intf1.config(bw=i+1)
+                sleep(1)
+                print 'link%d' %(j)
 
-    CLI( net )
+    #CLI( net )
     net.stop()
 
 if __name__ == '__main__':
