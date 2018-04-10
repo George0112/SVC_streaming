@@ -7,3 +7,5 @@ python demo.py &
 
 
 sh play.sh
+
+python pltpsnr.py &
