@@ -682,8 +682,42 @@
     "meter_arrays": [],
     "actions": [
         {
-            "name": "rewrite_mac",
+            "name": "_no_action",
             "id": 0,
+            "runtime_data": [],
+            "primitives": []
+        },
+        {
+            "name": "action_pkt",
+            "id": 1,
+            "runtime_data": [
+                {
+                    "name": "port",
+                    "bitwidth": 9
+                }
+            ],
+            "primitives": [
+                {
+                    "op": "modify_field",
+                    "parameters": [
+                        {
+                            "type": "field",
+                            "value": [
+                                "standard_metadata",
+                                "egress_spec"
+                            ]
+                        },
+                        {
+                            "type": "runtime_data",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "rewrite_mac",
+            "id": 2,
             "runtime_data": [
                 {
                     "name": "smac",
@@ -730,65 +764,31 @@
         },
         {
             "name": "action_arp",
-            "id": 1,
-            "runtime_data": [
-                {
-                    "name": "port",
-                    "bitwidth": 9
-                }
-            ],
-            "primitives": [
-                {
-                    "op": "modify_field",
-                    "parameters": [
-                        {
-                            "type": "field",
-                            "value": [
-                                "standard_metadata",
-                                "egress_spec"
-                            ]
-                        },
-                        {
-                            "type": "runtime_data",
-                            "value": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "action_pkt",
-            "id": 2,
-            "runtime_data": [
-                {
-                    "name": "port",
-                    "bitwidth": 9
-                }
-            ],
-            "primitives": [
-                {
-                    "op": "modify_field",
-                    "parameters": [
-                        {
-                            "type": "field",
-                            "value": [
-                                "standard_metadata",
-                                "egress_spec"
-                            ]
-                        },
-                        {
-                            "type": "runtime_data",
-                            "value": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "_no_action",
             "id": 3,
-            "runtime_data": [],
-            "primitives": []
+            "runtime_data": [
+                {
+                    "name": "port",
+                    "bitwidth": 9
+                }
+            ],
+            "primitives": [
+                {
+                    "op": "modify_field",
+                    "parameters": [
+                        {
+                            "type": "field",
+                            "value": [
+                                "standard_metadata",
+                                "egress_spec"
+                            ]
+                        },
+                        {
+                            "type": "runtime_data",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "_drop",
@@ -863,32 +863,6 @@
                         "action_pkt": null
                     },
                     "base_default_next": null
-                },
-                {
-                    "name": "table_drop",
-                    "id": 2,
-                    "match_type": "exact",
-                    "type": "simple",
-                    "max_size": 16384,
-                    "with_counters": false,
-                    "direct_meters": null,
-                    "support_timeout": false,
-                    "key": [
-                        {
-                            "match_type": "valid",
-                            "target": "ethernet",
-                            "mask": null
-                        }
-                    ],
-                    "actions": [
-                        "_drop",
-                        "_no_action"
-                    ],
-                    "next_tables": {
-                        "_drop": "_condition_1",
-                        "_no_action": "_condition_1"
-                    },
-                    "base_default_next": "_condition_1"
                 }
             ],
             "action_profiles": [],
@@ -896,29 +870,6 @@
                 {
                     "name": "_condition_0",
                     "id": 0,
-                    "expression": {
-                        "type": "expression",
-                        "value": {
-                            "op": ">",
-                            "left": {
-                                "type": "field",
-                                "value": [
-                                    "queueing_metadata",
-                                    "deq_qdepth"
-                                ]
-                            },
-                            "right": {
-                                "type": "hexstr",
-                                "value": "0x32"
-                            }
-                        }
-                    },
-                    "true_next": "table_drop",
-                    "false_next": "_condition_1"
-                },
-                {
-                    "name": "_condition_1",
-                    "id": 1,
                     "expression": {
                         "type": "expression",
                         "value": {
@@ -944,8 +895,34 @@
         {
             "name": "egress",
             "id": 1,
-            "init_table": "send_frame",
+            "init_table": "_condition_1",
             "tables": [
+                {
+                    "name": "table_drop",
+                    "id": 2,
+                    "match_type": "exact",
+                    "type": "simple",
+                    "max_size": 16384,
+                    "with_counters": false,
+                    "direct_meters": null,
+                    "support_timeout": false,
+                    "key": [
+                        {
+                            "match_type": "valid",
+                            "target": "ethernet",
+                            "mask": null
+                        }
+                    ],
+                    "actions": [
+                        "_drop",
+                        "_no_action"
+                    ],
+                    "next_tables": {
+                        "_drop": "send_frame",
+                        "_no_action": "send_frame"
+                    },
+                    "base_default_next": "send_frame"
+                },
                 {
                     "name": "send_frame",
                     "id": 3,
@@ -977,7 +954,94 @@
                 }
             ],
             "action_profiles": [],
-            "conditionals": []
+            "conditionals": [
+                {
+                    "name": "_condition_1",
+                    "id": 1,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "valid",
+                            "left": null,
+                            "right": {
+                                "type": "header",
+                                "value": "udp"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_2",
+                    "false_next": "send_frame"
+                },
+                {
+                    "name": "_condition_2",
+                    "id": 2,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "==",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "udp",
+                                    "dst_port"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x1167"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_3",
+                    "false_next": "send_frame"
+                },
+                {
+                    "name": "_condition_3",
+                    "id": 3,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": ">",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "queueing_metadata",
+                                    "deq_qdepth"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x5"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_4",
+                    "false_next": "send_frame"
+                },
+                {
+                    "name": "_condition_4",
+                    "id": 4,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": ">",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "svef",
+                                    "qid"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x0"
+                            }
+                        }
+                    },
+                    "true_next": "table_drop",
+                    "false_next": "send_frame"
+                }
+            ]
         }
     ],
     "calculations": [
