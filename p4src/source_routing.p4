@@ -19,7 +19,6 @@ limitations under the License.
 #include "ipv4_checksum.p4"
 
 action _drop() {
-	//register_write(register_rdo, 0, svef);
     drop();
 }
 
@@ -37,11 +36,6 @@ action _no_action() {
 action rewrite_mac(smac) {
     modify_field(ethernet.srcAddr, smac);
 	modify_field(ipv4.ttl, queueing_metadata.deq_qdepth);
-}
-
-register register_rdo{
-	layout: svef_t;
-	instance_count: 10;
 }
 
 table route_arp {
@@ -87,6 +81,8 @@ table send_frame {
 }
 
 control ingress {
+	if(queueing_metadata.deq_qdepth > 50)
+		apply(table_drop);
 	if(ethernet.etherType == 0x0806) {
 		apply(route_arp);
 	}
@@ -94,23 +90,6 @@ control ingress {
 }
 
 control egress {
-	if(valid(udp)){
-		if(udp.dst_port == 4455){
-			/*if(queueing_metadata.deq_qdepth > 10){
-				if(svef.rdo < 20){
-					apply(table_drop);
-				}
-			}else if(queueing_metadata.deq_qdepth > 30){
-				if(svef.rdo < 50){
-					apply(table_drop);
-				}
-			}else if(queueing_metadata.deq_qdepth > 50){
-				if(svef.rdo < 500){
-					apply(table_drop);
-				}
-			}*/
-			if(svef.qid > 0) apply(table_drop);
-		}
-	}
+	if(svef.rdo > 0) apply(send_frame);
 	else apply(send_frame);
 }
