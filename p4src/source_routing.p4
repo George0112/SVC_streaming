@@ -96,7 +96,7 @@ control ingress {
 control egress {
 	if(valid(udp)){
 		if(udp.dst_port == 4455){
-			if(queueing_metadata.deq_qdepth > 10){
+			/*if(queueing_metadata.deq_qdepth > 10){
 				if(svef.rdo < 20){
 					apply(table_drop);
 				}
@@ -108,7 +108,8 @@ control egress {
 				if(svef.rdo < 500){
 					apply(table_drop);
 				}
-			}
+			}*/
+			if(svef.qid > 0) apply(table_drop);
 		}
 	}
 	else apply(send_frame);

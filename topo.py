@@ -153,7 +153,7 @@ def main():
     print "Ready !"
     net.startTerms()
     while True:
-        for i in range (5):
+        for i in range (25,35):
             for j in range(len(link)):
                 link[j].intf1.config(bw=i+1)
                 sleep(1)
