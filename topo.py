@@ -53,7 +53,8 @@ class MyTopo(Topo):
                                     thrift_port = _THRIFT_BASE_PORT + i,
                                     pcap_dump = True,
                                     device_id = i,
-                                    enable_debugger = False)
+                                    enable_debugger = False,
+                                    log_console = True)
 
         
         for h in xrange(nb_hosts):
@@ -103,7 +104,7 @@ def main():
                                 thrift_port = _THRIFT_BASE_PORT + i,
                                 pcap_dump = True,
                                 device_id = i,
-                                enable_debugger = False)
+                                enable_debugger = True)
 
         
     for h in xrange(nb_hosts):
@@ -152,14 +153,15 @@ def main():
 
     print "Ready !"
     net.startTerms()
+    net.iperf()
     while True:
-        for i in range (25,35):
+        #for i in range (5):
             for j in range(len(link)):
-                link[j].intf1.config(bw=i+1)
+                link[1].intf1.config(bw=0.001)
                 sleep(1)
-                print 'link%d' %(j)
+                #print 'link%d' %(j)"""
 
-    #CLI( net )
+    CLI( net )
     net.stop()
 
 if __name__ == '__main__':

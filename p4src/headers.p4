@@ -1,6 +1,15 @@
 #include "queueing_metadata.p4"
 #include "intrinsic_metadata.p4"
 
+header_type queue_t{
+    fields {
+	queue1: 8;
+	queue2: 8;
+    }
+}
+
+header queue_t queue_head;
+
 header_type ethernet_t {
 	fields {
 		dstAddr: 48;

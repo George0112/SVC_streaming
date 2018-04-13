@@ -144,8 +144,24 @@
             "max_length": null
         },
         {
-            "name": "ethernet_t",
+            "name": "queue_t",
             "id": 3,
+            "fields": [
+                [
+                    "queue1",
+                    8
+                ],
+                [
+                    "queue2",
+                    8
+                ]
+            ],
+            "length_exp": null,
+            "max_length": null
+        },
+        {
+            "name": "ethernet_t",
+            "id": 4,
             "fields": [
                 [
                     "dstAddr",
@@ -165,7 +181,7 @@
         },
         {
             "name": "arp_t",
-            "id": 4,
+            "id": 5,
             "fields": [
                 [
                     "hw_type",
@@ -209,7 +225,7 @@
         },
         {
             "name": "ipv4_t",
-            "id": 5,
+            "id": 6,
             "fields": [
                 [
                     "version",
@@ -265,7 +281,7 @@
         },
         {
             "name": "udp_t",
-            "id": 6,
+            "id": 7,
             "fields": [
                 [
                     "src_port",
@@ -289,7 +305,7 @@
         },
         {
             "name": "tcp_t",
-            "id": 7,
+            "id": 8,
             "fields": [
                 [
                     "src_port",
@@ -337,7 +353,7 @@
         },
         {
             "name": "svef_t",
-            "id": 8,
+            "id": 9,
             "fields": [
                 [
                     "lid",
@@ -420,38 +436,44 @@
             "metadata": true
         },
         {
-            "name": "ethernet",
+            "name": "queue_head",
             "id": 3,
+            "header_type": "queue_t",
+            "metadata": false
+        },
+        {
+            "name": "ethernet",
+            "id": 4,
             "header_type": "ethernet_t",
             "metadata": false
         },
         {
             "name": "arp",
-            "id": 4,
+            "id": 5,
             "header_type": "arp_t",
             "metadata": false
         },
         {
             "name": "ipv4",
-            "id": 5,
+            "id": 6,
             "header_type": "ipv4_t",
             "metadata": false
         },
         {
             "name": "udp",
-            "id": 6,
+            "id": 7,
             "header_type": "udp_t",
             "metadata": false
         },
         {
             "name": "tcp",
-            "id": 7,
+            "id": 8,
             "header_type": "tcp_t",
             "metadata": false
         },
         {
             "name": "svef",
-            "id": 8,
+            "id": 9,
             "header_type": "svef_t",
             "metadata": false
         }
@@ -682,14 +704,42 @@
     "meter_arrays": [],
     "actions": [
         {
-            "name": "_no_action",
+            "name": "action_pkt",
             "id": 0,
+            "runtime_data": [
+                {
+                    "name": "port",
+                    "bitwidth": 9
+                }
+            ],
+            "primitives": [
+                {
+                    "op": "modify_field",
+                    "parameters": [
+                        {
+                            "type": "field",
+                            "value": [
+                                "standard_metadata",
+                                "egress_spec"
+                            ]
+                        },
+                        {
+                            "type": "runtime_data",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "_no_action",
+            "id": 1,
             "runtime_data": [],
             "primitives": []
         },
         {
-            "name": "action_pkt",
-            "id": 1,
+            "name": "action_arp",
+            "id": 2,
             "runtime_data": [
                 {
                     "name": "port",
@@ -717,7 +767,7 @@
         },
         {
             "name": "rewrite_mac",
-            "id": 2,
+            "id": 3,
             "runtime_data": [
                 {
                     "name": "smac",
@@ -757,34 +807,6 @@
                                 "queueing_metadata",
                                 "deq_qdepth"
                             ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "action_arp",
-            "id": 3,
-            "runtime_data": [
-                {
-                    "name": "port",
-                    "bitwidth": 9
-                }
-            ],
-            "primitives": [
-                {
-                    "op": "modify_field",
-                    "parameters": [
-                        {
-                            "type": "field",
-                            "value": [
-                                "standard_metadata",
-                                "egress_spec"
-                            ]
-                        },
-                        {
-                            "type": "runtime_data",
-                            "value": 0
                         }
                     ]
                 }
@@ -831,9 +853,9 @@
                         "action_arp"
                     ],
                     "next_tables": {
-                        "action_arp": null
+                        "action_arp": "_condition_1"
                     },
-                    "base_default_next": null
+                    "base_default_next": "_condition_1"
                 },
                 {
                     "name": "route_pkt",
@@ -859,8 +881,34 @@
                         "action_pkt"
                     ],
                     "next_tables": {
+                        "_drop": "_condition_1",
+                        "action_pkt": "_condition_1"
+                    },
+                    "base_default_next": "_condition_1"
+                },
+                {
+                    "name": "table_drop",
+                    "id": 2,
+                    "match_type": "exact",
+                    "type": "simple",
+                    "max_size": 16384,
+                    "with_counters": false,
+                    "direct_meters": null,
+                    "support_timeout": false,
+                    "key": [
+                        {
+                            "match_type": "valid",
+                            "target": "ethernet",
+                            "mask": null
+                        }
+                    ],
+                    "actions": [
+                        "_drop",
+                        "_no_action"
+                    ],
+                    "next_tables": {
                         "_drop": null,
-                        "action_pkt": null
+                        "_no_action": null
                     },
                     "base_default_next": null
                 }
@@ -889,40 +937,100 @@
                     },
                     "true_next": "route_arp",
                     "false_next": "route_pkt"
+                },
+                {
+                    "name": "_condition_1",
+                    "id": 1,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "valid",
+                            "left": null,
+                            "right": {
+                                "type": "header",
+                                "value": "udp"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_2",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_2",
+                    "id": 2,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "==",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "udp",
+                                    "dst_port"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x1167"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_3",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_3",
+                    "id": 3,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": ">",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "queue_head",
+                                    "queue2"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x1"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_4",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_4",
+                    "id": 4,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": ">",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "svef",
+                                    "qid"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x0"
+                            }
+                        }
+                    },
+                    "true_next": "table_drop",
+                    "false_next": null
                 }
             ]
         },
         {
             "name": "egress",
             "id": 1,
-            "init_table": "_condition_1",
+            "init_table": "send_frame",
             "tables": [
-                {
-                    "name": "table_drop",
-                    "id": 2,
-                    "match_type": "exact",
-                    "type": "simple",
-                    "max_size": 16384,
-                    "with_counters": false,
-                    "direct_meters": null,
-                    "support_timeout": false,
-                    "key": [
-                        {
-                            "match_type": "valid",
-                            "target": "ethernet",
-                            "mask": null
-                        }
-                    ],
-                    "actions": [
-                        "_drop",
-                        "_no_action"
-                    ],
-                    "next_tables": {
-                        "_drop": "send_frame",
-                        "_no_action": "send_frame"
-                    },
-                    "base_default_next": "send_frame"
-                },
                 {
                     "name": "send_frame",
                     "id": 3,
@@ -954,94 +1062,7 @@
                 }
             ],
             "action_profiles": [],
-            "conditionals": [
-                {
-                    "name": "_condition_1",
-                    "id": 1,
-                    "expression": {
-                        "type": "expression",
-                        "value": {
-                            "op": "valid",
-                            "left": null,
-                            "right": {
-                                "type": "header",
-                                "value": "udp"
-                            }
-                        }
-                    },
-                    "true_next": "_condition_2",
-                    "false_next": "send_frame"
-                },
-                {
-                    "name": "_condition_2",
-                    "id": 2,
-                    "expression": {
-                        "type": "expression",
-                        "value": {
-                            "op": "==",
-                            "left": {
-                                "type": "field",
-                                "value": [
-                                    "udp",
-                                    "dst_port"
-                                ]
-                            },
-                            "right": {
-                                "type": "hexstr",
-                                "value": "0x1167"
-                            }
-                        }
-                    },
-                    "true_next": "_condition_3",
-                    "false_next": "send_frame"
-                },
-                {
-                    "name": "_condition_3",
-                    "id": 3,
-                    "expression": {
-                        "type": "expression",
-                        "value": {
-                            "op": ">",
-                            "left": {
-                                "type": "field",
-                                "value": [
-                                    "queueing_metadata",
-                                    "deq_qdepth"
-                                ]
-                            },
-                            "right": {
-                                "type": "hexstr",
-                                "value": "0x5"
-                            }
-                        }
-                    },
-                    "true_next": "_condition_4",
-                    "false_next": "send_frame"
-                },
-                {
-                    "name": "_condition_4",
-                    "id": 4,
-                    "expression": {
-                        "type": "expression",
-                        "value": {
-                            "op": ">",
-                            "left": {
-                                "type": "field",
-                                "value": [
-                                    "svef",
-                                    "qid"
-                                ]
-                            },
-                            "right": {
-                                "type": "hexstr",
-                                "value": "0x0"
-                            }
-                        }
-                    },
-                    "true_next": "table_drop",
-                    "false_next": "send_frame"
-                }
-            ]
+            "conditionals": []
         }
     ],
     "calculations": [
