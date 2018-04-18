@@ -1,0 +1,5131 @@
+MyLog: Now using port 	         0
+MyLog: time: 1524059948630436
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	         0
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059948630851
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	         1
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059948725422
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	         2
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059949655109
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	         3
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059949655952
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	         4
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059949669048
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	         5
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059949749850
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	         6
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059949750893
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	         7
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059949754506
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	         8
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059949765139
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	         9
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059949782101
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        10
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059949850738
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        11
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059949878395
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        12
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059950032482
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        13
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059950128376
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        14
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059950164975
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        15
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059950284055
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        16
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059950292872
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        17
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059950378334
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        18
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059950483992
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        19
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059950579166
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        20
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059950612437
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        21
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059950676446
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        22
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059950754171
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        23
+MyLog: rate = 		         0
+MyLog: Now using port 	         2
+MyLog: time: 1524059950795365
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	         0
+MyLog: rate = 		         0
+MyLog: Now using port 	         1
+MyLog: time: 1524059950796099
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	         0
+MyLog: rate = 		         0
+MyLog: Now using port 	         2
+MyLog: time: 1524059950815514
+MyLog: last_out_packets =          1
+MyLog: out_packets = 	         1
+MyLog: out_octets = 	        42
+MyLog: fail_packets = 	         0
+MyLog: rate = 		        10
+MyLog: Now using port 	         2
+MyLog: time: 1524059950835484
+MyLog: last_out_packets =          2
+MyLog: out_packets = 	         2
+MyLog: out_octets = 	     10691
+MyLog: fail_packets = 	         0
+MyLog: rate = 		        20
+MyLog: Now using port 	         0
+MyLog: time: 1524059950850380
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        24
+MyLog: rate = 		         0
+MyLog: Now using port 	         2
+MyLog: time: 1524059950855629
+MyLog: last_out_packets =          3
+MyLog: out_packets = 	         3
+MyLog: out_octets = 	     13384
+MyLog: fail_packets = 	         0
+MyLog: rate = 		        30
+MyLog: Now using port 	         2
+MyLog: time: 1524059950876245
+MyLog: last_out_packets =          4
+MyLog: out_packets = 	         4
+MyLog: out_octets = 	     20122
+MyLog: fail_packets = 	         0
+MyLog: rate = 		        40
+MyLog: Now using port 	         2
+MyLog: time: 1524059950896809
+MyLog: last_out_packets =          5
+MyLog: out_packets = 	         5
+MyLog: out_octets = 	     39423
+MyLog: fail_packets = 	         0
+MyLog: rate = 		        50
+MyLog: Now using port 	         2
+MyLog: time: 1524059950915493
+MyLog: last_out_packets =          6
+MyLog: out_packets = 	         6
+MyLog: out_octets = 	     77753
+MyLog: fail_packets = 	         0
+MyLog: rate = 		        60
+MyLog: Now using port 	         2
+MyLog: time: 1524059950935710
+MyLog: last_out_packets =          7
+MyLog: out_packets = 	         7
+MyLog: out_octets = 	     86100
+MyLog: fail_packets = 	         0
+MyLog: rate = 		        70
+MyLog: Now using port 	         2
+MyLog: time: 1524059950955773
+MyLog: last_out_packets =          8
+MyLog: out_packets = 	         8
+MyLog: out_octets = 	     90415
+MyLog: fail_packets = 	         0
+MyLog: rate = 		        80
+MyLog: Now using port 	         2
+MyLog: time: 1524059950975566
+MyLog: last_out_packets =          9
+MyLog: out_packets = 	         9
+MyLog: out_octets = 	     99457
+MyLog: fail_packets = 	         0
+MyLog: rate = 		        90
+MyLog: Now using port 	         2
+MyLog: time: 1524059950996181
+MyLog: last_out_packets =         10
+MyLog: out_packets = 	        10
+MyLog: out_octets = 	    121965
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       100
+MyLog: Now using port 	         2
+MyLog: time: 1524059951016374
+MyLog: last_out_packets =         11
+MyLog: out_packets = 	        11
+MyLog: out_octets = 	    127224
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       110
+MyLog: Now using port 	         2
+MyLog: time: 1524059951035489
+MyLog: last_out_packets =         12
+MyLog: out_packets = 	        12
+MyLog: out_octets = 	    129514
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       120
+MyLog: Now using port 	         2
+MyLog: time: 1524059951055577
+MyLog: last_out_packets =         13
+MyLog: out_packets = 	        13
+MyLog: out_octets = 	    132779
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       130
+MyLog: Now using port 	         2
+MyLog: time: 1524059951075585
+MyLog: last_out_packets =         14
+MyLog: out_packets = 	        14
+MyLog: out_octets = 	    142323
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       140
+MyLog: Now using port 	         2
+MyLog: time: 1524059951095515
+MyLog: last_out_packets =         15
+MyLog: out_packets = 	        15
+MyLog: out_octets = 	    145879
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       150
+MyLog: Now using port 	         2
+MyLog: time: 1524059951115660
+MyLog: last_out_packets =         16
+MyLog: out_packets = 	        16
+MyLog: out_octets = 	    146815
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       160
+MyLog: Now using port 	         2
+MyLog: time: 1524059951135620
+MyLog: last_out_packets =         17
+MyLog: out_packets = 	        17
+MyLog: out_octets = 	    148395
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       170
+MyLog: Now using port 	         2
+MyLog: time: 1524059951155642
+MyLog: last_out_packets =         18
+MyLog: out_packets = 	        18
+MyLog: out_octets = 	    154002
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       180
+MyLog: Now using port 	         2
+MyLog: time: 1524059951175565
+MyLog: last_out_packets =         19
+MyLog: out_packets = 	        19
+MyLog: out_octets = 	    156291
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       190
+MyLog: Now using port 	         2
+MyLog: time: 1524059951196689
+MyLog: last_out_packets =         20
+MyLog: out_packets = 	        20
+MyLog: out_octets = 	    156672
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       200
+MyLog: Now using port 	         2
+MyLog: time: 1524059951215471
+MyLog: last_out_packets =         21
+MyLog: out_packets = 	        21
+MyLog: out_octets = 	    157377
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       210
+MyLog: Now using port 	         2
+MyLog: time: 1524059951235376
+MyLog: last_out_packets =         22
+MyLog: out_packets = 	        22
+MyLog: out_octets = 	    160255
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       220
+MyLog: Now using port 	         2
+MyLog: time: 1524059951255477
+MyLog: last_out_packets =         23
+MyLog: out_packets = 	        23
+MyLog: out_octets = 	    162358
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       230
+MyLog: Now using port 	         2
+MyLog: time: 1524059951275499
+MyLog: last_out_packets =         24
+MyLog: out_packets = 	        24
+MyLog: out_octets = 	    162721
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       240
+MyLog: Now using port 	         2
+MyLog: time: 1524059951295526
+MyLog: last_out_packets =         25
+MyLog: out_packets = 	        25
+MyLog: out_octets = 	    163229
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       250
+MyLog: Now using port 	         2
+MyLog: time: 1524059951316016
+MyLog: last_out_packets =         26
+MyLog: out_packets = 	        26
+MyLog: out_octets = 	    165484
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       260
+MyLog: Now using port 	         2
+MyLog: time: 1524059951335775
+MyLog: last_out_packets =         27
+MyLog: out_packets = 	        27
+MyLog: out_octets = 	    168536
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       270
+MyLog: Now using port 	         2
+MyLog: time: 1524059951355717
+MyLog: last_out_packets =         28
+MyLog: out_packets = 	        28
+MyLog: out_octets = 	    169223
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       280
+MyLog: Now using port 	         2
+MyLog: time: 1524059951376132
+MyLog: last_out_packets =         29
+MyLog: out_packets = 	        29
+MyLog: out_octets = 	    170218
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       290
+MyLog: Now using port 	         2
+MyLog: time: 1524059951395700
+MyLog: last_out_packets =         30
+MyLog: out_packets = 	        30
+MyLog: out_octets = 	    174595
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       300
+MyLog: Now using port 	         2
+MyLog: time: 1524059951415446
+MyLog: last_out_packets =         31
+MyLog: out_packets = 	        31
+MyLog: out_octets = 	    176536
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       310
+MyLog: Now using port 	         2
+MyLog: time: 1524059951435646
+MyLog: last_out_packets =         32
+MyLog: out_packets = 	        32
+MyLog: out_octets = 	    176909
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       320
+MyLog: Now using port 	         2
+MyLog: time: 1524059951455478
+MyLog: last_out_packets =         33
+MyLog: out_packets = 	        33
+MyLog: out_octets = 	    177414
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       330
+MyLog: Now using port 	         2
+MyLog: time: 1524059951475500
+MyLog: last_out_packets =         34
+MyLog: out_packets = 	        34
+MyLog: out_octets = 	    179588
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       340
+MyLog: Now using port 	         2
+MyLog: time: 1524059951495640
+MyLog: last_out_packets =         35
+MyLog: out_packets = 	        35
+MyLog: out_octets = 	    181681
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       350
+MyLog: Now using port 	         2
+MyLog: time: 1524059951515831
+MyLog: last_out_packets =         36
+MyLog: out_packets = 	        36
+MyLog: out_octets = 	    181989
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       360
+MyLog: Now using port 	         2
+MyLog: time: 1524059951535420
+MyLog: last_out_packets =         37
+MyLog: out_packets = 	        37
+MyLog: out_octets = 	    182588
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       370
+MyLog: Now using port 	         2
+MyLog: time: 1524059951555618
+MyLog: last_out_packets =         38
+MyLog: out_packets = 	        38
+MyLog: out_octets = 	    184701
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       380
+MyLog: Now using port 	         0
+MyLog: time: 1524059951561648
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        25
+MyLog: rate = 		         0
+MyLog: Now using port 	         2
+MyLog: time: 1524059951576474
+MyLog: last_out_packets =         39
+MyLog: out_packets = 	        39
+MyLog: out_octets = 	    188891
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       390
+MyLog: Now using port 	         2
+MyLog: time: 1524059951595742
+MyLog: last_out_packets =         40
+MyLog: out_packets = 	        40
+MyLog: out_octets = 	    190158
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       400
+MyLog: Now using port 	         2
+MyLog: time: 1524059951616108
+MyLog: last_out_packets =         41
+MyLog: out_packets = 	        41
+MyLog: out_octets = 	    192244
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       410
+MyLog: Now using port 	         2
+MyLog: time: 1524059951635546
+MyLog: last_out_packets =         42
+MyLog: out_packets = 	        42
+MyLog: out_octets = 	    200554
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       420
+MyLog: Now using port 	         2
+MyLog: time: 1524059951655487
+MyLog: last_out_packets =         43
+MyLog: out_packets = 	        43
+MyLog: out_octets = 	    203215
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       430
+MyLog: Now using port 	         0
+MyLog: time: 1524059951655925
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        26
+MyLog: rate = 		         0
+MyLog: Now using port 	         2
+MyLog: time: 1524059951675632
+MyLog: last_out_packets =         44
+MyLog: out_packets = 	        44
+MyLog: out_octets = 	    203687
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       440
+MyLog: Now using port 	         2
+MyLog: time: 1524059951695482
+MyLog: last_out_packets =         45
+MyLog: out_packets = 	        45
+MyLog: out_octets = 	    204600
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       450
+MyLog: Now using port 	         2
+MyLog: time: 1524059951715597
+MyLog: last_out_packets =         46
+MyLog: out_packets = 	        46
+MyLog: out_octets = 	    208566
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       460
+MyLog: Now using port 	         2
+MyLog: time: 1524059951735724
+MyLog: last_out_packets =         47
+MyLog: out_packets = 	        47
+MyLog: out_octets = 	    210463
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       470
+MyLog: Now using port 	         2
+MyLog: time: 1524059951756737
+MyLog: last_out_packets =         48
+MyLog: out_packets = 	        48
+MyLog: out_octets = 	    210775
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       480
+MyLog: Now using port 	         2
+MyLog: time: 1524059951775554
+MyLog: last_out_packets =         49
+MyLog: out_packets = 	        49
+MyLog: out_octets = 	    211279
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       490
+MyLog: Now using port 	         2
+MyLog: time: 1524059951795643
+MyLog: last_out_packets =         50
+MyLog: out_packets = 	        50
+MyLog: out_octets = 	    213357
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       500
+MyLog: Now using port 	         2
+MyLog: time: 1524059951815603
+MyLog: last_out_packets =         51
+MyLog: out_packets = 	        51
+MyLog: out_octets = 	    215281
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       510
+MyLog: Now using port 	         2
+MyLog: time: 1524059951835475
+MyLog: last_out_packets =         52
+MyLog: out_packets = 	        52
+MyLog: out_octets = 	    215624
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       520
+MyLog: Now using port 	         2
+MyLog: time: 1524059951855526
+MyLog: last_out_packets =         53
+MyLog: out_packets = 	        53
+MyLog: out_octets = 	    216096
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       530
+MyLog: Now using port 	         2
+MyLog: time: 1524059951875372
+MyLog: last_out_packets =         54
+MyLog: out_packets = 	        54
+MyLog: out_octets = 	    218008
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       540
+MyLog: Now using port 	         2
+MyLog: time: 1524059951895622
+MyLog: last_out_packets =         55
+MyLog: out_packets = 	        55
+MyLog: out_octets = 	    220912
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       550
+MyLog: Now using port 	         2
+MyLog: time: 1524059951915612
+MyLog: last_out_packets =         56
+MyLog: out_packets = 	        56
+MyLog: out_octets = 	    221453
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       560
+MyLog: Now using port 	         2
+MyLog: time: 1524059951936254
+MyLog: last_out_packets =         57
+MyLog: out_packets = 	        57
+MyLog: out_octets = 	    222334
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       570
+MyLog: Now using port 	         2
+MyLog: time: 1524059951955683
+MyLog: last_out_packets =         58
+MyLog: out_packets = 	        58
+MyLog: out_octets = 	    226911
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       580
+MyLog: Now using port 	         2
+MyLog: time: 1524059951975783
+MyLog: last_out_packets =         59
+MyLog: out_packets = 	        59
+MyLog: out_octets = 	    228788
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       590
+MyLog: Now using port 	         2
+MyLog: time: 1524059951995971
+MyLog: last_out_packets =         60
+MyLog: out_packets = 	        60
+MyLog: out_octets = 	    229112
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       600
+MyLog: Now using port 	         2
+MyLog: time: 1524059952015818
+MyLog: last_out_packets =         61
+MyLog: out_packets = 	        61
+MyLog: out_octets = 	    230944
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       610
+MyLog: Now using port 	         2
+MyLog: time: 1524059952035672
+MyLog: last_out_packets =         62
+MyLog: out_packets = 	        62
+MyLog: out_octets = 	    233386
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       620
+MyLog: Now using port 	         2
+MyLog: time: 1524059952055480
+MyLog: last_out_packets =         63
+MyLog: out_packets = 	        63
+MyLog: out_octets = 	    239814
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       630
+MyLog: Now using port 	         2
+MyLog: time: 1524059952075626
+MyLog: last_out_packets =         64
+MyLog: out_packets = 	        64
+MyLog: out_octets = 	    246337
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       640
+MyLog: Now using port 	         2
+MyLog: time: 1524059952095490
+MyLog: last_out_packets =         65
+MyLog: out_packets = 	        65
+MyLog: out_octets = 	    249344
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       650
+MyLog: Now using port 	         2
+MyLog: time: 1524059952115493
+MyLog: last_out_packets =         66
+MyLog: out_packets = 	        66
+MyLog: out_octets = 	    255295
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       660
+MyLog: Now using port 	         2
+MyLog: time: 1524059952135448
+MyLog: last_out_packets =         67
+MyLog: out_packets = 	        67
+MyLog: out_octets = 	    258553
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       670
+MyLog: Now using port 	         2
+MyLog: time: 1524059952155477
+MyLog: last_out_packets =         68
+MyLog: out_packets = 	        68
+MyLog: out_octets = 	    259377
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       680
+MyLog: Now using port 	         2
+MyLog: time: 1524059952175625
+MyLog: last_out_packets =         69
+MyLog: out_packets = 	        69
+MyLog: out_octets = 	    261594
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       690
+MyLog: Now using port 	         2
+MyLog: time: 1524059952195710
+MyLog: last_out_packets =         70
+MyLog: out_packets = 	        70
+MyLog: out_octets = 	    261996
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       700
+MyLog: Now using port 	         2
+MyLog: time: 1524059952215839
+MyLog: last_out_packets =         71
+MyLog: out_packets = 	        71
+MyLog: out_octets = 	    263886
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       710
+MyLog: Now using port 	         2
+MyLog: time: 1524059952235865
+MyLog: last_out_packets =         72
+MyLog: out_packets = 	        72
+MyLog: out_octets = 	    266945
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       720
+MyLog: Now using port 	         2
+MyLog: time: 1524059952256528
+MyLog: last_out_packets =         73
+MyLog: out_packets = 	        73
+MyLog: out_octets = 	    267439
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       730
+MyLog: Now using port 	         2
+MyLog: time: 1524059952275356
+MyLog: last_out_packets =         74
+MyLog: out_packets = 	        74
+MyLog: out_octets = 	    269238
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       740
+MyLog: Now using port 	         2
+MyLog: time: 1524059952295507
+MyLog: last_out_packets =         75
+MyLog: out_packets = 	        75
+MyLog: out_octets = 	    269538
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       750
+MyLog: Now using port 	         2
+MyLog: time: 1524059952315446
+MyLog: last_out_packets =         76
+MyLog: out_packets = 	        76
+MyLog: out_octets = 	    271313
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       760
+MyLog: Now using port 	         2
+MyLog: time: 1524059952335439
+MyLog: last_out_packets =         77
+MyLog: out_packets = 	        77
+MyLog: out_octets = 	    274962
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       770
+MyLog: Now using port 	         2
+MyLog: time: 1524059952356507
+MyLog: last_out_packets =         78
+MyLog: out_packets = 	        78
+MyLog: out_octets = 	    275802
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       780
+MyLog: Now using port 	         2
+MyLog: time: 1524059952375450
+MyLog: last_out_packets =         79
+MyLog: out_packets = 	        79
+MyLog: out_octets = 	    278414
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       790
+MyLog: Now using port 	         2
+MyLog: time: 1524059952395791
+MyLog: last_out_packets =         80
+MyLog: out_packets = 	        80
+MyLog: out_octets = 	    278929
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       800
+MyLog: Now using port 	         2
+MyLog: time: 1524059952415705
+MyLog: last_out_packets =         81
+MyLog: out_packets = 	        81
+MyLog: out_octets = 	    280657
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       810
+MyLog: Now using port 	         2
+MyLog: time: 1524059952435562
+MyLog: last_out_packets =         82
+MyLog: out_packets = 	        82
+MyLog: out_octets = 	    282453
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       820
+MyLog: Now using port 	         2
+MyLog: time: 1524059952456157
+MyLog: last_out_packets =         83
+MyLog: out_packets = 	        83
+MyLog: out_octets = 	    282743
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       830
+MyLog: Now using port 	         2
+MyLog: time: 1524059952475427
+MyLog: last_out_packets =         84
+MyLog: out_packets = 	        84
+MyLog: out_octets = 	    285130
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       840
+MyLog: Now using port 	         2
+MyLog: time: 1524059952495590
+MyLog: last_out_packets =         85
+MyLog: out_packets = 	        85
+MyLog: out_octets = 	    285614
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       850
+MyLog: Now using port 	         2
+MyLog: time: 1524059952515418
+MyLog: last_out_packets =         86
+MyLog: out_packets = 	        86
+MyLog: out_octets = 	    287244
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       860
+MyLog: Now using port 	         2
+MyLog: time: 1524059952535396
+MyLog: last_out_packets =         87
+MyLog: out_packets = 	        87
+MyLog: out_octets = 	    288669
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       870
+MyLog: Now using port 	         2
+MyLog: time: 1524059952555825
+MyLog: last_out_packets =         88
+MyLog: out_packets = 	        88
+MyLog: out_octets = 	    288863
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       880
+MyLog: Now using port 	         2
+MyLog: time: 1524059952575512
+MyLog: last_out_packets =         89
+MyLog: out_packets = 	        89
+MyLog: out_octets = 	    290954
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       890
+MyLog: Now using port 	         2
+MyLog: time: 1524059952595583
+MyLog: last_out_packets =         90
+MyLog: out_packets = 	        90
+MyLog: out_octets = 	    298283
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       900
+MyLog: Now using port 	         2
+MyLog: time: 1524059952615705
+MyLog: last_out_packets =         91
+MyLog: out_packets = 	        91
+MyLog: out_octets = 	    302151
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       910
+MyLog: Now using port 	         2
+MyLog: time: 1524059952635693
+MyLog: last_out_packets =         92
+MyLog: out_packets = 	        92
+MyLog: out_octets = 	    306068
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       920
+MyLog: Now using port 	         2
+MyLog: time: 1524059952655650
+MyLog: last_out_packets =         93
+MyLog: out_packets = 	        93
+MyLog: out_octets = 	    307586
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       930
+MyLog: Now using port 	         2
+MyLog: time: 1524059952676301
+MyLog: last_out_packets =         94
+MyLog: out_packets = 	        94
+MyLog: out_octets = 	    310200
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       940
+MyLog: Now using port 	         2
+MyLog: time: 1524059952695508
+MyLog: last_out_packets =         95
+MyLog: out_packets = 	        95
+MyLog: out_octets = 	    311041
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       950
+MyLog: Now using port 	         2
+MyLog: time: 1524059952715458
+MyLog: last_out_packets =         96
+MyLog: out_packets = 	        96
+MyLog: out_octets = 	    312721
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       960
+MyLog: Now using port 	         2
+MyLog: time: 1524059952735436
+MyLog: last_out_packets =         97
+MyLog: out_packets = 	        97
+MyLog: out_octets = 	    314069
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       970
+MyLog: Now using port 	         2
+MyLog: time: 1524059952755509
+MyLog: last_out_packets =         98
+MyLog: out_packets = 	        98
+MyLog: out_octets = 	    314317
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       980
+MyLog: Now using port 	         0
+MyLog: time: 1524059952755644
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        27
+MyLog: rate = 		         0
+MyLog: Now using port 	         2
+MyLog: time: 1524059952775549
+MyLog: last_out_packets =         99
+MyLog: out_packets = 	        99
+MyLog: out_octets = 	    316059
+MyLog: fail_packets = 	         0
+MyLog: rate = 		       990
+MyLog: Now using port 	         2
+MyLog: time: 1524059952795778
+MyLog: last_out_packets =        100
+MyLog: out_packets = 	       100
+MyLog: out_octets = 	    316473
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1000
+MyLog: Now using port 	         2
+MyLog: time: 1524059952816702
+MyLog: last_out_packets =        101
+MyLog: out_packets = 	       101
+MyLog: out_octets = 	    317613
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1010
+MyLog: Now using port 	         2
+MyLog: time: 1524059952835836
+MyLog: last_out_packets =        102
+MyLog: out_packets = 	       102
+MyLog: out_octets = 	    318853
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1020
+MyLog: Now using port 	         2
+MyLog: time: 1524059952855844
+MyLog: last_out_packets =        103
+MyLog: out_packets = 	       103
+MyLog: out_octets = 	    319107
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1030
+MyLog: Now using port 	         2
+MyLog: time: 1524059952875602
+MyLog: last_out_packets =        104
+MyLog: out_packets = 	       104
+MyLog: out_octets = 	    320999
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1040
+MyLog: Now using port 	         2
+MyLog: time: 1524059952895528
+MyLog: last_out_packets =        105
+MyLog: out_packets = 	       105
+MyLog: out_octets = 	    321573
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1050
+MyLog: Now using port 	         2
+MyLog: time: 1524059952915747
+MyLog: last_out_packets =        106
+MyLog: out_packets = 	       106
+MyLog: out_octets = 	    323073
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1060
+MyLog: Now using port 	         2
+MyLog: time: 1524059952935410
+MyLog: last_out_packets =        107
+MyLog: out_packets = 	       107
+MyLog: out_octets = 	    324099
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1070
+MyLog: Now using port 	         2
+MyLog: time: 1524059952956213
+MyLog: last_out_packets =        108
+MyLog: out_packets = 	       108
+MyLog: out_octets = 	    324320
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1080
+MyLog: Now using port 	         2
+MyLog: time: 1524059952975520
+MyLog: last_out_packets =        109
+MyLog: out_packets = 	       109
+MyLog: out_octets = 	    325236
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1090
+MyLog: Now using port 	         2
+MyLog: time: 1524059952995552
+MyLog: last_out_packets =        110
+MyLog: out_packets = 	       110
+MyLog: out_octets = 	    325443
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1100
+MyLog: Now using port 	         2
+MyLog: time: 1524059953015649
+MyLog: last_out_packets =        111
+MyLog: out_packets = 	       111
+MyLog: out_octets = 	    326540
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1110
+MyLog: Now using port 	         2
+MyLog: time: 1524059953036180
+MyLog: last_out_packets =        112
+MyLog: out_packets = 	       112
+MyLog: out_octets = 	    327394
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1120
+MyLog: Now using port 	         2
+MyLog: time: 1524059953055658
+MyLog: last_out_packets =        113
+MyLog: out_packets = 	       113
+MyLog: out_octets = 	    327581
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1130
+MyLog: Now using port 	         2
+MyLog: time: 1524059953075661
+MyLog: last_out_packets =        114
+MyLog: out_packets = 	       114
+MyLog: out_octets = 	    328412
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1140
+MyLog: Now using port 	         2
+MyLog: time: 1524059953095649
+MyLog: last_out_packets =        115
+MyLog: out_packets = 	       115
+MyLog: out_octets = 	    328585
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1150
+MyLog: Now using port 	         2
+MyLog: time: 1524059953115437
+MyLog: last_out_packets =        116
+MyLog: out_packets = 	       116
+MyLog: out_octets = 	    331285
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1160
+MyLog: Now using port 	         2
+MyLog: time: 1524059953135537
+MyLog: last_out_packets =        117
+MyLog: out_packets = 	       117
+MyLog: out_octets = 	    337202
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1170
+MyLog: Now using port 	         2
+MyLog: time: 1524059953155453
+MyLog: last_out_packets =        118
+MyLog: out_packets = 	       118
+MyLog: out_octets = 	    341830
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1180
+MyLog: Now using port 	         2
+MyLog: time: 1524059953175518
+MyLog: last_out_packets =        119
+MyLog: out_packets = 	       119
+MyLog: out_octets = 	    344956
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1190
+MyLog: Now using port 	         2
+MyLog: time: 1524059953195541
+MyLog: last_out_packets =        120
+MyLog: out_packets = 	       120
+MyLog: out_octets = 	    346004
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1200
+MyLog: Now using port 	         2
+MyLog: time: 1524059953215433
+MyLog: last_out_packets =        121
+MyLog: out_packets = 	       121
+MyLog: out_octets = 	    347585
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1210
+MyLog: Now using port 	         2
+MyLog: time: 1524059953236320
+MyLog: last_out_packets =        122
+MyLog: out_packets = 	       122
+MyLog: out_octets = 	    348721
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1220
+MyLog: Now using port 	         2
+MyLog: time: 1524059953255713
+MyLog: last_out_packets =        123
+MyLog: out_packets = 	       123
+MyLog: out_octets = 	    349021
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1230
+MyLog: Now using port 	         2
+MyLog: time: 1524059953276490
+MyLog: last_out_packets =        124
+MyLog: out_packets = 	       124
+MyLog: out_octets = 	    350036
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1240
+MyLog: Now using port 	         2
+MyLog: time: 1524059953295541
+MyLog: last_out_packets =        125
+MyLog: out_packets = 	       125
+MyLog: out_octets = 	    350273
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1250
+MyLog: Now using port 	         2
+MyLog: time: 1524059953315506
+MyLog: last_out_packets =        126
+MyLog: out_packets = 	       126
+MyLog: out_octets = 	    352064
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1260
+MyLog: Now using port 	         2
+MyLog: time: 1524059953335497
+MyLog: last_out_packets =        127
+MyLog: out_packets = 	       127
+MyLog: out_octets = 	    354252
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1270
+MyLog: Now using port 	         2
+MyLog: time: 1524059953355435
+MyLog: last_out_packets =        128
+MyLog: out_packets = 	       128
+MyLog: out_octets = 	    355307
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1280
+MyLog: Now using port 	         2
+MyLog: time: 1524059953376873
+MyLog: last_out_packets =        129
+MyLog: out_packets = 	       129
+MyLog: out_octets = 	    356539
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1290
+MyLog: Now using port 	         2
+MyLog: time: 1524059953395545
+MyLog: last_out_packets =        130
+MyLog: out_packets = 	       130
+MyLog: out_octets = 	    356790
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1300
+MyLog: Now using port 	         2
+MyLog: time: 1524059953415498
+MyLog: last_out_packets =        131
+MyLog: out_packets = 	       131
+MyLog: out_octets = 	    359809
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1310
+MyLog: Now using port 	         2
+MyLog: time: 1524059953436007
+MyLog: last_out_packets =        132
+MyLog: out_packets = 	       132
+MyLog: out_octets = 	    361723
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1320
+MyLog: Now using port 	         2
+MyLog: time: 1524059953455702
+MyLog: last_out_packets =        133
+MyLog: out_packets = 	       133
+MyLog: out_octets = 	    362118
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1330
+MyLog: Now using port 	         2
+MyLog: time: 1524059953475651
+MyLog: last_out_packets =        134
+MyLog: out_packets = 	       134
+MyLog: out_octets = 	    363359
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1340
+MyLog: Now using port 	         2
+MyLog: time: 1524059953495624
+MyLog: last_out_packets =        135
+MyLog: out_packets = 	       135
+MyLog: out_octets = 	    363599
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1350
+MyLog: Now using port 	         2
+MyLog: time: 1524059953515680
+MyLog: last_out_packets =        136
+MyLog: out_packets = 	       136
+MyLog: out_octets = 	    364939
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1360
+MyLog: Now using port 	         2
+MyLog: time: 1524059953535512
+MyLog: last_out_packets =        137
+MyLog: out_packets = 	       137
+MyLog: out_octets = 	    365316
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1370
+MyLog: Now using port 	         2
+MyLog: time: 1524059953555502
+MyLog: last_out_packets =        138
+MyLog: out_packets = 	       138
+MyLog: out_octets = 	    367371
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1380
+MyLog: Now using port 	         2
+MyLog: time: 1524059953575418
+MyLog: last_out_packets =        139
+MyLog: out_packets = 	       139
+MyLog: out_octets = 	    368824
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1390
+MyLog: Now using port 	         2
+MyLog: time: 1524059953595486
+MyLog: last_out_packets =        140
+MyLog: out_packets = 	       140
+MyLog: out_octets = 	    369109
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1400
+MyLog: Now using port 	         2
+MyLog: time: 1524059953615526
+MyLog: last_out_packets =        141
+MyLog: out_packets = 	       141
+MyLog: out_octets = 	    370554
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1410
+MyLog: Now using port 	         2
+MyLog: time: 1524059953635809
+MyLog: last_out_packets =        142
+MyLog: out_packets = 	       142
+MyLog: out_octets = 	    373468
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1420
+MyLog: Now using port 	         2
+MyLog: time: 1524059953655817
+MyLog: last_out_packets =        143
+MyLog: out_packets = 	       143
+MyLog: out_octets = 	    383258
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1430
+MyLog: Now using port 	         2
+MyLog: time: 1524059953675603
+MyLog: last_out_packets =        144
+MyLog: out_packets = 	       144
+MyLog: out_octets = 	    390913
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1440
+MyLog: Now using port 	         0
+MyLog: time: 1524059953684868
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        28
+MyLog: rate = 		         0
+MyLog: Now using port 	         2
+MyLog: time: 1524059953696530
+MyLog: last_out_packets =        145
+MyLog: out_packets = 	       145
+MyLog: out_octets = 	    393838
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1450
+MyLog: Now using port 	         2
+MyLog: time: 1524059953715548
+MyLog: last_out_packets =        146
+MyLog: out_packets = 	       146
+MyLog: out_octets = 	    397926
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1460
+MyLog: Now using port 	         0
+MyLog: time: 1524059953733337
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        29
+MyLog: rate = 		         0
+MyLog: Now using port 	         2
+MyLog: time: 1524059953735392
+MyLog: last_out_packets =        147
+MyLog: out_packets = 	       147
+MyLog: out_octets = 	    399555
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1470
+MyLog: Now using port 	         2
+MyLog: time: 1524059953755608
+MyLog: last_out_packets =        148
+MyLog: out_packets = 	       148
+MyLog: out_octets = 	    402049
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1480
+MyLog: Now using port 	         2
+MyLog: time: 1524059953775362
+MyLog: last_out_packets =        149
+MyLog: out_packets = 	       149
+MyLog: out_octets = 	    403672
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1490
+MyLog: Now using port 	         2
+MyLog: time: 1524059953795746
+MyLog: last_out_packets =        150
+MyLog: out_packets = 	       150
+MyLog: out_octets = 	    403971
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1500
+MyLog: Now using port 	         2
+MyLog: time: 1524059953815433
+MyLog: last_out_packets =        151
+MyLog: out_packets = 	       151
+MyLog: out_octets = 	    405613
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1510
+MyLog: Now using port 	         2
+MyLog: time: 1524059953835966
+MyLog: last_out_packets =        152
+MyLog: out_packets = 	       152
+MyLog: out_octets = 	    405937
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1520
+MyLog: Now using port 	         2
+MyLog: time: 1524059953855466
+MyLog: last_out_packets =        153
+MyLog: out_packets = 	       153
+MyLog: out_octets = 	    408395
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1530
+MyLog: Now using port 	         2
+MyLog: time: 1524059953875421
+MyLog: last_out_packets =        154
+MyLog: out_packets = 	       154
+MyLog: out_octets = 	    409967
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1540
+MyLog: Now using port 	         2
+MyLog: time: 1524059953895457
+MyLog: last_out_packets =        155
+MyLog: out_packets = 	       155
+MyLog: out_octets = 	    410296
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1550
+MyLog: Now using port 	         2
+MyLog: time: 1524059953915401
+MyLog: last_out_packets =        156
+MyLog: out_packets = 	       156
+MyLog: out_octets = 	    411831
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1560
+MyLog: Now using port 	         2
+MyLog: time: 1524059953936674
+MyLog: last_out_packets =        157
+MyLog: out_packets = 	       157
+MyLog: out_octets = 	    412063
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1570
+MyLog: Now using port 	         2
+MyLog: time: 1524059953955495
+MyLog: last_out_packets =        158
+MyLog: out_packets = 	       158
+MyLog: out_octets = 	    415915
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1580
+MyLog: Now using port 	         2
+MyLog: time: 1524059953975449
+MyLog: last_out_packets =        159
+MyLog: out_packets = 	       159
+MyLog: out_octets = 	    418473
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1590
+MyLog: Now using port 	         2
+MyLog: time: 1524059953995495
+MyLog: last_out_packets =        160
+MyLog: out_packets = 	       160
+MyLog: out_octets = 	    418983
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1600
+MyLog: Now using port 	         2
+MyLog: time: 1524059954015438
+MyLog: last_out_packets =        161
+MyLog: out_packets = 	       161
+MyLog: out_octets = 	    420731
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1610
+MyLog: Now using port 	         2
+MyLog: time: 1524059954035591
+MyLog: last_out_packets =        162
+MyLog: out_packets = 	       162
+MyLog: out_octets = 	    421046
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1620
+MyLog: Now using port 	         2
+MyLog: time: 1524059954055496
+MyLog: last_out_packets =        163
+MyLog: out_packets = 	       163
+MyLog: out_octets = 	    422950
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1630
+MyLog: Now using port 	         2
+MyLog: time: 1524059954076187
+MyLog: last_out_packets =        164
+MyLog: out_packets = 	       164
+MyLog: out_octets = 	    425385
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1640
+MyLog: Now using port 	         2
+MyLog: time: 1524059954095773
+MyLog: last_out_packets =        165
+MyLog: out_packets = 	       165
+MyLog: out_octets = 	    425858
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1650
+MyLog: Now using port 	         2
+MyLog: time: 1524059954116663
+MyLog: last_out_packets =        166
+MyLog: out_packets = 	       166
+MyLog: out_octets = 	    427729
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1660
+MyLog: Now using port 	         2
+MyLog: time: 1524059954135609
+MyLog: last_out_packets =        167
+MyLog: out_packets = 	       167
+MyLog: out_octets = 	    428027
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1670
+MyLog: Now using port 	         2
+MyLog: time: 1524059954155480
+MyLog: last_out_packets =        168
+MyLog: out_packets = 	       168
+MyLog: out_octets = 	    429892
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1680
+MyLog: Now using port 	         2
+MyLog: time: 1524059954175364
+MyLog: last_out_packets =        169
+MyLog: out_packets = 	       169
+MyLog: out_octets = 	    432547
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1690
+MyLog: Now using port 	         2
+MyLog: time: 1524059954195455
+MyLog: last_out_packets =        170
+MyLog: out_packets = 	       170
+MyLog: out_octets = 	    439030
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1700
+MyLog: Now using port 	         2
+MyLog: time: 1524059954216642
+MyLog: last_out_packets =        171
+MyLog: out_packets = 	       171
+MyLog: out_octets = 	    448018
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1710
+MyLog: Now using port 	         2
+MyLog: time: 1524059954235486
+MyLog: last_out_packets =        172
+MyLog: out_packets = 	       172
+MyLog: out_octets = 	    452002
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1720
+MyLog: Now using port 	         2
+MyLog: time: 1524059954255507
+MyLog: last_out_packets =        173
+MyLog: out_packets = 	       173
+MyLog: out_octets = 	    456752
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1730
+MyLog: Now using port 	         2
+MyLog: time: 1524059954275394
+MyLog: last_out_packets =        174
+MyLog: out_packets = 	       174
+MyLog: out_octets = 	    459688
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1740
+MyLog: Now using port 	         2
+MyLog: time: 1524059954295515
+MyLog: last_out_packets =        175
+MyLog: out_packets = 	       175
+MyLog: out_octets = 	    460591
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1750
+MyLog: Now using port 	         2
+MyLog: time: 1524059954315657
+MyLog: last_out_packets =        176
+MyLog: out_packets = 	       176
+MyLog: out_octets = 	    462605
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1760
+MyLog: Now using port 	         2
+MyLog: time: 1524059954335719
+MyLog: last_out_packets =        177
+MyLog: out_packets = 	       177
+MyLog: out_octets = 	    462968
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1770
+MyLog: Now using port 	         2
+MyLog: time: 1524059954355869
+MyLog: last_out_packets =        178
+MyLog: out_packets = 	       178
+MyLog: out_octets = 	    464844
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1780
+MyLog: Now using port 	         2
+MyLog: time: 1524059954375419
+MyLog: last_out_packets =        179
+MyLog: out_packets = 	       179
+MyLog: out_octets = 	    467613
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1790
+MyLog: Now using port 	         2
+MyLog: time: 1524059954395493
+MyLog: last_out_packets =        180
+MyLog: out_packets = 	       180
+MyLog: out_octets = 	    468196
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1800
+MyLog: Now using port 	         2
+MyLog: time: 1524059954415469
+MyLog: last_out_packets =        181
+MyLog: out_packets = 	       181
+MyLog: out_octets = 	    470011
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1810
+MyLog: Now using port 	         2
+MyLog: time: 1524059954435485
+MyLog: last_out_packets =        182
+MyLog: out_packets = 	       182
+MyLog: out_octets = 	    470321
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1820
+MyLog: Now using port 	         2
+MyLog: time: 1524059954455489
+MyLog: last_out_packets =        183
+MyLog: out_packets = 	       183
+MyLog: out_octets = 	    472406
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1830
+MyLog: Now using port 	         2
+MyLog: time: 1524059954475389
+MyLog: last_out_packets =        184
+MyLog: out_packets = 	       184
+MyLog: out_octets = 	    475999
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1840
+MyLog: Now using port 	         2
+MyLog: time: 1524059954495676
+MyLog: last_out_packets =        185
+MyLog: out_packets = 	       185
+MyLog: out_octets = 	    477347
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1850
+MyLog: Now using port 	         2
+MyLog: time: 1524059954515687
+MyLog: last_out_packets =        186
+MyLog: out_packets = 	       186
+MyLog: out_octets = 	    479767
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1860
+MyLog: Now using port 	         2
+MyLog: time: 1524059954535748
+MyLog: last_out_packets =        187
+MyLog: out_packets = 	       187
+MyLog: out_octets = 	    480455
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1870
+MyLog: Now using port 	         2
+MyLog: time: 1524059954555734
+MyLog: last_out_packets =        188
+MyLog: out_packets = 	       188
+MyLog: out_octets = 	    482271
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1880
+MyLog: Now using port 	         2
+MyLog: time: 1524059954575557
+MyLog: last_out_packets =        189
+MyLog: out_packets = 	       189
+MyLog: out_octets = 	    483808
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1890
+MyLog: Now using port 	         2
+MyLog: time: 1524059954595473
+MyLog: last_out_packets =        190
+MyLog: out_packets = 	       190
+MyLog: out_octets = 	    484106
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1900
+MyLog: Now using port 	         2
+MyLog: time: 1524059954615685
+MyLog: last_out_packets =        191
+MyLog: out_packets = 	       191
+MyLog: out_octets = 	    486571
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1910
+MyLog: Now using port 	         2
+MyLog: time: 1524059954625531
+MyLog: last_out_packets =        192
+MyLog: out_packets = 	       192
+MyLog: out_octets = 	    487194
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1920
+MyLog: Now using port 	         2
+MyLog: time: 1524059954635521
+MyLog: last_out_packets =        193
+MyLog: out_packets = 	       193
+MyLog: out_octets = 	    488621
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1930
+MyLog: Now using port 	         2
+MyLog: time: 1524059954646313
+MyLog: last_out_packets =        194
+MyLog: out_packets = 	       194
+MyLog: out_octets = 	    490206
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1940
+MyLog: Now using port 	         2
+MyLog: time: 1524059954655539
+MyLog: last_out_packets =        195
+MyLog: out_packets = 	       195
+MyLog: out_octets = 	    490480
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1950
+MyLog: Now using port 	         2
+MyLog: time: 1524059954665692
+MyLog: last_out_packets =        196
+MyLog: out_packets = 	       196
+MyLog: out_octets = 	    492432
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1960
+MyLog: Now using port 	         2
+MyLog: time: 1524059954675614
+MyLog: last_out_packets =        197
+MyLog: out_packets = 	       197
+MyLog: out_octets = 	    496560
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1970
+MyLog: Now using port 	         2
+MyLog: time: 1524059954686297
+MyLog: last_out_packets =        198
+MyLog: out_packets = 	       198
+MyLog: out_octets = 	    506138
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1980
+MyLog: Now using port 	         2
+MyLog: time: 1524059954695757
+MyLog: last_out_packets =        199
+MyLog: out_packets = 	       199
+MyLog: out_octets = 	    511717
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      1990
+MyLog: Now using port 	         2
+MyLog: time: 1524059954705777
+MyLog: last_out_packets =        200
+MyLog: out_packets = 	       200
+MyLog: out_octets = 	    513553
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2000
+MyLog: Now using port 	         2
+MyLog: time: 1524059954715745
+MyLog: last_out_packets =        201
+MyLog: out_packets = 	       201
+MyLog: out_octets = 	    516818
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2010
+MyLog: Now using port 	         2
+MyLog: time: 1524059954725927
+MyLog: last_out_packets =        202
+MyLog: out_packets = 	       202
+MyLog: out_octets = 	    517806
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2020
+MyLog: Now using port 	         2
+MyLog: time: 1524059954735709
+MyLog: last_out_packets =        203
+MyLog: out_packets = 	       203
+MyLog: out_octets = 	    519634
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2030
+MyLog: Now using port 	         2
+MyLog: time: 1524059954745605
+MyLog: last_out_packets =        204
+MyLog: out_packets = 	       204
+MyLog: out_octets = 	    521248
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2040
+MyLog: Now using port 	         2
+MyLog: time: 1524059954755731
+MyLog: last_out_packets =        205
+MyLog: out_packets = 	       205
+MyLog: out_octets = 	    521519
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2050
+MyLog: Now using port 	         2
+MyLog: time: 1524059954765463
+MyLog: last_out_packets =        206
+MyLog: out_packets = 	       206
+MyLog: out_octets = 	    524571
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2060
+MyLog: Now using port 	         2
+MyLog: time: 1524059954775413
+MyLog: last_out_packets =        207
+MyLog: out_packets = 	       207
+MyLog: out_octets = 	    524979
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2070
+MyLog: Now using port 	         2
+MyLog: time: 1524059954785445
+MyLog: last_out_packets =        208
+MyLog: out_packets = 	       208
+MyLog: out_octets = 	    526455
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2080
+MyLog: Now using port 	         2
+MyLog: time: 1524059954795514
+MyLog: last_out_packets =        209
+MyLog: out_packets = 	       209
+MyLog: out_octets = 	    528334
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2090
+MyLog: Now using port 	         2
+MyLog: time: 1524059954805392
+MyLog: last_out_packets =        210
+MyLog: out_packets = 	       210
+MyLog: out_octets = 	    528630
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2100
+MyLog: Now using port 	         2
+MyLog: time: 1524059954815431
+MyLog: last_out_packets =        211
+MyLog: out_packets = 	       211
+MyLog: out_octets = 	    534628
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2110
+MyLog: Now using port 	         2
+MyLog: time: 1524059954826174
+MyLog: last_out_packets =        212
+MyLog: out_packets = 	       212
+MyLog: out_octets = 	    536335
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2120
+MyLog: Now using port 	         2
+MyLog: time: 1524059954835476
+MyLog: last_out_packets =        213
+MyLog: out_packets = 	       213
+MyLog: out_octets = 	    539700
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2130
+MyLog: Now using port 	         2
+MyLog: time: 1524059954845857
+MyLog: last_out_packets =        214
+MyLog: out_packets = 	       214
+MyLog: out_octets = 	    541457
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2140
+MyLog: Now using port 	         2
+MyLog: time: 1524059954855524
+MyLog: last_out_packets =        215
+MyLog: out_packets = 	       215
+MyLog: out_octets = 	    541739
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2150
+MyLog: Now using port 	         2
+MyLog: time: 1524059954865491
+MyLog: last_out_packets =        216
+MyLog: out_packets = 	       216
+MyLog: out_octets = 	    544246
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2160
+MyLog: Now using port 	         2
+MyLog: time: 1524059954876003
+MyLog: last_out_packets =        217
+MyLog: out_packets = 	       217
+MyLog: out_octets = 	    544536
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2170
+MyLog: Now using port 	         2
+MyLog: time: 1524059954885689
+MyLog: last_out_packets =        218
+MyLog: out_packets = 	       218
+MyLog: out_octets = 	    548937
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2180
+MyLog: Now using port 	         2
+MyLog: time: 1524059954896277
+MyLog: last_out_packets =        219
+MyLog: out_packets = 	       219
+MyLog: out_octets = 	    551101
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2190
+MyLog: Now using port 	         2
+MyLog: time: 1524059954905969
+MyLog: last_out_packets =        220
+MyLog: out_packets = 	       220
+MyLog: out_octets = 	    551414
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2200
+MyLog: Now using port 	         2
+MyLog: time: 1524059954915638
+MyLog: last_out_packets =        221
+MyLog: out_packets = 	       221
+MyLog: out_octets = 	    553804
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2210
+MyLog: Now using port 	         2
+MyLog: time: 1524059954925603
+MyLog: last_out_packets =        222
+MyLog: out_packets = 	       222
+MyLog: out_octets = 	    554061
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2220
+MyLog: Now using port 	         2
+MyLog: time: 1524059954936466
+MyLog: last_out_packets =        223
+MyLog: out_packets = 	       223
+MyLog: out_octets = 	    555731
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2230
+MyLog: Now using port 	         2
+MyLog: time: 1524059954945676
+MyLog: last_out_packets =        224
+MyLog: out_packets = 	       224
+MyLog: out_octets = 	    563866
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2240
+MyLog: Now using port 	         2
+MyLog: time: 1524059954955600
+MyLog: last_out_packets =        225
+MyLog: out_packets = 	       225
+MyLog: out_octets = 	    566855
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2250
+MyLog: Now using port 	         2
+MyLog: time: 1524059954965590
+MyLog: last_out_packets =        226
+MyLog: out_packets = 	       226
+MyLog: out_octets = 	    571980
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2260
+MyLog: Now using port 	         2
+MyLog: time: 1524059954975464
+MyLog: last_out_packets =        227
+MyLog: out_packets = 	       227
+MyLog: out_octets = 	    573228
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2270
+MyLog: Now using port 	         2
+MyLog: time: 1524059954985418
+MyLog: last_out_packets =        228
+MyLog: out_packets = 	       228
+MyLog: out_octets = 	    574780
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2280
+MyLog: Now using port 	         2
+MyLog: time: 1524059954995416
+MyLog: last_out_packets =        229
+MyLog: out_packets = 	       229
+MyLog: out_octets = 	    578281
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2290
+MyLog: Now using port 	         2
+MyLog: time: 1524059955005926
+MyLog: last_out_packets =        230
+MyLog: out_packets = 	       230
+MyLog: out_octets = 	    579224
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2300
+MyLog: Now using port 	         2
+MyLog: time: 1524059955015433
+MyLog: last_out_packets =        231
+MyLog: out_packets = 	       231
+MyLog: out_octets = 	    580236
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2310
+MyLog: Now using port 	         2
+MyLog: time: 1524059955025390
+MyLog: last_out_packets =        232
+MyLog: out_packets = 	       232
+MyLog: out_octets = 	    582380
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2320
+MyLog: Now using port 	         2
+MyLog: time: 1524059955036640
+MyLog: last_out_packets =        233
+MyLog: out_packets = 	       233
+MyLog: out_octets = 	    582766
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2330
+MyLog: Now using port 	         2
+MyLog: time: 1524059955045401
+MyLog: last_out_packets =        234
+MyLog: out_packets = 	       234
+MyLog: out_octets = 	    583209
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2340
+MyLog: Now using port 	         2
+MyLog: time: 1524059955055391
+MyLog: last_out_packets =        235
+MyLog: out_packets = 	       235
+MyLog: out_octets = 	    584799
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2350
+MyLog: Now using port 	         2
+MyLog: time: 1524059955065467
+MyLog: last_out_packets =        236
+MyLog: out_packets = 	       236
+MyLog: out_octets = 	    586814
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2360
+MyLog: Now using port 	         2
+MyLog: time: 1524059955075332
+MyLog: last_out_packets =        237
+MyLog: out_packets = 	       237
+MyLog: out_octets = 	    587098
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2370
+MyLog: Now using port 	         2
+MyLog: time: 1524059955085389
+MyLog: last_out_packets =        238
+MyLog: out_packets = 	       238
+MyLog: out_octets = 	    587391
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2380
+MyLog: Now using port 	         2
+MyLog: time: 1524059955095409
+MyLog: last_out_packets =        239
+MyLog: out_packets = 	       239
+MyLog: out_octets = 	    590586
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2390
+MyLog: Now using port 	         2
+MyLog: time: 1524059955109635
+MyLog: last_out_packets =        240
+MyLog: out_packets = 	       240
+MyLog: out_octets = 	    591198
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2400
+MyLog: Now using port 	         2
+MyLog: time: 1524059955115406
+MyLog: last_out_packets =        241
+MyLog: out_packets = 	       241
+MyLog: out_octets = 	    591852
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2410
+MyLog: Now using port 	         2
+MyLog: time: 1524059955125500
+MyLog: last_out_packets =        242
+MyLog: out_packets = 	       242
+MyLog: out_octets = 	    593271
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2420
+MyLog: Now using port 	         2
+MyLog: time: 1524059955135845
+MyLog: last_out_packets =        243
+MyLog: out_packets = 	       243
+MyLog: out_octets = 	    593536
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2430
+MyLog: Now using port 	         2
+MyLog: time: 1524059955145417
+MyLog: last_out_packets =        244
+MyLog: out_packets = 	       244
+MyLog: out_octets = 	    593881
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2440
+MyLog: Now using port 	         2
+MyLog: time: 1524059955155660
+MyLog: last_out_packets =        245
+MyLog: out_packets = 	       245
+MyLog: out_octets = 	    594949
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2450
+MyLog: Now using port 	         2
+MyLog: time: 1524059955165596
+MyLog: last_out_packets =        246
+MyLog: out_packets = 	       246
+MyLog: out_octets = 	    596701
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2460
+MyLog: Now using port 	         2
+MyLog: time: 1524059955175999
+MyLog: last_out_packets =        247
+MyLog: out_packets = 	       247
+MyLog: out_octets = 	    596972
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2470
+MyLog: Now using port 	         2
+MyLog: time: 1524059955185551
+MyLog: last_out_packets =        248
+MyLog: out_packets = 	       248
+MyLog: out_octets = 	    597346
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2480
+MyLog: Now using port 	         2
+MyLog: time: 1524059955195565
+MyLog: last_out_packets =        249
+MyLog: out_packets = 	       249
+MyLog: out_octets = 	    602915
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2490
+MyLog: Now using port 	         2
+MyLog: time: 1524059955205549
+MyLog: last_out_packets =        250
+MyLog: out_packets = 	       250
+MyLog: out_octets = 	    603992
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2500
+MyLog: Now using port 	         2
+MyLog: time: 1524059955216469
+MyLog: last_out_packets =        251
+MyLog: out_packets = 	       251
+MyLog: out_octets = 	    605393
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2510
+MyLog: Now using port 	         2
+MyLog: time: 1524059955225690
+MyLog: last_out_packets =        252
+MyLog: out_packets = 	       252
+MyLog: out_octets = 	    609249
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2520
+MyLog: Now using port 	         2
+MyLog: time: 1524059955235537
+MyLog: last_out_packets =        253
+MyLog: out_packets = 	       253
+MyLog: out_octets = 	    609834
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2530
+MyLog: Now using port 	         2
+MyLog: time: 1524059955245494
+MyLog: last_out_packets =        254
+MyLog: out_packets = 	       254
+MyLog: out_octets = 	    610662
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2540
+MyLog: Now using port 	         2
+MyLog: time: 1524059955255491
+MyLog: last_out_packets =        255
+MyLog: out_packets = 	       255
+MyLog: out_octets = 	    614082
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2550
+MyLog: Now using port 	         2
+MyLog: time: 1524059955265385
+MyLog: last_out_packets =        256
+MyLog: out_packets = 	       256
+MyLog: out_octets = 	    616022
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2560
+MyLog: Now using port 	         2
+MyLog: time: 1524059955275434
+MyLog: last_out_packets =        257
+MyLog: out_packets = 	       257
+MyLog: out_octets = 	    616328
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2570
+MyLog: Now using port 	         2
+MyLog: time: 1524059955285978
+MyLog: last_out_packets =        258
+MyLog: out_packets = 	       258
+MyLog: out_octets = 	    616693
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2580
+MyLog: Now using port 	         2
+MyLog: time: 1524059955295428
+MyLog: last_out_packets =        259
+MyLog: out_packets = 	       259
+MyLog: out_octets = 	    618680
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2590
+MyLog: Now using port 	         2
+MyLog: time: 1524059955305536
+MyLog: last_out_packets =        260
+MyLog: out_packets = 	       260
+MyLog: out_octets = 	    619008
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2600
+MyLog: Now using port 	         2
+MyLog: time: 1524059955315758
+MyLog: last_out_packets =        261
+MyLog: out_packets = 	       261
+MyLog: out_octets = 	    619415
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2610
+MyLog: Now using port 	         2
+MyLog: time: 1524059955325434
+MyLog: last_out_packets =        262
+MyLog: out_packets = 	       262
+MyLog: out_octets = 	    622605
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2620
+MyLog: Now using port 	         2
+MyLog: time: 1524059955335504
+MyLog: last_out_packets =        263
+MyLog: out_packets = 	       263
+MyLog: out_octets = 	    623245
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2630
+MyLog: Now using port 	         2
+MyLog: time: 1524059955345667
+MyLog: last_out_packets =        264
+MyLog: out_packets = 	       264
+MyLog: out_octets = 	    624010
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2640
+MyLog: Now using port 	         2
+MyLog: time: 1524059955355481
+MyLog: last_out_packets =        265
+MyLog: out_packets = 	       265
+MyLog: out_octets = 	    626704
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2650
+MyLog: Now using port 	         2
+MyLog: time: 1524059955365579
+MyLog: last_out_packets =        266
+MyLog: out_packets = 	       266
+MyLog: out_octets = 	    628364
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2660
+MyLog: Now using port 	         2
+MyLog: time: 1524059955375403
+MyLog: last_out_packets =        267
+MyLog: out_packets = 	       267
+MyLog: out_octets = 	    628664
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2670
+MyLog: Now using port 	         2
+MyLog: time: 1524059955385604
+MyLog: last_out_packets =        268
+MyLog: out_packets = 	       268
+MyLog: out_octets = 	    629000
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2680
+MyLog: Now using port 	         2
+MyLog: time: 1524059955395434
+MyLog: last_out_packets =        269
+MyLog: out_packets = 	       269
+MyLog: out_octets = 	    630557
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2690
+MyLog: Now using port 	         2
+MyLog: time: 1524059955405423
+MyLog: last_out_packets =        270
+MyLog: out_packets = 	       270
+MyLog: out_octets = 	    630841
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2700
+MyLog: Now using port 	         2
+MyLog: time: 1524059955415625
+MyLog: last_out_packets =        271
+MyLog: out_packets = 	       271
+MyLog: out_octets = 	    631152
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2710
+MyLog: Now using port 	         2
+MyLog: time: 1524059955425698
+MyLog: last_out_packets =        272
+MyLog: out_packets = 	       272
+MyLog: out_octets = 	    633146
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2720
+MyLog: Now using port 	         2
+MyLog: time: 1524059955435602
+MyLog: last_out_packets =        273
+MyLog: out_packets = 	       273
+MyLog: out_octets = 	    637912
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2730
+MyLog: Now using port 	         2
+MyLog: time: 1524059955445602
+MyLog: last_out_packets =        274
+MyLog: out_packets = 	       274
+MyLog: out_octets = 	    651350
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2740
+MyLog: Now using port 	         2
+MyLog: time: 1524059955456271
+MyLog: last_out_packets =        275
+MyLog: out_packets = 	       275
+MyLog: out_octets = 	    677039
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2750
+MyLog: Now using port 	         2
+MyLog: time: 1524059955465664
+MyLog: last_out_packets =        276
+MyLog: out_packets = 	       276
+MyLog: out_octets = 	    685755
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2760
+MyLog: Now using port 	         2
+MyLog: time: 1524059955475817
+MyLog: last_out_packets =        277
+MyLog: out_packets = 	       277
+MyLog: out_octets = 	    687997
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2770
+MyLog: Now using port 	         2
+MyLog: time: 1524059955485507
+MyLog: last_out_packets =        278
+MyLog: out_packets = 	       278
+MyLog: out_octets = 	    690765
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2780
+MyLog: Now using port 	         2
+MyLog: time: 1524059955496350
+MyLog: last_out_packets =        279
+MyLog: out_packets = 	       279
+MyLog: out_octets = 	    695802
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2790
+MyLog: Now using port 	         2
+MyLog: time: 1524059955505431
+MyLog: last_out_packets =        280
+MyLog: out_packets = 	       280
+MyLog: out_octets = 	    697112
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2800
+MyLog: Now using port 	         2
+MyLog: time: 1524059955515338
+MyLog: last_out_packets =        281
+MyLog: out_packets = 	       281
+MyLog: out_octets = 	    698575
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2810
+MyLog: Now using port 	         2
+MyLog: time: 1524059955525857
+MyLog: last_out_packets =        282
+MyLog: out_packets = 	       282
+MyLog: out_octets = 	    703568
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2820
+MyLog: Now using port 	         2
+MyLog: time: 1524059955535477
+MyLog: last_out_packets =        283
+MyLog: out_packets = 	       283
+MyLog: out_octets = 	    706575
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2830
+MyLog: Now using port 	         2
+MyLog: time: 1524059955545361
+MyLog: last_out_packets =        284
+MyLog: out_packets = 	       284
+MyLog: out_octets = 	    707298
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2840
+MyLog: Now using port 	         2
+MyLog: time: 1524059955555460
+MyLog: last_out_packets =        285
+MyLog: out_packets = 	       285
+MyLog: out_octets = 	    708116
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2850
+MyLog: Now using port 	         2
+MyLog: time: 1524059955565466
+MyLog: last_out_packets =        286
+MyLog: out_packets = 	       286
+MyLog: out_octets = 	    710017
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2860
+MyLog: Now using port 	         2
+MyLog: time: 1524059955575472
+MyLog: last_out_packets =        287
+MyLog: out_packets = 	       287
+MyLog: out_octets = 	    710384
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2870
+MyLog: Now using port 	         2
+MyLog: time: 1524059955585393
+MyLog: last_out_packets =        288
+MyLog: out_packets = 	       288
+MyLog: out_octets = 	    710821
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2880
+MyLog: Now using port 	         2
+MyLog: time: 1524059955596580
+MyLog: last_out_packets =        289
+MyLog: out_packets = 	       289
+MyLog: out_octets = 	    712604
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2890
+MyLog: Now using port 	         2
+MyLog: time: 1524059955605456
+MyLog: last_out_packets =        290
+MyLog: out_packets = 	       290
+MyLog: out_octets = 	    712892
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2900
+MyLog: Now using port 	         2
+MyLog: time: 1524059955615388
+MyLog: last_out_packets =        291
+MyLog: out_packets = 	       291
+MyLog: out_octets = 	    713232
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2910
+MyLog: Now using port 	         2
+MyLog: time: 1524059955625694
+MyLog: last_out_packets =        292
+MyLog: out_packets = 	       292
+MyLog: out_octets = 	    714597
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2920
+MyLog: Now using port 	         2
+MyLog: time: 1524059955635449
+MyLog: last_out_packets =        293
+MyLog: out_packets = 	       293
+MyLog: out_octets = 	    717262
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2930
+MyLog: Now using port 	         2
+MyLog: time: 1524059955646554
+MyLog: last_out_packets =        294
+MyLog: out_packets = 	       294
+MyLog: out_octets = 	    717728
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2940
+MyLog: Now using port 	         2
+MyLog: time: 1524059955655457
+MyLog: last_out_packets =        295
+MyLog: out_packets = 	       295
+MyLog: out_octets = 	    718286
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2950
+MyLog: Now using port 	         2
+MyLog: time: 1524059955665458
+MyLog: last_out_packets =        296
+MyLog: out_packets = 	       296
+MyLog: out_octets = 	    720121
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2960
+MyLog: Now using port 	         2
+MyLog: time: 1524059955675835
+MyLog: last_out_packets =        297
+MyLog: out_packets = 	       297
+MyLog: out_octets = 	    720429
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2970
+MyLog: Now using port 	         2
+MyLog: time: 1524059955685668
+MyLog: last_out_packets =        298
+MyLog: out_packets = 	       298
+MyLog: out_octets = 	    720766
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2980
+MyLog: Now using port 	         2
+MyLog: time: 1524059955695732
+MyLog: last_out_packets =        299
+MyLog: out_packets = 	       299
+MyLog: out_octets = 	    722445
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      2990
+MyLog: Now using port 	         2
+MyLog: time: 1524059955705687
+MyLog: last_out_packets =        300
+MyLog: out_packets = 	       300
+MyLog: out_octets = 	    722710
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3000
+MyLog: Now using port 	         2
+MyLog: time: 1524059955715586
+MyLog: last_out_packets =        301
+MyLog: out_packets = 	       301
+MyLog: out_octets = 	    722987
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3010
+MyLog: Now using port 	         2
+MyLog: time: 1524059955725502
+MyLog: last_out_packets =        302
+MyLog: out_packets = 	       302
+MyLog: out_octets = 	    729021
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3020
+MyLog: Now using port 	         2
+MyLog: time: 1524059955735692
+MyLog: last_out_packets =        303
+MyLog: out_packets = 	       303
+MyLog: out_octets = 	    730227
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3030
+MyLog: Now using port 	         2
+MyLog: time: 1524059955745565
+MyLog: last_out_packets =        304
+MyLog: out_packets = 	       304
+MyLog: out_octets = 	    731551
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3040
+MyLog: Now using port 	         2
+MyLog: time: 1524059955755559
+MyLog: last_out_packets =        305
+MyLog: out_packets = 	       305
+MyLog: out_octets = 	    736814
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3050
+MyLog: Now using port 	         2
+MyLog: time: 1524059955765572
+MyLog: last_out_packets =        306
+MyLog: out_packets = 	       306
+MyLog: out_octets = 	    739809
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3060
+MyLog: Now using port 	         2
+MyLog: time: 1524059955775649
+MyLog: last_out_packets =        307
+MyLog: out_packets = 	       307
+MyLog: out_octets = 	    740434
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3070
+MyLog: Now using port 	         2
+MyLog: time: 1524059955785408
+MyLog: last_out_packets =        308
+MyLog: out_packets = 	       308
+MyLog: out_octets = 	    741128
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3080
+MyLog: Now using port 	         2
+MyLog: time: 1524059955795371
+MyLog: last_out_packets =        309
+MyLog: out_packets = 	       309
+MyLog: out_octets = 	    742818
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3090
+MyLog: Now using port 	         2
+MyLog: time: 1524059955806319
+MyLog: last_out_packets =        310
+MyLog: out_packets = 	       310
+MyLog: out_octets = 	    743092
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3100
+MyLog: Now using port 	         2
+MyLog: time: 1524059955815425
+MyLog: last_out_packets =        311
+MyLog: out_packets = 	       311
+MyLog: out_octets = 	    743415
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3110
+MyLog: Now using port 	         2
+MyLog: time: 1524059955825413
+MyLog: last_out_packets =        312
+MyLog: out_packets = 	       312
+MyLog: out_octets = 	    744750
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3120
+MyLog: Now using port 	         2
+MyLog: time: 1524059955835662
+MyLog: last_out_packets =        313
+MyLog: out_packets = 	       313
+MyLog: out_octets = 	    746973
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3130
+MyLog: Now using port 	         2
+MyLog: time: 1524059955845450
+MyLog: last_out_packets =        314
+MyLog: out_packets = 	       314
+MyLog: out_octets = 	    747216
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3140
+MyLog: Now using port 	         2
+MyLog: time: 1524059955855393
+MyLog: last_out_packets =        315
+MyLog: out_packets = 	       315
+MyLog: out_octets = 	    747490
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3150
+MyLog: Now using port 	         2
+MyLog: time: 1524059955865436
+MyLog: last_out_packets =        316
+MyLog: out_packets = 	       316
+MyLog: out_octets = 	    750585
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3160
+MyLog: Now using port 	         2
+MyLog: time: 1524059955877570
+MyLog: last_out_packets =        317
+MyLog: out_packets = 	       317
+MyLog: out_octets = 	    751006
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3170
+MyLog: Now using port 	         2
+MyLog: time: 1524059955885443
+MyLog: last_out_packets =        318
+MyLog: out_packets = 	       318
+MyLog: out_octets = 	    751519
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3180
+MyLog: Now using port 	         2
+MyLog: time: 1524059955895725
+MyLog: last_out_packets =        319
+MyLog: out_packets = 	       319
+MyLog: out_octets = 	    753167
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3190
+MyLog: Now using port 	         2
+MyLog: time: 1524059955905609
+MyLog: last_out_packets =        320
+MyLog: out_packets = 	       320
+MyLog: out_octets = 	    753447
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3200
+MyLog: Now using port 	         2
+MyLog: time: 1524059955916535
+MyLog: last_out_packets =        321
+MyLog: out_packets = 	       321
+MyLog: out_octets = 	    753774
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3210
+MyLog: Now using port 	         2
+MyLog: time: 1524059955925762
+MyLog: last_out_packets =        322
+MyLog: out_packets = 	       322
+MyLog: out_octets = 	    755052
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3220
+MyLog: Now using port 	         2
+MyLog: time: 1524059955935690
+MyLog: last_out_packets =        323
+MyLog: out_packets = 	       323
+MyLog: out_octets = 	    756768
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3230
+MyLog: Now using port 	         2
+MyLog: time: 1524059955945566
+MyLog: last_out_packets =        324
+MyLog: out_packets = 	       324
+MyLog: out_octets = 	    757093
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3240
+MyLog: Now using port 	         2
+MyLog: time: 1524059955955652
+MyLog: last_out_packets =        325
+MyLog: out_packets = 	       325
+MyLog: out_octets = 	    757395
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3250
+MyLog: Now using port 	         2
+MyLog: time: 1524059955965701
+MyLog: last_out_packets =        326
+MyLog: out_packets = 	       326
+MyLog: out_octets = 	    760176
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3260
+MyLog: Now using port 	         2
+MyLog: time: 1524059955975627
+MyLog: last_out_packets =        327
+MyLog: out_packets = 	       327
+MyLog: out_octets = 	    767216
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3270
+MyLog: Now using port 	         2
+MyLog: time: 1524059955986080
+MyLog: last_out_packets =        328
+MyLog: out_packets = 	       328
+MyLog: out_octets = 	    786431
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3280
+MyLog: Now using port 	         2
+MyLog: time: 1524059955995841
+MyLog: last_out_packets =        329
+MyLog: out_packets = 	       329
+MyLog: out_octets = 	    797564
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3290
+MyLog: Now using port 	         2
+MyLog: time: 1524059956005652
+MyLog: last_out_packets =        330
+MyLog: out_packets = 	       330
+MyLog: out_octets = 	    803182
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3300
+MyLog: Now using port 	         2
+MyLog: time: 1524059956015576
+MyLog: last_out_packets =        331
+MyLog: out_packets = 	       331
+MyLog: out_octets = 	    809751
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3310
+MyLog: Now using port 	         2
+MyLog: time: 1524059956026309
+MyLog: last_out_packets =        332
+MyLog: out_packets = 	       332
+MyLog: out_octets = 	    824346
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3320
+MyLog: Now using port 	         2
+MyLog: time: 1524059956035827
+MyLog: last_out_packets =        333
+MyLog: out_packets = 	       333
+MyLog: out_octets = 	    831219
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3330
+MyLog: Now using port 	         2
+MyLog: time: 1524059956045790
+MyLog: last_out_packets =        334
+MyLog: out_packets = 	       334
+MyLog: out_octets = 	    833196
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3340
+MyLog: Now using port 	         2
+MyLog: time: 1524059956055507
+MyLog: last_out_packets =        335
+MyLog: out_packets = 	       335
+MyLog: out_octets = 	    835540
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3350
+MyLog: Now using port 	         2
+MyLog: time: 1524059956065621
+MyLog: last_out_packets =        336
+MyLog: out_packets = 	       336
+MyLog: out_octets = 	    839709
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3360
+MyLog: Now using port 	         2
+MyLog: time: 1524059956075540
+MyLog: last_out_packets =        337
+MyLog: out_packets = 	       337
+MyLog: out_octets = 	    840485
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3370
+MyLog: Now using port 	         2
+MyLog: time: 1524059956085412
+MyLog: last_out_packets =        338
+MyLog: out_packets = 	       338
+MyLog: out_octets = 	    841412
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3380
+MyLog: Now using port 	         2
+MyLog: time: 1524059956096688
+MyLog: last_out_packets =        339
+MyLog: out_packets = 	       339
+MyLog: out_octets = 	    843722
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3390
+MyLog: Now using port 	         2
+MyLog: time: 1524059956105630
+MyLog: last_out_packets =        340
+MyLog: out_packets = 	       340
+MyLog: out_octets = 	    844125
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3400
+MyLog: Now using port 	         2
+MyLog: time: 1524059956115438
+MyLog: last_out_packets =        341
+MyLog: out_packets = 	       341
+MyLog: out_octets = 	    844535
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3410
+MyLog: Now using port 	         2
+MyLog: time: 1524059956125614
+MyLog: last_out_packets =        342
+MyLog: out_packets = 	       342
+MyLog: out_octets = 	    846614
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3420
+MyLog: Now using port 	         2
+MyLog: time: 1524059956136352
+MyLog: last_out_packets =        343
+MyLog: out_packets = 	       343
+MyLog: out_octets = 	    848862
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3430
+MyLog: Now using port 	         2
+MyLog: time: 1524059956145751
+MyLog: last_out_packets =        344
+MyLog: out_packets = 	       344
+MyLog: out_octets = 	    849225
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3440
+MyLog: Now using port 	         2
+MyLog: time: 1524059956155698
+MyLog: last_out_packets =        345
+MyLog: out_packets = 	       345
+MyLog: out_octets = 	    849678
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3450
+MyLog: Now using port 	         2
+MyLog: time: 1524059956165666
+MyLog: last_out_packets =        346
+MyLog: out_packets = 	       346
+MyLog: out_octets = 	    853608
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3460
+MyLog: Now using port 	         2
+MyLog: time: 1524059956175791
+MyLog: last_out_packets =        347
+MyLog: out_packets = 	       347
+MyLog: out_octets = 	    854567
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3470
+MyLog: Now using port 	         2
+MyLog: time: 1524059956185603
+MyLog: last_out_packets =        348
+MyLog: out_packets = 	       348
+MyLog: out_octets = 	    855638
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3480
+MyLog: Now using port 	         2
+MyLog: time: 1524059956195577
+MyLog: last_out_packets =        349
+MyLog: out_packets = 	       349
+MyLog: out_octets = 	    857946
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3490
+MyLog: Now using port 	         2
+MyLog: time: 1524059956205659
+MyLog: last_out_packets =        350
+MyLog: out_packets = 	       350
+MyLog: out_octets = 	    858321
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3500
+MyLog: Now using port 	         2
+MyLog: time: 1524059956216213
+MyLog: last_out_packets =        351
+MyLog: out_packets = 	       351
+MyLog: out_octets = 	    858773
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3510
+MyLog: Now using port 	         2
+MyLog: time: 1524059956225714
+MyLog: last_out_packets =        352
+MyLog: out_packets = 	       352
+MyLog: out_octets = 	    860696
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3520
+MyLog: Now using port 	         2
+MyLog: time: 1524059956235630
+MyLog: last_out_packets =        353
+MyLog: out_packets = 	       353
+MyLog: out_octets = 	    863163
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3530
+MyLog: Now using port 	         2
+MyLog: time: 1524059956246253
+MyLog: last_out_packets =        354
+MyLog: out_packets = 	       354
+MyLog: out_octets = 	    863458
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3540
+MyLog: Now using port 	         2
+MyLog: time: 1524059956255495
+MyLog: last_out_packets =        355
+MyLog: out_packets = 	       355
+MyLog: out_octets = 	    863941
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3550
+MyLog: Now using port 	         2
+MyLog: time: 1524059956265456
+MyLog: last_out_packets =        356
+MyLog: out_packets = 	       356
+MyLog: out_octets = 	    872125
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3560
+MyLog: Now using port 	         2
+MyLog: time: 1524059956275656
+MyLog: last_out_packets =        357
+MyLog: out_packets = 	       357
+MyLog: out_octets = 	    874861
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3570
+MyLog: Now using port 	         2
+MyLog: time: 1524059956285481
+MyLog: last_out_packets =        358
+MyLog: out_packets = 	       358
+MyLog: out_octets = 	    878255
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3580
+MyLog: Now using port 	         2
+MyLog: time: 1524059956295434
+MyLog: last_out_packets =        359
+MyLog: out_packets = 	       359
+MyLog: out_octets = 	    883469
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3590
+MyLog: Now using port 	         2
+MyLog: time: 1524059956305431
+MyLog: last_out_packets =        360
+MyLog: out_packets = 	       360
+MyLog: out_octets = 	    885035
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3600
+MyLog: Now using port 	         2
+MyLog: time: 1524059956315568
+MyLog: last_out_packets =        361
+MyLog: out_packets = 	       361
+MyLog: out_octets = 	    886908
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3610
+MyLog: Now using port 	         2
+MyLog: time: 1524059956325353
+MyLog: last_out_packets =        362
+MyLog: out_packets = 	       362
+MyLog: out_octets = 	    893505
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3620
+MyLog: Now using port 	         2
+MyLog: time: 1524059956335414
+MyLog: last_out_packets =        363
+MyLog: out_packets = 	       363
+MyLog: out_octets = 	    896332
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3630
+MyLog: Now using port 	         2
+MyLog: time: 1524059956345878
+MyLog: last_out_packets =        364
+MyLog: out_packets = 	       364
+MyLog: out_octets = 	    896744
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3640
+MyLog: Now using port 	         2
+MyLog: time: 1524059956355590
+MyLog: last_out_packets =        365
+MyLog: out_packets = 	       365
+MyLog: out_octets = 	    897414
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3650
+MyLog: Now using port 	         2
+MyLog: time: 1524059956365460
+MyLog: last_out_packets =        366
+MyLog: out_packets = 	       366
+MyLog: out_octets = 	    900807
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3660
+MyLog: Now using port 	         2
+MyLog: time: 1524059956375534
+MyLog: last_out_packets =        367
+MyLog: out_packets = 	       367
+MyLog: out_octets = 	    901293
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3670
+MyLog: Now using port 	         2
+MyLog: time: 1524059956385477
+MyLog: last_out_packets =        368
+MyLog: out_packets = 	       368
+MyLog: out_octets = 	    902103
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3680
+MyLog: Now using port 	         2
+MyLog: time: 1524059956395672
+MyLog: last_out_packets =        369
+MyLog: out_packets = 	       369
+MyLog: out_octets = 	    906159
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3690
+MyLog: Now using port 	         2
+MyLog: time: 1524059956405715
+MyLog: last_out_packets =        370
+MyLog: out_packets = 	       370
+MyLog: out_octets = 	    907153
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3700
+MyLog: Now using port 	         2
+MyLog: time: 1524059956415667
+MyLog: last_out_packets =        371
+MyLog: out_packets = 	       371
+MyLog: out_octets = 	    908567
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3710
+MyLog: Now using port 	         2
+MyLog: time: 1524059956425705
+MyLog: last_out_packets =        372
+MyLog: out_packets = 	       372
+MyLog: out_octets = 	    913214
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3720
+MyLog: Now using port 	         2
+MyLog: time: 1524059956435632
+MyLog: last_out_packets =        373
+MyLog: out_packets = 	       373
+MyLog: out_octets = 	    915952
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3730
+MyLog: Now using port 	         2
+MyLog: time: 1524059956445845
+MyLog: last_out_packets =        374
+MyLog: out_packets = 	       374
+MyLog: out_octets = 	    916356
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3740
+MyLog: Now using port 	         2
+MyLog: time: 1524059956455954
+MyLog: last_out_packets =        375
+MyLog: out_packets = 	       375
+MyLog: out_octets = 	    916990
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3750
+MyLog: Now using port 	         2
+MyLog: time: 1524059956465784
+MyLog: last_out_packets =        376
+MyLog: out_packets = 	       376
+MyLog: out_octets = 	    919508
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3760
+MyLog: Now using port 	         2
+MyLog: time: 1524059956475647
+MyLog: last_out_packets =        377
+MyLog: out_packets = 	       377
+MyLog: out_octets = 	    919891
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3770
+MyLog: Now using port 	         2
+MyLog: time: 1524059956485548
+MyLog: last_out_packets =        378
+MyLog: out_packets = 	       378
+MyLog: out_octets = 	    920542
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3780
+MyLog: Now using port 	         2
+MyLog: time: 1524059956496161
+MyLog: last_out_packets =        379
+MyLog: out_packets = 	       379
+MyLog: out_octets = 	    923237
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3790
+MyLog: Now using port 	         2
+MyLog: time: 1524059956505419
+MyLog: last_out_packets =        380
+MyLog: out_packets = 	       380
+MyLog: out_octets = 	    931147
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3800
+MyLog: Now using port 	         2
+MyLog: time: 1524059956515382
+MyLog: last_out_packets =        381
+MyLog: out_packets = 	       381
+MyLog: out_octets = 	    954360
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3810
+MyLog: Now using port 	         2
+MyLog: time: 1524059956526139
+MyLog: last_out_packets =        382
+MyLog: out_packets = 	       382
+MyLog: out_octets = 	    994370
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3820
+MyLog: Now using port 	         2
+MyLog: time: 1524059956535449
+MyLog: last_out_packets =        383
+MyLog: out_packets = 	       383
+MyLog: out_octets = 	   1003309
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3830
+MyLog: Now using port 	         2
+MyLog: time: 1524059956545338
+MyLog: last_out_packets =        384
+MyLog: out_packets = 	       384
+MyLog: out_octets = 	   1006596
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3840
+MyLog: Now using port 	         2
+MyLog: time: 1524059956555420
+MyLog: last_out_packets =        385
+MyLog: out_packets = 	       385
+MyLog: out_octets = 	   1011069
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3850
+MyLog: Now using port 	         2
+MyLog: time: 1524059956565465
+MyLog: last_out_packets =        386
+MyLog: out_packets = 	       386
+MyLog: out_octets = 	   1016675
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3860
+MyLog: Now using port 	         2
+MyLog: time: 1524059956575378
+MyLog: last_out_packets =        387
+MyLog: out_packets = 	       387
+MyLog: out_octets = 	   1019089
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3870
+MyLog: Now using port 	         2
+MyLog: time: 1524059956585431
+MyLog: last_out_packets =        388
+MyLog: out_packets = 	       388
+MyLog: out_octets = 	   1022246
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3880
+MyLog: Now using port 	         2
+MyLog: time: 1524059956596377
+MyLog: last_out_packets =        389
+MyLog: out_packets = 	       389
+MyLog: out_octets = 	   1031031
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3890
+MyLog: Now using port 	         2
+MyLog: time: 1524059956605550
+MyLog: last_out_packets =        390
+MyLog: out_packets = 	       390
+MyLog: out_octets = 	   1034837
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3900
+MyLog: Now using port 	         2
+MyLog: time: 1524059956616144
+MyLog: last_out_packets =        391
+MyLog: out_packets = 	       391
+MyLog: out_octets = 	   1036500
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3910
+MyLog: Now using port 	         2
+MyLog: time: 1524059956625568
+MyLog: last_out_packets =        392
+MyLog: out_packets = 	       392
+MyLog: out_octets = 	   1038338
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3920
+MyLog: Now using port 	         2
+MyLog: time: 1524059956635509
+MyLog: last_out_packets =        393
+MyLog: out_packets = 	       393
+MyLog: out_octets = 	   1041237
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3930
+MyLog: Now using port 	         2
+MyLog: time: 1524059956645967
+MyLog: last_out_packets =        394
+MyLog: out_packets = 	       394
+MyLog: out_octets = 	   1041938
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3940
+MyLog: Now using port 	         2
+MyLog: time: 1524059956655601
+MyLog: last_out_packets =        395
+MyLog: out_packets = 	       395
+MyLog: out_octets = 	   1043055
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3950
+MyLog: Now using port 	         2
+MyLog: time: 1524059956666368
+MyLog: last_out_packets =        396
+MyLog: out_packets = 	       396
+MyLog: out_octets = 	   1045191
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3960
+MyLog: Now using port 	         2
+MyLog: time: 1524059956675858
+MyLog: last_out_packets =        397
+MyLog: out_packets = 	       397
+MyLog: out_octets = 	   1045566
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3970
+MyLog: Now using port 	         2
+MyLog: time: 1524059956685596
+MyLog: last_out_packets =        398
+MyLog: out_packets = 	       398
+MyLog: out_octets = 	   1046184
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3980
+MyLog: Now using port 	         2
+MyLog: time: 1524059956695736
+MyLog: last_out_packets =        399
+MyLog: out_packets = 	       399
+MyLog: out_octets = 	   1048452
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      3990
+MyLog: Now using port 	         2
+MyLog: time: 1524059956705818
+MyLog: last_out_packets =        400
+MyLog: out_packets = 	       400
+MyLog: out_octets = 	   1051233
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4000
+MyLog: Now using port 	         2
+MyLog: time: 1524059956715596
+MyLog: last_out_packets =        401
+MyLog: out_packets = 	       401
+MyLog: out_octets = 	   1051991
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4010
+MyLog: Now using port 	         2
+MyLog: time: 1524059956725590
+MyLog: last_out_packets =        402
+MyLog: out_packets = 	       402
+MyLog: out_octets = 	   1052991
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4020
+MyLog: Now using port 	         2
+MyLog: time: 1524059956736081
+MyLog: last_out_packets =        403
+MyLog: out_packets = 	       403
+MyLog: out_octets = 	   1055111
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4030
+MyLog: Now using port 	         2
+MyLog: time: 1524059956745473
+MyLog: last_out_packets =        404
+MyLog: out_packets = 	       404
+MyLog: out_octets = 	   1055452
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4040
+MyLog: Now using port 	         2
+MyLog: time: 1524059956755326
+MyLog: last_out_packets =        405
+MyLog: out_packets = 	       405
+MyLog: out_octets = 	   1056178
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4050
+MyLog: Now using port 	         0
+MyLog: time: 1524059956756656
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        30
+MyLog: rate = 		         0
+MyLog: Now using port 	         2
+MyLog: time: 1524059956765627
+MyLog: last_out_packets =        406
+MyLog: out_packets = 	       406
+MyLog: out_octets = 	   1057873
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4060
+MyLog: Now using port 	         2
+MyLog: time: 1524059956775611
+MyLog: last_out_packets =        407
+MyLog: out_packets = 	       407
+MyLog: out_octets = 	   1058194
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4070
+MyLog: Now using port 	         2
+MyLog: time: 1524059956785443
+MyLog: last_out_packets =        408
+MyLog: out_packets = 	       408
+MyLog: out_octets = 	   1058646
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4080
+MyLog: Now using port 	         2
+MyLog: time: 1524059956795360
+MyLog: last_out_packets =        409
+MyLog: out_packets = 	       409
+MyLog: out_octets = 	   1060477
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4090
+MyLog: Now using port 	         2
+MyLog: time: 1524059956806329
+MyLog: last_out_packets =        410
+MyLog: out_packets = 	       410
+MyLog: out_octets = 	   1065392
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4100
+MyLog: Now using port 	         2
+MyLog: time: 1524059956815400
+MyLog: last_out_packets =        411
+MyLog: out_packets = 	       411
+MyLog: out_octets = 	   1067108
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4110
+MyLog: Now using port 	         2
+MyLog: time: 1524059956825420
+MyLog: last_out_packets =        412
+MyLog: out_packets = 	       412
+MyLog: out_octets = 	   1069325
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4120
+MyLog: Now using port 	         2
+MyLog: time: 1524059956835719
+MyLog: last_out_packets =        413
+MyLog: out_packets = 	       413
+MyLog: out_octets = 	   1072379
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4130
+MyLog: Now using port 	         2
+MyLog: time: 1524059956845559
+MyLog: last_out_packets =        414
+MyLog: out_packets = 	       414
+MyLog: out_octets = 	   1073266
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4140
+MyLog: Now using port 	         2
+MyLog: time: 1524059956855756
+MyLog: last_out_packets =        415
+MyLog: out_packets = 	       415
+MyLog: out_octets = 	   1074474
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4150
+MyLog: Now using port 	         2
+MyLog: time: 1524059956865455
+MyLog: last_out_packets =        416
+MyLog: out_packets = 	       416
+MyLog: out_octets = 	   1076632
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4160
+MyLog: Now using port 	         2
+MyLog: time: 1524059956875498
+MyLog: last_out_packets =        417
+MyLog: out_packets = 	       417
+MyLog: out_octets = 	   1076930
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4170
+MyLog: Now using port 	         2
+MyLog: time: 1524059956885693
+MyLog: last_out_packets =        418
+MyLog: out_packets = 	       418
+MyLog: out_octets = 	   1077565
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4180
+MyLog: Now using port 	         2
+MyLog: time: 1524059956895636
+MyLog: last_out_packets =        419
+MyLog: out_packets = 	       419
+MyLog: out_octets = 	   1079848
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4190
+MyLog: Now using port 	         2
+MyLog: time: 1524059956905774
+MyLog: last_out_packets =        420
+MyLog: out_packets = 	       420
+MyLog: out_octets = 	   1080151
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4200
+MyLog: Now using port 	         2
+MyLog: time: 1524059956915967
+MyLog: last_out_packets =        421
+MyLog: out_packets = 	       421
+MyLog: out_octets = 	   1080754
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4210
+MyLog: Now using port 	         2
+MyLog: time: 1524059956925645
+MyLog: last_out_packets =        422
+MyLog: out_packets = 	       422
+MyLog: out_octets = 	   1083091
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4220
+MyLog: Now using port 	         2
+MyLog: time: 1524059956935592
+MyLog: last_out_packets =        423
+MyLog: out_packets = 	       423
+MyLog: out_octets = 	   1086427
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4230
+MyLog: Now using port 	         2
+MyLog: time: 1524059956946016
+MyLog: last_out_packets =        424
+MyLog: out_packets = 	       424
+MyLog: out_octets = 	   1087346
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4240
+MyLog: Now using port 	         2
+MyLog: time: 1524059956955686
+MyLog: last_out_packets =        425
+MyLog: out_packets = 	       425
+MyLog: out_octets = 	   1088713
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4250
+MyLog: Now using port 	         2
+MyLog: time: 1524059956965661
+MyLog: last_out_packets =        426
+MyLog: out_packets = 	       426
+MyLog: out_octets = 	   1091050
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4260
+MyLog: Now using port 	         2
+MyLog: time: 1524059956975749
+MyLog: last_out_packets =        427
+MyLog: out_packets = 	       427
+MyLog: out_octets = 	   1091447
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4270
+MyLog: Now using port 	         2
+MyLog: time: 1524059956986254
+MyLog: last_out_packets =        428
+MyLog: out_packets = 	       428
+MyLog: out_octets = 	   1092186
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4280
+MyLog: Now using port 	         2
+MyLog: time: 1524059956995475
+MyLog: last_out_packets =        429
+MyLog: out_packets = 	       429
+MyLog: out_octets = 	   1094797
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4290
+MyLog: Now using port 	         2
+MyLog: time: 1524059957005434
+MyLog: last_out_packets =        430
+MyLog: out_packets = 	       430
+MyLog: out_octets = 	   1097072
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4300
+MyLog: Now using port 	         2
+MyLog: time: 1524059957015637
+MyLog: last_out_packets =        431
+MyLog: out_packets = 	       431
+MyLog: out_octets = 	   1097376
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4310
+MyLog: Now using port 	         2
+MyLog: time: 1524059957025465
+MyLog: last_out_packets =        432
+MyLog: out_packets = 	       432
+MyLog: out_octets = 	   1097975
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4320
+MyLog: Now using port 	         2
+MyLog: time: 1524059957035442
+MyLog: last_out_packets =        433
+MyLog: out_packets = 	       433
+MyLog: out_octets = 	   1100390
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4330
+MyLog: Now using port 	         2
+MyLog: time: 1524059957046926
+MyLog: last_out_packets =        434
+MyLog: out_packets = 	       434
+MyLog: out_octets = 	   1107148
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4340
+MyLog: Now using port 	         2
+MyLog: time: 1524059957056631
+MyLog: last_out_packets =        435
+MyLog: out_packets = 	       435
+MyLog: out_octets = 	   1126434
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4350
+MyLog: Now using port 	         2
+MyLog: time: 1524059957065503
+MyLog: last_out_packets =        436
+MyLog: out_packets = 	       436
+MyLog: out_octets = 	   1133960
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4360
+MyLog: Now using port 	         2
+MyLog: time: 1524059957075461
+MyLog: last_out_packets =        437
+MyLog: out_packets = 	       437
+MyLog: out_octets = 	   1137719
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4370
+MyLog: Now using port 	         2
+MyLog: time: 1524059957086091
+MyLog: last_out_packets =        438
+MyLog: out_packets = 	       438
+MyLog: out_octets = 	   1142286
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4380
+MyLog: Now using port 	         2
+MyLog: time: 1524059957095511
+MyLog: last_out_packets =        439
+MyLog: out_packets = 	       439
+MyLog: out_octets = 	   1155647
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4390
+MyLog: Now using port 	         2
+MyLog: time: 1524059957105516
+MyLog: last_out_packets =        440
+MyLog: out_packets = 	       440
+MyLog: out_octets = 	   1161283
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4400
+MyLog: Now using port 	         2
+MyLog: time: 1524059957115478
+MyLog: last_out_packets =        441
+MyLog: out_packets = 	       441
+MyLog: out_octets = 	   1163933
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4410
+MyLog: Now using port 	         2
+MyLog: time: 1524059957125550
+MyLog: last_out_packets =        442
+MyLog: out_packets = 	       442
+MyLog: out_octets = 	   1167822
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4420
+MyLog: Now using port 	         2
+MyLog: time: 1524059957135489
+MyLog: last_out_packets =        443
+MyLog: out_packets = 	       443
+MyLog: out_octets = 	   1171986
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4430
+MyLog: Now using port 	         2
+MyLog: time: 1524059957145469
+MyLog: last_out_packets =        444
+MyLog: out_packets = 	       444
+MyLog: out_octets = 	   1173192
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4440
+MyLog: Now using port 	         2
+MyLog: time: 1524059957156393
+MyLog: last_out_packets =        445
+MyLog: out_packets = 	       445
+MyLog: out_octets = 	   1175272
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4450
+MyLog: Now using port 	         2
+MyLog: time: 1524059957165650
+MyLog: last_out_packets =        446
+MyLog: out_packets = 	       446
+MyLog: out_octets = 	   1177955
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4460
+MyLog: Now using port 	         2
+MyLog: time: 1524059957175452
+MyLog: last_out_packets =        447
+MyLog: out_packets = 	       447
+MyLog: out_octets = 	   1178460
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4470
+MyLog: Now using port 	         2
+MyLog: time: 1524059957185546
+MyLog: last_out_packets =        448
+MyLog: out_packets = 	       448
+MyLog: out_octets = 	   1179249
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4480
+MyLog: Now using port 	         2
+MyLog: time: 1524059957195537
+MyLog: last_out_packets =        449
+MyLog: out_packets = 	       449
+MyLog: out_octets = 	   1182596
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4490
+MyLog: Now using port 	         2
+MyLog: time: 1524059957205484
+MyLog: last_out_packets =        450
+MyLog: out_packets = 	       450
+MyLog: out_octets = 	   1184717
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4500
+MyLog: Now using port 	         2
+MyLog: time: 1524059957215642
+MyLog: last_out_packets =        451
+MyLog: out_packets = 	       451
+MyLog: out_octets = 	   1185062
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4510
+MyLog: Now using port 	         2
+MyLog: time: 1524059957225761
+MyLog: last_out_packets =        452
+MyLog: out_packets = 	       452
+MyLog: out_octets = 	   1185640
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4520
+MyLog: Now using port 	         2
+MyLog: time: 1524059957235833
+MyLog: last_out_packets =        453
+MyLog: out_packets = 	       453
+MyLog: out_octets = 	   1188662
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4530
+MyLog: Now using port 	         2
+MyLog: time: 1524059957245722
+MyLog: last_out_packets =        454
+MyLog: out_packets = 	       454
+MyLog: out_octets = 	   1189302
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4540
+MyLog: Now using port 	         2
+MyLog: time: 1524059957255600
+MyLog: last_out_packets =        455
+MyLog: out_packets = 	       455
+MyLog: out_octets = 	   1190291
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4550
+MyLog: Now using port 	         2
+MyLog: time: 1524059957266385
+MyLog: last_out_packets =        456
+MyLog: out_packets = 	       456
+MyLog: out_octets = 	   1192310
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4560
+MyLog: Now using port 	         2
+MyLog: time: 1524059957275804
+MyLog: last_out_packets =        457
+MyLog: out_packets = 	       457
+MyLog: out_octets = 	   1192611
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4570
+MyLog: Now using port 	         2
+MyLog: time: 1524059957285664
+MyLog: last_out_packets =        458
+MyLog: out_packets = 	       458
+MyLog: out_octets = 	   1193139
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4580
+MyLog: Now using port 	         2
+MyLog: time: 1524059957295605
+MyLog: last_out_packets =        459
+MyLog: out_packets = 	       459
+MyLog: out_octets = 	   1195469
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4590
+MyLog: Now using port 	         2
+MyLog: time: 1524059957305555
+MyLog: last_out_packets =        460
+MyLog: out_packets = 	       460
+MyLog: out_octets = 	   1197472
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4600
+MyLog: Now using port 	         2
+MyLog: time: 1524059957315396
+MyLog: last_out_packets =        461
+MyLog: out_packets = 	       461
+MyLog: out_octets = 	   1197787
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4610
+MyLog: Now using port 	         2
+MyLog: time: 1524059957325347
+MyLog: last_out_packets =        462
+MyLog: out_packets = 	       462
+MyLog: out_octets = 	   1198311
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4620
+MyLog: Now using port 	         2
+MyLog: time: 1524059957336415
+MyLog: last_out_packets =        463
+MyLog: out_packets = 	       463
+MyLog: out_octets = 	   1203801
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4630
+MyLog: Now using port 	         2
+MyLog: time: 1524059957345402
+MyLog: last_out_packets =        464
+MyLog: out_packets = 	       464
+MyLog: out_octets = 	   1205715
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4640
+MyLog: Now using port 	         2
+MyLog: time: 1524059957355397
+MyLog: last_out_packets =        465
+MyLog: out_packets = 	       465
+MyLog: out_octets = 	   1208069
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4650
+MyLog: Now using port 	         2
+MyLog: time: 1524059957365716
+MyLog: last_out_packets =        466
+MyLog: out_packets = 	       466
+MyLog: out_octets = 	   1211648
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4660
+MyLog: Now using port 	         2
+MyLog: time: 1524059957375463
+MyLog: last_out_packets =        467
+MyLog: out_packets = 	       467
+MyLog: out_octets = 	   1212439
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4670
+MyLog: Now using port 	         2
+MyLog: time: 1524059957385363
+MyLog: last_out_packets =        468
+MyLog: out_packets = 	       468
+MyLog: out_octets = 	   1213542
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4680
+MyLog: Now using port 	         2
+MyLog: time: 1524059957395593
+MyLog: last_out_packets =        469
+MyLog: out_packets = 	       469
+MyLog: out_octets = 	   1217608
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4690
+MyLog: Now using port 	         2
+MyLog: time: 1524059957405418
+MyLog: last_out_packets =        470
+MyLog: out_packets = 	       470
+MyLog: out_octets = 	   1219868
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4700
+MyLog: Now using port 	         2
+MyLog: time: 1524059957415366
+MyLog: last_out_packets =        471
+MyLog: out_packets = 	       471
+MyLog: out_octets = 	   1220132
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4710
+MyLog: Now using port 	         2
+MyLog: time: 1524059957436634
+MyLog: last_out_packets =        472
+MyLog: out_packets = 	       472
+MyLog: out_octets = 	   1220696
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4720
+MyLog: Now using port 	         2
+MyLog: time: 1524059957455476
+MyLog: last_out_packets =        473
+MyLog: out_packets = 	       473
+MyLog: out_octets = 	   1223104
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4730
+MyLog: Now using port 	         2
+MyLog: time: 1524059957476594
+MyLog: last_out_packets =        474
+MyLog: out_packets = 	       474
+MyLog: out_octets = 	   1223450
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4740
+MyLog: Now using port 	         2
+MyLog: time: 1524059957495603
+MyLog: last_out_packets =        475
+MyLog: out_packets = 	       475
+MyLog: out_octets = 	   1223934
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4750
+MyLog: Now using port 	         2
+MyLog: time: 1524059957515630
+MyLog: last_out_packets =        476
+MyLog: out_packets = 	       476
+MyLog: out_octets = 	   1227330
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4760
+MyLog: Now using port 	         2
+MyLog: time: 1524059957535669
+MyLog: last_out_packets =        477
+MyLog: out_packets = 	       477
+MyLog: out_octets = 	   1228251
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4770
+MyLog: Now using port 	         2
+MyLog: time: 1524059957555534
+MyLog: last_out_packets =        478
+MyLog: out_packets = 	       478
+MyLog: out_octets = 	   1229445
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4780
+MyLog: Now using port 	         2
+MyLog: time: 1524059957575569
+MyLog: last_out_packets =        479
+MyLog: out_packets = 	       479
+MyLog: out_octets = 	   1233176
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4790
+MyLog: Now using port 	         2
+MyLog: time: 1524059957595416
+MyLog: last_out_packets =        480
+MyLog: out_packets = 	       480
+MyLog: out_octets = 	   1235694
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4800
+MyLog: Now using port 	         2
+MyLog: time: 1524059957616253
+MyLog: last_out_packets =        481
+MyLog: out_packets = 	       481
+MyLog: out_octets = 	   1236061
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4810
+MyLog: Now using port 	         2
+MyLog: time: 1524059957635449
+MyLog: last_out_packets =        482
+MyLog: out_packets = 	       482
+MyLog: out_octets = 	   1236619
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4820
+MyLog: Now using port 	         2
+MyLog: time: 1524059957655451
+MyLog: last_out_packets =        483
+MyLog: out_packets = 	       483
+MyLog: out_octets = 	   1238612
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4830
+MyLog: Now using port 	         2
+MyLog: time: 1524059957675647
+MyLog: last_out_packets =        484
+MyLog: out_packets = 	       484
+MyLog: out_octets = 	   1238935
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4840
+MyLog: Now using port 	         2
+MyLog: time: 1524059957695418
+MyLog: last_out_packets =        485
+MyLog: out_packets = 	       485
+MyLog: out_octets = 	   1239427
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4850
+MyLog: Now using port 	         2
+MyLog: time: 1524059957716424
+MyLog: last_out_packets =        486
+MyLog: out_packets = 	       486
+MyLog: out_octets = 	   1241582
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4860
+MyLog: Now using port 	         2
+MyLog: time: 1524059957735482
+MyLog: last_out_packets =        487
+MyLog: out_packets = 	       487
+MyLog: out_octets = 	   1246511
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4870
+MyLog: Now using port 	         2
+MyLog: time: 1524059957755612
+MyLog: last_out_packets =        488
+MyLog: out_packets = 	       488
+MyLog: out_octets = 	   1261507
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4880
+MyLog: Now using port 	         2
+MyLog: time: 1524059957775737
+MyLog: last_out_packets =        489
+MyLog: out_packets = 	       489
+MyLog: out_octets = 	   1296420
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4890
+MyLog: Now using port 	         2
+MyLog: time: 1524059957795772
+MyLog: last_out_packets =        490
+MyLog: out_packets = 	       490
+MyLog: out_octets = 	   1304822
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4900
+MyLog: Now using port 	         2
+MyLog: time: 1524059957815997
+MyLog: last_out_packets =        491
+MyLog: out_packets = 	       491
+MyLog: out_octets = 	   1308054
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4910
+MyLog: Now using port 	         2
+MyLog: time: 1524059957835689
+MyLog: last_out_packets =        492
+MyLog: out_packets = 	       492
+MyLog: out_octets = 	   1311827
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4920
+MyLog: Now using port 	         2
+MyLog: time: 1524059957855432
+MyLog: last_out_packets =        493
+MyLog: out_packets = 	       493
+MyLog: out_octets = 	   1319402
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4930
+MyLog: Now using port 	         2
+MyLog: time: 1524059957875509
+MyLog: last_out_packets =        494
+MyLog: out_packets = 	       494
+MyLog: out_octets = 	   1324532
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4940
+MyLog: Now using port 	         2
+MyLog: time: 1524059957896464
+MyLog: last_out_packets =        495
+MyLog: out_packets = 	       495
+MyLog: out_octets = 	   1333076
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4950
+MyLog: Now using port 	         2
+MyLog: time: 1524059957915562
+MyLog: last_out_packets =        496
+MyLog: out_packets = 	       496
+MyLog: out_octets = 	   1336557
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4960
+MyLog: Now using port 	         2
+MyLog: time: 1524059957935757
+MyLog: last_out_packets =        497
+MyLog: out_packets = 	       497
+MyLog: out_octets = 	   1337895
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4970
+MyLog: Now using port 	         2
+MyLog: time: 1524059957955515
+MyLog: last_out_packets =        498
+MyLog: out_packets = 	       498
+MyLog: out_octets = 	   1339485
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4980
+MyLog: Now using port 	         2
+MyLog: time: 1524059957975572
+MyLog: last_out_packets =        499
+MyLog: out_packets = 	       499
+MyLog: out_octets = 	   1344613
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      4990
+MyLog: Now using port 	         2
+MyLog: time: 1524059957995672
+MyLog: last_out_packets =        500
+MyLog: out_packets = 	       500
+MyLog: out_octets = 	   1346750
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5000
+MyLog: Now using port 	         2
+MyLog: time: 1524059958015802
+MyLog: last_out_packets =        501
+MyLog: out_packets = 	       501
+MyLog: out_octets = 	   1347162
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5010
+MyLog: Now using port 	         2
+MyLog: time: 1524059958035602
+MyLog: last_out_packets =        502
+MyLog: out_packets = 	       502
+MyLog: out_octets = 	   1347936
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5020
+MyLog: Now using port 	         2
+MyLog: time: 1524059958055432
+MyLog: last_out_packets =        503
+MyLog: out_packets = 	       503
+MyLog: out_octets = 	   1349728
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5030
+MyLog: Now using port 	         2
+MyLog: time: 1524059958076291
+MyLog: last_out_packets =        504
+MyLog: out_packets = 	       504
+MyLog: out_octets = 	   1350022
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5040
+MyLog: Now using port 	         2
+MyLog: time: 1524059958095389
+MyLog: last_out_packets =        505
+MyLog: out_packets = 	       505
+MyLog: out_octets = 	   1350453
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5050
+MyLog: Now using port 	         2
+MyLog: time: 1524059958115521
+MyLog: last_out_packets =        506
+MyLog: out_packets = 	       506
+MyLog: out_octets = 	   1354374
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5060
+MyLog: Now using port 	         2
+MyLog: time: 1524059958135640
+MyLog: last_out_packets =        507
+MyLog: out_packets = 	       507
+MyLog: out_octets = 	   1355187
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5070
+MyLog: Now using port 	         2
+MyLog: time: 1524059958155440
+MyLog: last_out_packets =        508
+MyLog: out_packets = 	       508
+MyLog: out_octets = 	   1357026
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5080
+MyLog: Now using port 	         2
+MyLog: time: 1524059958176634
+MyLog: last_out_packets =        509
+MyLog: out_packets = 	       509
+MyLog: out_octets = 	   1357336
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5090
+MyLog: Now using port 	         2
+MyLog: time: 1524059958195720
+MyLog: last_out_packets =        510
+MyLog: out_packets = 	       510
+MyLog: out_octets = 	   1359390
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5100
+MyLog: Now using port 	         2
+MyLog: time: 1524059958216819
+MyLog: last_out_packets =        511
+MyLog: out_packets = 	       511
+MyLog: out_octets = 	   1364286
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5110
+MyLog: Now using port 	         2
+MyLog: time: 1524059958235799
+MyLog: last_out_packets =        512
+MyLog: out_packets = 	       512
+MyLog: out_octets = 	   1365635
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5120
+MyLog: Now using port 	         2
+MyLog: time: 1524059958255867
+MyLog: last_out_packets =        513
+MyLog: out_packets = 	       513
+MyLog: out_octets = 	   1368963
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5130
+MyLog: Now using port 	         2
+MyLog: time: 1524059958275589
+MyLog: last_out_packets =        514
+MyLog: out_packets = 	       514
+MyLog: out_octets = 	   1369681
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5140
+MyLog: Now using port 	         2
+MyLog: time: 1524059958295527
+MyLog: last_out_packets =        515
+MyLog: out_packets = 	       515
+MyLog: out_octets = 	   1371784
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5150
+MyLog: Now using port 	         2
+MyLog: time: 1524059958315848
+MyLog: last_out_packets =        516
+MyLog: out_packets = 	       516
+MyLog: out_octets = 	   1373416
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5160
+MyLog: Now using port 	         2
+MyLog: time: 1524059958335463
+MyLog: last_out_packets =        517
+MyLog: out_packets = 	       517
+MyLog: out_octets = 	   1375467
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5170
+MyLog: Now using port 	         2
+MyLog: time: 1524059958356355
+MyLog: last_out_packets =        518
+MyLog: out_packets = 	       518
+MyLog: out_octets = 	   1378841
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5180
+MyLog: Now using port 	         2
+MyLog: time: 1524059958376719
+MyLog: last_out_packets =        519
+MyLog: out_packets = 	       519
+MyLog: out_octets = 	   1379417
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5190
+MyLog: Now using port 	         2
+MyLog: time: 1524059958395697
+MyLog: last_out_packets =        520
+MyLog: out_packets = 	       520
+MyLog: out_octets = 	   1381509
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5200
+MyLog: Now using port 	         2
+MyLog: time: 1524059958415498
+MyLog: last_out_packets =        521
+MyLog: out_packets = 	       521
+MyLog: out_octets = 	   1381776
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5210
+MyLog: Now using port 	         2
+MyLog: time: 1524059958435521
+MyLog: last_out_packets =        522
+MyLog: out_packets = 	       522
+MyLog: out_octets = 	   1383807
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5220
+MyLog: Now using port 	         2
+MyLog: time: 1524059958455675
+MyLog: last_out_packets =        523
+MyLog: out_packets = 	       523
+MyLog: out_octets = 	   1384808
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5230
+MyLog: Now using port 	         2
+MyLog: time: 1524059958476392
+MyLog: last_out_packets =        524
+MyLog: out_packets = 	       524
+MyLog: out_octets = 	   1387147
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5240
+MyLog: Now using port 	         2
+MyLog: time: 1524059958496383
+MyLog: last_out_packets =        525
+MyLog: out_packets = 	       525
+MyLog: out_octets = 	   1392744
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5250
+MyLog: Now using port 	         2
+MyLog: time: 1524059958515613
+MyLog: last_out_packets =        526
+MyLog: out_packets = 	       526
+MyLog: out_octets = 	   1395316
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5260
+MyLog: Now using port 	         2
+MyLog: time: 1524059958535465
+MyLog: last_out_packets =        527
+MyLog: out_packets = 	       527
+MyLog: out_octets = 	   1400489
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5270
+MyLog: Now using port 	         2
+MyLog: time: 1524059958555415
+MyLog: last_out_packets =        528
+MyLog: out_packets = 	       528
+MyLog: out_octets = 	   1403946
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5280
+MyLog: Now using port 	         2
+MyLog: time: 1524059958575672
+MyLog: last_out_packets =        529
+MyLog: out_packets = 	       529
+MyLog: out_octets = 	   1404895
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5290
+MyLog: Now using port 	         2
+MyLog: time: 1524059958596378
+MyLog: last_out_packets =        530
+MyLog: out_packets = 	       530
+MyLog: out_octets = 	   1407185
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5300
+MyLog: Now using port 	         2
+MyLog: time: 1524059958616539
+MyLog: last_out_packets =        531
+MyLog: out_packets = 	       531
+MyLog: out_octets = 	   1409868
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5310
+MyLog: Now using port 	         2
+MyLog: time: 1524059958635568
+MyLog: last_out_packets =        532
+MyLog: out_packets = 	       532
+MyLog: out_octets = 	   1411596
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5320
+MyLog: Now using port 	         2
+MyLog: time: 1524059958655477
+MyLog: last_out_packets =        533
+MyLog: out_packets = 	       533
+MyLog: out_octets = 	   1414005
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5330
+MyLog: Now using port 	         2
+MyLog: time: 1524059958675818
+MyLog: last_out_packets =        534
+MyLog: out_packets = 	       534
+MyLog: out_octets = 	   1414414
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5340
+MyLog: Now using port 	         2
+MyLog: time: 1524059958696022
+MyLog: last_out_packets =        535
+MyLog: out_packets = 	       535
+MyLog: out_octets = 	   1415842
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5350
+MyLog: Now using port 	         2
+MyLog: time: 1524059958715500
+MyLog: last_out_packets =        536
+MyLog: out_packets = 	       536
+MyLog: out_octets = 	   1416069
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5360
+MyLog: Now using port 	         2
+MyLog: time: 1524059958735604
+MyLog: last_out_packets =        537
+MyLog: out_packets = 	       537
+MyLog: out_octets = 	   1417614
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5370
+MyLog: Now using port 	         2
+MyLog: time: 1524059958755488
+MyLog: last_out_packets =        538
+MyLog: out_packets = 	       538
+MyLog: out_octets = 	   1421038
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5380
+MyLog: Now using port 	         2
+MyLog: time: 1524059958775482
+MyLog: last_out_packets =        539
+MyLog: out_packets = 	       539
+MyLog: out_octets = 	   1421618
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5390
+MyLog: Now using port 	         2
+MyLog: time: 1524059958795630
+MyLog: last_out_packets =        540
+MyLog: out_packets = 	       540
+MyLog: out_octets = 	   1423925
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5400
+MyLog: Now using port 	         2
+MyLog: time: 1524059958815580
+MyLog: last_out_packets =        541
+MyLog: out_packets = 	       541
+MyLog: out_octets = 	   1424432
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5410
+MyLog: Now using port 	         2
+MyLog: time: 1524059958836571
+MyLog: last_out_packets =        542
+MyLog: out_packets = 	       542
+MyLog: out_octets = 	   1425834
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5420
+MyLog: Now using port 	         2
+MyLog: time: 1524059958855656
+MyLog: last_out_packets =        543
+MyLog: out_packets = 	       543
+MyLog: out_octets = 	   1427165
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5430
+MyLog: Now using port 	         2
+MyLog: time: 1524059958875856
+MyLog: last_out_packets =        544
+MyLog: out_packets = 	       544
+MyLog: out_octets = 	   1427400
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5440
+MyLog: Now using port 	         2
+MyLog: time: 1524059958895671
+MyLog: last_out_packets =        545
+MyLog: out_packets = 	       545
+MyLog: out_octets = 	   1429041
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5450
+MyLog: Now using port 	         2
+MyLog: time: 1524059958915560
+MyLog: last_out_packets =        546
+MyLog: out_packets = 	       546
+MyLog: out_octets = 	   1429437
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5460
+MyLog: Now using port 	         2
+MyLog: time: 1524059958935394
+MyLog: last_out_packets =        547
+MyLog: out_packets = 	       547
+MyLog: out_octets = 	   1430484
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5470
+MyLog: Now using port 	         2
+MyLog: time: 1524059958955371
+MyLog: last_out_packets =        548
+MyLog: out_packets = 	       548
+MyLog: out_octets = 	   1431445
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5480
+MyLog: Now using port 	         2
+MyLog: time: 1524059958976505
+MyLog: last_out_packets =        549
+MyLog: out_packets = 	       549
+MyLog: out_octets = 	   1431692
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5490
+MyLog: Now using port 	         2
+MyLog: time: 1524059958995389
+MyLog: last_out_packets =        550
+MyLog: out_packets = 	       550
+MyLog: out_octets = 	   1432912
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5500
+MyLog: Now using port 	         2
+MyLog: time: 1524059959015619
+MyLog: last_out_packets =        551
+MyLog: out_packets = 	       551
+MyLog: out_octets = 	   1436413
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5510
+MyLog: Now using port 	         2
+MyLog: time: 1524059959035563
+MyLog: last_out_packets =        552
+MyLog: out_packets = 	       552
+MyLog: out_octets = 	   1445632
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5520
+MyLog: Now using port 	         2
+MyLog: time: 1524059959055671
+MyLog: last_out_packets =        553
+MyLog: out_packets = 	       553
+MyLog: out_octets = 	   1449739
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5530
+MyLog: Now using port 	         2
+MyLog: time: 1524059959075640
+MyLog: last_out_packets =        554
+MyLog: out_packets = 	       554
+MyLog: out_octets = 	   1450190
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5540
+MyLog: Now using port 	         2
+MyLog: time: 1524059959095625
+MyLog: last_out_packets =        555
+MyLog: out_packets = 	       555
+MyLog: out_octets = 	   1452367
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5550
+MyLog: Now using port 	         2
+MyLog: time: 1524059959115710
+MyLog: last_out_packets =        556
+MyLog: out_packets = 	       556
+MyLog: out_octets = 	   1452855
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5560
+MyLog: Now using port 	         2
+MyLog: time: 1524059959135567
+MyLog: last_out_packets =        557
+MyLog: out_packets = 	       557
+MyLog: out_octets = 	   1454117
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5570
+MyLog: Now using port 	         2
+MyLog: time: 1524059959155581
+MyLog: last_out_packets =        558
+MyLog: out_packets = 	       558
+MyLog: out_octets = 	   1455670
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5580
+MyLog: Now using port 	         2
+MyLog: time: 1524059959175471
+MyLog: last_out_packets =        559
+MyLog: out_packets = 	       559
+MyLog: out_octets = 	   1455989
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5590
+MyLog: Now using port 	         2
+MyLog: time: 1524059959195454
+MyLog: last_out_packets =        560
+MyLog: out_packets = 	       560
+MyLog: out_octets = 	   1458365
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5600
+MyLog: Now using port 	         2
+MyLog: time: 1524059959215635
+MyLog: last_out_packets =        561
+MyLog: out_packets = 	       561
+MyLog: out_octets = 	   1458722
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5610
+MyLog: Now using port 	         2
+MyLog: time: 1524059959236400
+MyLog: last_out_packets =        562
+MyLog: out_packets = 	       562
+MyLog: out_octets = 	   1460336
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5620
+MyLog: Now using port 	         2
+MyLog: time: 1524059959256339
+MyLog: last_out_packets =        563
+MyLog: out_packets = 	       563
+MyLog: out_octets = 	   1461815
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5630
+MyLog: Now using port 	         2
+MyLog: time: 1524059959275699
+MyLog: last_out_packets =        564
+MyLog: out_packets = 	       564
+MyLog: out_octets = 	   1462126
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5640
+MyLog: Now using port 	         2
+MyLog: time: 1524059959295991
+MyLog: last_out_packets =        565
+MyLog: out_packets = 	       565
+MyLog: out_octets = 	   1466424
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5650
+MyLog: Now using port 	         2
+MyLog: time: 1524059959315599
+MyLog: last_out_packets =        566
+MyLog: out_packets = 	       566
+MyLog: out_octets = 	   1466847
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5660
+MyLog: Now using port 	         2
+MyLog: time: 1524059959335764
+MyLog: last_out_packets =        567
+MyLog: out_packets = 	       567
+MyLog: out_octets = 	   1469343
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5670
+MyLog: Now using port 	         2
+MyLog: time: 1524059959355429
+MyLog: last_out_packets =        568
+MyLog: out_packets = 	       568
+MyLog: out_octets = 	   1470914
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5680
+MyLog: Now using port 	         2
+MyLog: time: 1524059959375471
+MyLog: last_out_packets =        569
+MyLog: out_packets = 	       569
+MyLog: out_octets = 	   1471208
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5690
+MyLog: Now using port 	         2
+MyLog: time: 1524059959396334
+MyLog: last_out_packets =        570
+MyLog: out_packets = 	       570
+MyLog: out_octets = 	   1472791
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5700
+MyLog: Now using port 	         2
+MyLog: time: 1524059959415465
+MyLog: last_out_packets =        571
+MyLog: out_packets = 	       571
+MyLog: out_octets = 	   1473113
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5710
+MyLog: Now using port 	         2
+MyLog: time: 1524059959435563
+MyLog: last_out_packets =        572
+MyLog: out_packets = 	       572
+MyLog: out_octets = 	   1475556
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5720
+MyLog: Now using port 	         2
+MyLog: time: 1524059959455542
+MyLog: last_out_packets =        573
+MyLog: out_packets = 	       573
+MyLog: out_octets = 	   1477424
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5730
+MyLog: Now using port 	         2
+MyLog: time: 1524059959476784
+MyLog: last_out_packets =        574
+MyLog: out_packets = 	       574
+MyLog: out_octets = 	   1477641
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5740
+MyLog: Now using port 	         2
+MyLog: time: 1524059959495791
+MyLog: last_out_packets =        575
+MyLog: out_packets = 	       575
+MyLog: out_octets = 	   1479181
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5750
+MyLog: Now using port 	         2
+MyLog: time: 1524059959516123
+MyLog: last_out_packets =        576
+MyLog: out_packets = 	       576
+MyLog: out_octets = 	   1479543
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5760
+MyLog: Now using port 	         2
+MyLog: time: 1524059959535864
+MyLog: last_out_packets =        577
+MyLog: out_packets = 	       577
+MyLog: out_octets = 	   1481787
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5770
+MyLog: Now using port 	         2
+MyLog: time: 1524059959555621
+MyLog: last_out_packets =        578
+MyLog: out_packets = 	       578
+MyLog: out_octets = 	   1492325
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5780
+MyLog: Now using port 	         2
+MyLog: time: 1524059959575485
+MyLog: last_out_packets =        579
+MyLog: out_packets = 	       579
+MyLog: out_octets = 	   1495248
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5790
+MyLog: Now using port 	         2
+MyLog: time: 1524059959595455
+MyLog: last_out_packets =        580
+MyLog: out_packets = 	       580
+MyLog: out_octets = 	   1500816
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5800
+MyLog: Now using port 	         2
+MyLog: time: 1524059959616603
+MyLog: last_out_packets =        581
+MyLog: out_packets = 	       581
+MyLog: out_octets = 	   1502033
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5810
+MyLog: Now using port 	         2
+MyLog: time: 1524059959635546
+MyLog: last_out_packets =        582
+MyLog: out_packets = 	       582
+MyLog: out_octets = 	   1505105
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5820
+MyLog: Now using port 	         2
+MyLog: time: 1524059959655580
+MyLog: last_out_packets =        583
+MyLog: out_packets = 	       583
+MyLog: out_octets = 	   1507024
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5830
+MyLog: Now using port 	         2
+MyLog: time: 1524059959675693
+MyLog: last_out_packets =        584
+MyLog: out_packets = 	       584
+MyLog: out_octets = 	   1507473
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5840
+MyLog: Now using port 	         2
+MyLog: time: 1524059959696747
+MyLog: last_out_packets =        585
+MyLog: out_packets = 	       585
+MyLog: out_octets = 	   1509574
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5850
+MyLog: Now using port 	         2
+MyLog: time: 1524059959715732
+MyLog: last_out_packets =        586
+MyLog: out_packets = 	       586
+MyLog: out_octets = 	   1509882
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5860
+MyLog: Now using port 	         2
+MyLog: time: 1524059959735963
+MyLog: last_out_packets =        587
+MyLog: out_packets = 	       587
+MyLog: out_octets = 	   1513674
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5870
+MyLog: Now using port 	         2
+MyLog: time: 1524059959755651
+MyLog: last_out_packets =        588
+MyLog: out_packets = 	       588
+MyLog: out_octets = 	   1516190
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5880
+MyLog: Now using port 	         2
+MyLog: time: 1524059959775478
+MyLog: last_out_packets =        589
+MyLog: out_packets = 	       589
+MyLog: out_octets = 	   1516526
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5890
+MyLog: Now using port 	         2
+MyLog: time: 1524059959795497
+MyLog: last_out_packets =        590
+MyLog: out_packets = 	       590
+MyLog: out_octets = 	   1519107
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5900
+MyLog: Now using port 	         2
+MyLog: time: 1524059959815457
+MyLog: last_out_packets =        591
+MyLog: out_packets = 	       591
+MyLog: out_octets = 	   1519461
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5910
+MyLog: Now using port 	         2
+MyLog: time: 1524059959835828
+MyLog: last_out_packets =        592
+MyLog: out_packets = 	       592
+MyLog: out_octets = 	   1526984
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5920
+MyLog: Now using port 	         2
+MyLog: time: 1524059959855448
+MyLog: last_out_packets =        593
+MyLog: out_packets = 	       593
+MyLog: out_octets = 	   1531673
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5930
+MyLog: Now using port 	         2
+MyLog: time: 1524059959876330
+MyLog: last_out_packets =        594
+MyLog: out_packets = 	       594
+MyLog: out_octets = 	   1532374
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5940
+MyLog: Now using port 	         2
+MyLog: time: 1524059959895690
+MyLog: last_out_packets =        595
+MyLog: out_packets = 	       595
+MyLog: out_octets = 	   1535132
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5950
+MyLog: Now using port 	         2
+MyLog: time: 1524059959916302
+MyLog: last_out_packets =        596
+MyLog: out_packets = 	       596
+MyLog: out_octets = 	   1535498
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5960
+MyLog: Now using port 	         2
+MyLog: time: 1524059959935668
+MyLog: last_out_packets =        597
+MyLog: out_packets = 	       597
+MyLog: out_octets = 	   1538762
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5970
+MyLog: Now using port 	         2
+MyLog: time: 1524059959955755
+MyLog: last_out_packets =        598
+MyLog: out_packets = 	       598
+MyLog: out_octets = 	   1543796
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5980
+MyLog: Now using port 	         2
+MyLog: time: 1524059959975537
+MyLog: last_out_packets =        599
+MyLog: out_packets = 	       599
+MyLog: out_octets = 	   1544879
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      5990
+MyLog: Now using port 	         2
+MyLog: time: 1524059959995379
+MyLog: last_out_packets =        600
+MyLog: out_packets = 	       600
+MyLog: out_octets = 	   1548105
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6000
+MyLog: Now using port 	         2
+MyLog: time: 1524059960015470
+MyLog: last_out_packets =        601
+MyLog: out_packets = 	       601
+MyLog: out_octets = 	   1548494
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6010
+MyLog: Now using port 	         2
+MyLog: time: 1524059960035451
+MyLog: last_out_packets =        602
+MyLog: out_packets = 	       602
+MyLog: out_octets = 	   1551841
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6020
+MyLog: Now using port 	         2
+MyLog: time: 1524059960055860
+MyLog: last_out_packets =        603
+MyLog: out_packets = 	       603
+MyLog: out_octets = 	   1554250
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6030
+MyLog: Now using port 	         2
+MyLog: time: 1524059960076179
+MyLog: last_out_packets =        604
+MyLog: out_packets = 	       604
+MyLog: out_octets = 	   1560082
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6040
+MyLog: Now using port 	         2
+MyLog: time: 1524059960095435
+MyLog: last_out_packets =        605
+MyLog: out_packets = 	       605
+MyLog: out_octets = 	   1566067
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6050
+MyLog: Now using port 	         2
+MyLog: time: 1524059960115650
+MyLog: last_out_packets =        606
+MyLog: out_packets = 	       606
+MyLog: out_octets = 	   1568540
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6060
+MyLog: Now using port 	         2
+MyLog: time: 1524059960135758
+MyLog: last_out_packets =        607
+MyLog: out_packets = 	       607
+MyLog: out_octets = 	   1575292
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6070
+MyLog: Now using port 	         2
+MyLog: time: 1524059960155857
+MyLog: last_out_packets =        608
+MyLog: out_packets = 	       608
+MyLog: out_octets = 	   1579603
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6080
+MyLog: Now using port 	         2
+MyLog: time: 1524059960175912
+MyLog: last_out_packets =        609
+MyLog: out_packets = 	       609
+MyLog: out_octets = 	   1580849
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6090
+MyLog: Now using port 	         2
+MyLog: time: 1524059960195483
+MyLog: last_out_packets =        610
+MyLog: out_packets = 	       610
+MyLog: out_octets = 	   1583930
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6100
+MyLog: Now using port 	         2
+MyLog: time: 1524059960215485
+MyLog: last_out_packets =        611
+MyLog: out_packets = 	       611
+MyLog: out_octets = 	   1584482
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6110
+MyLog: Now using port 	         2
+MyLog: time: 1524059960235589
+MyLog: last_out_packets =        612
+MyLog: out_packets = 	       612
+MyLog: out_octets = 	   1587049
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6120
+MyLog: Now using port 	         2
+MyLog: time: 1524059960255381
+MyLog: last_out_packets =        613
+MyLog: out_packets = 	       613
+MyLog: out_octets = 	   1590674
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6130
+MyLog: Now using port 	         2
+MyLog: time: 1524059960275636
+MyLog: last_out_packets =        614
+MyLog: out_packets = 	       614
+MyLog: out_octets = 	   1591392
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6140
+MyLog: Now using port 	         2
+MyLog: time: 1524059960295611
+MyLog: last_out_packets =        615
+MyLog: out_packets = 	       615
+MyLog: out_octets = 	   1593820
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6150
+MyLog: Now using port 	         2
+MyLog: time: 1524059960316449
+MyLog: last_out_packets =        616
+MyLog: out_packets = 	       616
+MyLog: out_octets = 	   1594162
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6160
+MyLog: Now using port 	         2
+MyLog: time: 1524059960336048
+MyLog: last_out_packets =        617
+MyLog: out_packets = 	       617
+MyLog: out_octets = 	   1596578
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6170
+MyLog: Now using port 	         2
+MyLog: time: 1524059960355813
+MyLog: last_out_packets =        618
+MyLog: out_packets = 	       618
+MyLog: out_octets = 	   1601028
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6180
+MyLog: Now using port 	         2
+MyLog: time: 1524059960375633
+MyLog: last_out_packets =        619
+MyLog: out_packets = 	       619
+MyLog: out_octets = 	   1602362
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6190
+MyLog: Now using port 	         2
+MyLog: time: 1524059960395589
+MyLog: last_out_packets =        620
+MyLog: out_packets = 	       620
+MyLog: out_octets = 	   1605485
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6200
+MyLog: Now using port 	         2
+MyLog: time: 1524059960415605
+MyLog: last_out_packets =        621
+MyLog: out_packets = 	       621
+MyLog: out_octets = 	   1606128
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6210
+MyLog: Now using port 	         2
+MyLog: time: 1524059960435508
+MyLog: last_out_packets =        622
+MyLog: out_packets = 	       622
+MyLog: out_octets = 	   1608231
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6220
+MyLog: Now using port 	         2
+MyLog: time: 1524059960455821
+MyLog: last_out_packets =        623
+MyLog: out_packets = 	       623
+MyLog: out_octets = 	   1610376
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6230
+MyLog: Now using port 	         2
+MyLog: time: 1524059960475520
+MyLog: last_out_packets =        624
+MyLog: out_packets = 	       624
+MyLog: out_octets = 	   1610714
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6240
+MyLog: Now using port 	         2
+MyLog: time: 1524059960495482
+MyLog: last_out_packets =        625
+MyLog: out_packets = 	       625
+MyLog: out_octets = 	   1613650
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6250
+MyLog: Now using port 	         2
+MyLog: time: 1524059960515505
+MyLog: last_out_packets =        626
+MyLog: out_packets = 	       626
+MyLog: out_octets = 	   1614411
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6260
+MyLog: Now using port 	         2
+MyLog: time: 1524059960535497
+MyLog: last_out_packets =        627
+MyLog: out_packets = 	       627
+MyLog: out_octets = 	   1616600
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6270
+MyLog: Now using port 	         2
+MyLog: time: 1524059960556021
+MyLog: last_out_packets =        628
+MyLog: out_packets = 	       628
+MyLog: out_octets = 	   1618549
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6280
+MyLog: Now using port 	         2
+MyLog: time: 1524059960575742
+MyLog: last_out_packets =        629
+MyLog: out_packets = 	       629
+MyLog: out_octets = 	   1618869
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6290
+MyLog: Now using port 	         2
+MyLog: time: 1524059960595690
+MyLog: last_out_packets =        630
+MyLog: out_packets = 	       630
+MyLog: out_octets = 	   1621257
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6300
+MyLog: Now using port 	         2
+MyLog: time: 1524059960615924
+MyLog: last_out_packets =        631
+MyLog: out_packets = 	       631
+MyLog: out_octets = 	   1626967
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6310
+MyLog: Now using port 	         2
+MyLog: time: 1524059960636583
+MyLog: last_out_packets =        632
+MyLog: out_packets = 	       632
+MyLog: out_octets = 	   1634434
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6320
+MyLog: Now using port 	         2
+MyLog: time: 1524059960655521
+MyLog: last_out_packets =        633
+MyLog: out_packets = 	       633
+MyLog: out_octets = 	   1646565
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6330
+MyLog: Now using port 	         2
+MyLog: time: 1524059960675484
+MyLog: last_out_packets =        634
+MyLog: out_packets = 	       634
+MyLog: out_octets = 	   1651854
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6340
+MyLog: Now using port 	         2
+MyLog: time: 1524059960695432
+MyLog: last_out_packets =        635
+MyLog: out_packets = 	       635
+MyLog: out_octets = 	   1655685
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6350
+MyLog: Now using port 	         2
+MyLog: time: 1524059960715468
+MyLog: last_out_packets =        636
+MyLog: out_packets = 	       636
+MyLog: out_octets = 	   1657168
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6360
+MyLog: Now using port 	         2
+MyLog: time: 1524059960735961
+MyLog: last_out_packets =        637
+MyLog: out_packets = 	       637
+MyLog: out_octets = 	   1659493
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6370
+MyLog: Now using port 	         2
+MyLog: time: 1524059960755848
+MyLog: last_out_packets =        638
+MyLog: out_packets = 	       638
+MyLog: out_octets = 	   1661720
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6380
+MyLog: Now using port 	         2
+MyLog: time: 1524059960776474
+MyLog: last_out_packets =        639
+MyLog: out_packets = 	       639
+MyLog: out_octets = 	   1662045
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6390
+MyLog: Now using port 	         2
+MyLog: time: 1524059960795696
+MyLog: last_out_packets =        640
+MyLog: out_packets = 	       640
+MyLog: out_octets = 	   1665249
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6400
+MyLog: Now using port 	         2
+MyLog: time: 1524059960816206
+MyLog: last_out_packets =        641
+MyLog: out_packets = 	       641
+MyLog: out_octets = 	   1665932
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6410
+MyLog: Now using port 	         2
+MyLog: time: 1524059960835840
+MyLog: last_out_packets =        642
+MyLog: out_packets = 	       642
+MyLog: out_octets = 	   1668200
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6420
+MyLog: Now using port 	         2
+MyLog: time: 1524059960855655
+MyLog: last_out_packets =        643
+MyLog: out_packets = 	       643
+MyLog: out_octets = 	   1668773
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6430
+MyLog: Now using port 	         2
+MyLog: time: 1524059960875505
+MyLog: last_out_packets =        644
+MyLog: out_packets = 	       644
+MyLog: out_octets = 	   1671060
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6440
+MyLog: Now using port 	         2
+MyLog: time: 1524059960895544
+MyLog: last_out_packets =        645
+MyLog: out_packets = 	       645
+MyLog: out_octets = 	   1675763
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6450
+MyLog: Now using port 	         2
+MyLog: time: 1524059960915584
+MyLog: last_out_packets =        646
+MyLog: out_packets = 	       646
+MyLog: out_octets = 	   1677361
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6460
+MyLog: Now using port 	         2
+MyLog: time: 1524059960935470
+MyLog: last_out_packets =        647
+MyLog: out_packets = 	       647
+MyLog: out_octets = 	   1680811
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6470
+MyLog: Now using port 	         2
+MyLog: time: 1524059960955541
+MyLog: last_out_packets =        648
+MyLog: out_packets = 	       648
+MyLog: out_octets = 	   1683222
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6480
+MyLog: Now using port 	         2
+MyLog: time: 1524059960975778
+MyLog: last_out_packets =        649
+MyLog: out_packets = 	       649
+MyLog: out_octets = 	   1683643
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6490
+MyLog: Now using port 	         2
+MyLog: time: 1524059960996672
+MyLog: last_out_packets =        650
+MyLog: out_packets = 	       650
+MyLog: out_octets = 	   1685981
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6500
+MyLog: Now using port 	         2
+MyLog: time: 1524059961016007
+MyLog: last_out_packets =        651
+MyLog: out_packets = 	       651
+MyLog: out_octets = 	   1686321
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6510
+MyLog: Now using port 	         2
+MyLog: time: 1524059961035782
+MyLog: last_out_packets =        652
+MyLog: out_packets = 	       652
+MyLog: out_octets = 	   1689595
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6520
+MyLog: Now using port 	         2
+MyLog: time: 1524059961055771
+MyLog: last_out_packets =        653
+MyLog: out_packets = 	       653
+MyLog: out_octets = 	   1690223
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6530
+MyLog: Now using port 	         2
+MyLog: time: 1524059961075526
+MyLog: last_out_packets =        654
+MyLog: out_packets = 	       654
+MyLog: out_octets = 	   1692532
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6540
+MyLog: Now using port 	         2
+MyLog: time: 1524059961095413
+MyLog: last_out_packets =        655
+MyLog: out_packets = 	       655
+MyLog: out_octets = 	   1694642
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6550
+MyLog: Now using port 	         0
+MyLog: time: 1524059961108519
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        31
+MyLog: rate = 		         0
+MyLog: Now using port 	         2
+MyLog: time: 1524059961115348
+MyLog: last_out_packets =        656
+MyLog: out_packets = 	       656
+MyLog: out_octets = 	   1695006
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6560
+MyLog: Now using port 	         2
+MyLog: time: 1524059961136739
+MyLog: last_out_packets =        657
+MyLog: out_packets = 	       657
+MyLog: out_octets = 	   1700436
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6570
+MyLog: Now using port 	         2
+MyLog: time: 1524059961156646
+MyLog: last_out_packets =        658
+MyLog: out_packets = 	       658
+MyLog: out_octets = 	   1702900
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6580
+MyLog: Now using port 	         2
+MyLog: time: 1524059961175547
+MyLog: last_out_packets =        659
+MyLog: out_packets = 	       659
+MyLog: out_octets = 	   1706519
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6590
+MyLog: Now using port 	         2
+MyLog: time: 1524059961195734
+MyLog: last_out_packets =        660
+MyLog: out_packets = 	       660
+MyLog: out_octets = 	   1709440
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6600
+MyLog: Now using port 	         2
+MyLog: time: 1524059961215860
+MyLog: last_out_packets =        661
+MyLog: out_packets = 	       661
+MyLog: out_octets = 	   1710019
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6610
+MyLog: Now using port 	         2
+MyLog: time: 1524059961235720
+MyLog: last_out_packets =        662
+MyLog: out_packets = 	       662
+MyLog: out_octets = 	   1712107
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6620
+MyLog: Now using port 	         2
+MyLog: time: 1524059961255754
+MyLog: last_out_packets =        663
+MyLog: out_packets = 	       663
+MyLog: out_octets = 	   1712439
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6630
+MyLog: Now using port 	         2
+MyLog: time: 1524059961276131
+MyLog: last_out_packets =        664
+MyLog: out_packets = 	       664
+MyLog: out_octets = 	   1714453
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6640
+MyLog: Now using port 	         2
+MyLog: time: 1524059961295474
+MyLog: last_out_packets =        665
+MyLog: out_packets = 	       665
+MyLog: out_octets = 	   1717306
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6650
+MyLog: Now using port 	         2
+MyLog: time: 1524059961315522
+MyLog: last_out_packets =        666
+MyLog: out_packets = 	       666
+MyLog: out_octets = 	   1717970
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6660
+MyLog: Now using port 	         2
+MyLog: time: 1524059961335554
+MyLog: last_out_packets =        667
+MyLog: out_packets = 	       667
+MyLog: out_octets = 	   1719910
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6670
+MyLog: Now using port 	         2
+MyLog: time: 1524059961355802
+MyLog: last_out_packets =        668
+MyLog: out_packets = 	       668
+MyLog: out_octets = 	   1720236
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6680
+MyLog: Now using port 	         2
+MyLog: time: 1524059961375815
+MyLog: last_out_packets =        669
+MyLog: out_packets = 	       669
+MyLog: out_octets = 	   1722257
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6690
+MyLog: Now using port 	         2
+MyLog: time: 1524059961395621
+MyLog: last_out_packets =        670
+MyLog: out_packets = 	       670
+MyLog: out_octets = 	   1725276
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6700
+MyLog: Now using port 	         2
+MyLog: time: 1524059961416149
+MyLog: last_out_packets =        671
+MyLog: out_packets = 	       671
+MyLog: out_octets = 	   1726518
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6710
+MyLog: Now using port 	         2
+MyLog: time: 1524059961435593
+MyLog: last_out_packets =        672
+MyLog: out_packets = 	       672
+MyLog: out_octets = 	   1728426
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6720
+MyLog: Now using port 	         2
+MyLog: time: 1524059961455527
+MyLog: last_out_packets =        673
+MyLog: out_packets = 	       673
+MyLog: out_octets = 	   1728764
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6730
+MyLog: Now using port 	         0
+MyLog: time: 1524059962133575
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        32
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059964765674
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        33
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059964852009
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        34
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059975444654
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        35
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059977748849
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        36
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059980782882
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        37
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524059980852817
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        38
+MyLog: rate = 		         0
+MyLog: Now using port 	         1
+MyLog: time: 1524059986709619
+MyLog: last_out_packets =          1
+MyLog: out_packets = 	         1
+MyLog: out_octets = 	        42
+MyLog: fail_packets = 	         0
+MyLog: rate = 		        10
+MyLog: Now using port 	         1
+MyLog: time: 1524059991829947
+MyLog: last_out_packets =          2
+MyLog: out_packets = 	         2
+MyLog: out_octets = 	       632
+MyLog: fail_packets = 	         0
+MyLog: rate = 		        20
+MyLog: Now using port 	         2
+MyLog: time: 1524059991831305
+MyLog: last_out_packets =        674
+MyLog: out_packets = 	       674
+MyLog: out_octets = 	   1730856
+MyLog: fail_packets = 	         0
+MyLog: rate = 		      6740
+MyLog: Now using port 	         0
+MyLog: time: 1524060005141435
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        39
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060009237408
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        40
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060012815640
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        41
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060012854076
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        42
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060062485468
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        43
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060072725331
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        44
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060076817852
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        45
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060076855992
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        46
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060171029409
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        47
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060191509535
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        48
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060204850305
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        49
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060204870947
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        50
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060392213624
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        51
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060441365685
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        52
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060460913902
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        53
+MyLog: rate = 		         0
+MyLog: Now using port 	         0
+MyLog: time: 1524060460933690
+MyLog: last_out_packets =          0
+MyLog: out_packets = 	         0
+MyLog: out_octets = 	         0
+MyLog: fail_packets = 	        54
+MyLog: rate = 		         0

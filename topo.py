@@ -21,6 +21,14 @@ from mininet.cli import CLI
 from mininet.link import TCLink
 from mininet.node import Controller, RemoteController
 
+import sys
+sys.path.append("/usr/local/lib/pthon2.7/dist-packages")
+
+import sswitch_CLI
+import runtime_CLI
+
+#sswitch_CLI.main()
+
 from p4_mininet import P4Switch, P4Host
 
 import argparse
@@ -53,7 +61,7 @@ class MyTopo(Topo):
                                     thrift_port = _THRIFT_BASE_PORT + i,
                                     pcap_dump = True,
                                     device_id = i,
-                                    enable_debugger = False,
+                                    enable_debugger = True,
                                     log_console = True)
 
         
@@ -136,6 +144,7 @@ def main():
     for i in xrange(nb_switches):
         cmd = [args.cli, "--json", args.json,
                "--thrift-port", str(_THRIFT_BASE_PORT + i)]
+        print cmd
         with open("commands.txt", "r") as f:
             print " ".join(cmd)
             try:
@@ -153,13 +162,28 @@ def main():
 
     print "Ready !"
     net.startTerms()
-    net.iperf()
-    while True:
-        #for i in range (5):
-            for j in range(len(link)):
-                link[1].intf1.config(bw=0.001)
-                sleep(1)
-                #print 'link%d' %(j)"""
+    h1 = net.get('h1')
+    h2 = net.get('h2')
+    h2.cmd("xterm -hold -e sh receive.sh &")
+    h1.cmd("xterm -hold -e sh send.sh &")
+#    h1.cmd("python plt_rate1.py &")
+    for l in open('bandwidth.txt'):
+        l.replace('\n','')
+        link[1].intf1.config(bw=int(l)/10)
+        cmd = [args.cli, "--json", args.json,
+               "--thrift-port", "22222"]
+        print cmd
+        print "set_queue_rate " + l + "0"
+        read, write = os.pipe()
+        os.write(write, "set_queue_rate " + l)
+        os.close(write)
+        try:
+            output = subprocess.check_output(cmd, stdin = read)
+            print output
+        except subprocess.CalledProcessError as e:
+            print e
+            print e.output
+        sleep(3)
 
     CLI( net )
     net.stop()

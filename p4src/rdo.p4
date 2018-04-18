@@ -20,7 +20,8 @@ limitations under the License.
 
 action _drop() {
 	//register_write(register_rdo, 0, svef);
-    drop();
+    //drop();
+	modify_field(standard_metadata.egress_spec, 511);
 }
 
 action action_pkt(port) {
@@ -91,12 +92,29 @@ control ingress {
 		apply(route_arp);
 	}
 	else apply(route_pkt);
+	if(valid(udp)){
+		if(udp.dst_port == 4455){
+			if(queue_head.queue2 > 50){
+				if(svef.qid > 0){
+					apply(table_drop);
+				}
+			}else if(queue_head.queue2 > 30){
+				if(svef.qid > 1){
+					apply(table_drop);
+				}
+			}else if(queue_head.queue2 > 1){
+				if(svef.qid > 2){
+					apply(table_drop);
+				}
+			}
+		}
+	}
 }
 
 control egress {
-	if(valid(udp)){
+	/*if(valid(udp)){
 		if(udp.dst_port == 4455){
-			if(queueing_metadata.deq_qdepth > 10){
+			if(queueing_metadata.deq_qdepth > 1){
 				if(svef.rdo < 20){
 					apply(table_drop);
 				}
@@ -110,6 +128,6 @@ control egress {
 				}
 			}
 		}
-	}
-	else apply(send_frame);
+	}*/
+	apply(send_frame);
 }

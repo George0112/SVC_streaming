@@ -19,7 +19,9 @@ limitations under the License.
 #include "ipv4_checksum.p4"
 
 action _drop() {
-    drop();
+	//register_write(register_rdo, 0, svef);
+    //drop();
+	modify_field(standard_metadata.egress_spec, 511);
 }
 
 action action_pkt(port) {
@@ -36,6 +38,11 @@ action _no_action() {
 action rewrite_mac(smac) {
     modify_field(ethernet.srcAddr, smac);
 	modify_field(ipv4.ttl, queueing_metadata.deq_qdepth);
+}
+
+register register_rdo{
+	layout: svef_t;
+	instance_count: 10;
 }
 
 table route_arp {
@@ -81,14 +88,47 @@ table send_frame {
 }
 
 control ingress {
-	if(queueing_metadata.deq_qdepth > 50)
-		apply(table_drop);
 	if(ethernet.etherType == 0x0806) {
 		apply(route_arp);
 	}
 	else apply(route_pkt);
+	if(queue_head.queue2 > 33) apply(table_drop);
+	/*if(valid(udp)){
+		if(udp.dst_port == 4455){
+			if(queue_head.queue2 > 50){
+				if(svef.qid > 0){
+					apply(table_drop);
+				}
+			}else if(queue_head.queue2 > 30){
+				if(svef.qid > 1){
+					apply(table_drop);
+				}
+			}else if(queue_head.queue2 > 1){
+				if(svef.qid > 2){
+					apply(table_drop);
+				}
+			}
+		}
+	}*/
 }
 
 control egress {
+	/*if(valid(udp)){
+		if(udp.dst_port == 4455){
+			if(queueing_metadata.deq_qdepth > 1){
+				if(svef.rdo < 20){
+					apply(table_drop);
+				}
+			}else if(queueing_metadata.deq_qdepth > 30){
+				if(svef.rdo < 50){
+					apply(table_drop);
+				}
+			}else if(queueing_metadata.deq_qdepth > 50){
+				if(svef.rdo < 500){
+					apply(table_drop);
+				}
+			}
+		}
+	}*/
 	apply(send_frame);
 }

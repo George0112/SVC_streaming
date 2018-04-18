@@ -693,11 +693,11 @@
             "id": 0,
             "order": [
                 "ethernet",
-                "arp",
                 "ipv4",
-                "tcp",
                 "udp",
-                "svef"
+                "svef",
+                "tcp",
+                "arp"
             ]
         }
     ],
@@ -732,42 +732,8 @@
             ]
         },
         {
-            "name": "_no_action",
-            "id": 1,
-            "runtime_data": [],
-            "primitives": []
-        },
-        {
-            "name": "action_arp",
-            "id": 2,
-            "runtime_data": [
-                {
-                    "name": "port",
-                    "bitwidth": 9
-                }
-            ],
-            "primitives": [
-                {
-                    "op": "modify_field",
-                    "parameters": [
-                        {
-                            "type": "field",
-                            "value": [
-                                "standard_metadata",
-                                "egress_spec"
-                            ]
-                        },
-                        {
-                            "type": "runtime_data",
-                            "value": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "name": "rewrite_mac",
-            "id": 3,
+            "id": 1,
             "runtime_data": [
                 {
                     "name": "smac",
@@ -813,13 +779,59 @@
             ]
         },
         {
+            "name": "_no_action",
+            "id": 2,
+            "runtime_data": [],
+            "primitives": []
+        },
+        {
+            "name": "action_arp",
+            "id": 3,
+            "runtime_data": [
+                {
+                    "name": "port",
+                    "bitwidth": 9
+                }
+            ],
+            "primitives": [
+                {
+                    "op": "modify_field",
+                    "parameters": [
+                        {
+                            "type": "field",
+                            "value": [
+                                "standard_metadata",
+                                "egress_spec"
+                            ]
+                        },
+                        {
+                            "type": "runtime_data",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "_drop",
             "id": 4,
             "runtime_data": [],
             "primitives": [
                 {
-                    "op": "drop",
-                    "parameters": []
+                    "op": "modify_field",
+                    "parameters": [
+                        {
+                            "type": "field",
+                            "value": [
+                                "standard_metadata",
+                                "egress_spec"
+                            ]
+                        },
+                        {
+                            "type": "hexstr",
+                            "value": "0x1ff"
+                        }
+                    ]
                 }
             ]
         }
@@ -944,46 +956,6 @@
                     "expression": {
                         "type": "expression",
                         "value": {
-                            "op": "valid",
-                            "left": null,
-                            "right": {
-                                "type": "header",
-                                "value": "udp"
-                            }
-                        }
-                    },
-                    "true_next": "_condition_2",
-                    "false_next": null
-                },
-                {
-                    "name": "_condition_2",
-                    "id": 2,
-                    "expression": {
-                        "type": "expression",
-                        "value": {
-                            "op": "==",
-                            "left": {
-                                "type": "field",
-                                "value": [
-                                    "udp",
-                                    "dst_port"
-                                ]
-                            },
-                            "right": {
-                                "type": "hexstr",
-                                "value": "0x1167"
-                            }
-                        }
-                    },
-                    "true_next": "_condition_3",
-                    "false_next": null
-                },
-                {
-                    "name": "_condition_3",
-                    "id": 3,
-                    "expression": {
-                        "type": "expression",
-                        "value": {
                             "op": ">",
                             "left": {
                                 "type": "field",
@@ -994,30 +966,7 @@
                             },
                             "right": {
                                 "type": "hexstr",
-                                "value": "0x1"
-                            }
-                        }
-                    },
-                    "true_next": "_condition_4",
-                    "false_next": null
-                },
-                {
-                    "name": "_condition_4",
-                    "id": 4,
-                    "expression": {
-                        "type": "expression",
-                        "value": {
-                            "op": ">",
-                            "left": {
-                                "type": "field",
-                                "value": [
-                                    "svef",
-                                    "qid"
-                                ]
-                            },
-                            "right": {
-                                "type": "hexstr",
-                                "value": "0x0"
+                                "value": "0x21"
                             }
                         }
                     },
