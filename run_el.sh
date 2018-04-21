@@ -22,13 +22,15 @@ P4C_BM_SCRIPT=$P4C_BM_PATH/p4c_bm/__main__.py
 
 SWITCH_PATH=$BMV2_PATH/targets/simple_switch/simple_switch
 
-CLI_PATH=$BMV2_PATH/tools/runtime_CLI.py
-#CLI_PATH=$BMV2_PATH/targets/simple_switch/simple_switch_CLI
+#CLI_PATH=$BMV2_PATH/tools/runtime_CLI.py
+CLI_PATH=$BMV2_PATH/targets/simple_switch/simple_switch_CLI
 
 #$P4C_BM_SCRIPT p4src/l2_switch.p4 --json source_routing.json
 $P4C_BM_SCRIPT p4src/el.p4 --json source_routing.json
 #$P4C_BM_SCRIPT p4src/90.p4 --json source_routing.json
 #$P4C_BM_SCRIPT p4src/simple_router.p4 --json source_routing.json
+
+rm -f output.txt buffer.txt
 
 # This gives libtool the opportunity to "warm-up"
 sudo $SWITCH_PATH >/dev/null 2>&1

@@ -52,7 +52,7 @@ table route_arp {
 	actions {
 		action_arp;
 	}
-	size: 2;
+	size: 10;
 }
 
 table route_pkt {
@@ -63,7 +63,7 @@ table route_pkt {
         _drop;
         action_pkt;
     }
-    size: 3;
+    size: 10;
 }
 
 table table_drop {
@@ -92,7 +92,8 @@ control ingress {
 		apply(route_arp);
 	}
 	else apply(route_pkt);
-	if(queue_head.queue2 > 0) apply(table_drop);
+	if(queue_head.queue2 > 30) apply(table_drop);
+	else if(queue_head.queue4 > 30) apply(table_drop);
 	/*if(valid(udp)){
 		if(udp.dst_port == 4455){
 			if(queue_head.queue2 > 50){

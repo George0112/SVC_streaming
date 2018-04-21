@@ -80,9 +80,11 @@ def read_topo():
     with open("s1_topo.txt", "r") as f:
         line = f.readline()[:-1]
         w, nb_switches = line.split()
+        print nb_switches
         assert(w == "switches")
         line = f.readline()[:-1]
         w, nb_hosts = line.split()
+        print nb_hosts
         assert(w == "hosts")
         for line in f:
             if not f: break

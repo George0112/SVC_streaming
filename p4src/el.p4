@@ -19,7 +19,9 @@ limitations under the License.
 #include "ipv4_checksum.p4"
 
 action _drop() {
+	//register_write(register_rdo, 0, svef);
     drop();
+	//modify_field(standard_metadata.egress_port, 511);
 }
 
 action action_pkt(port) {
@@ -38,6 +40,11 @@ action rewrite_mac(smac) {
 	modify_field(ipv4.ttl, queueing_metadata.deq_qdepth);
 }
 
+register register_rdo{
+	layout: svef_t;
+	instance_count: 10;
+}
+
 table route_arp {
 	reads {
 		arp.sender_ip_Addr: lpm;
@@ -45,7 +52,7 @@ table route_arp {
 	actions {
 		action_arp;
 	}
-	size: 2;
+	size: 4;
 }
 
 table route_pkt {
@@ -56,7 +63,7 @@ table route_pkt {
         _drop;
         action_pkt;
     }
-    size: 3;
+    size: 8;
 }
 
 table table_drop {
@@ -85,25 +92,42 @@ control ingress {
 		apply(route_arp);
 	}
 	else apply(route_pkt);
-}
-
-control egress {
 	if(valid(udp)){
-		if(udp.dst_port == 4455){
-			if(queueing_metadata.deq_qdepth > 5){
+		if(udp.dst_port >= 4455){
+			if(standard_metadata.egress_spec == 2){
+			if(queue_head.queue2 > 50){
 				if(svef.qid > 0){
 					apply(table_drop);
 				}
-			}else if(queueing_metadata.deq_qdepth > 30){
-				if(svef.qid >=2){
-					apply(table_drop);
-				}
-			}else if(queueing_metadata.deq_qdepth > 50){
+			}else if(queue_head.queue2 > 30){
 				if(svef.qid > 1){
 					apply(table_drop);
 				}
+			}else if(queue_head.queue2 > 1){
+				if(svef.qid > 2){
+					apply(table_drop);
+				}
+			}
+			}
+			else if(standard_metadata.egress_spec == 4){
+			if(queue_head.queue4 > 50){
+				if(svef.qid > 0){
+					apply(table_drop);
+				}
+			}else if(queue_head.queue4 > 30){
+				if(svef.qid > 1){
+					apply(table_drop);
+				}
+			}else if(queue_head.queue4 > 1){
+				if(svef.qid > 2){
+					apply(table_drop);
+				}
+			}
 			}
 		}
 	}
+}
+
+control egress {
 	apply(send_frame);
 }
