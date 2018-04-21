@@ -77,7 +77,7 @@ def read_topo():
     nb_hosts = 0
     nb_switches = 0
     links = []
-    with open("topo.txt", "r") as f:
+    with open("s1_topo.txt", "r") as f:
         line = f.readline()[:-1]
         w, nb_switches = line.split()
         assert(w == "switches")
@@ -168,13 +168,9 @@ def main():
 #    net.startTerms()
     h1 = net.get('h1')
     h2 = net.get('h2')
-    h3 = net.get('h3')
-    h4 = net.get('h4')
 #    CLI(net)
     h2.cmd("xterm -hold -e sh receive.sh &")
-    h4.cmd("xterm -hold -e sh receive1.sh &")
     h1.cmd("xterm -hold -e sh send.sh &")
-    h3.cmd("xterm -hold -e sh send1.sh &")
     for l in open('bandwidth.txt'):
         l.replace('\n','')
         #link[1].intf1.config(bw=int(l)/10)

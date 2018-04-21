@@ -34,7 +34,7 @@ rm -f output.txt buffer.txt
 
 # This gives libtool the opportunity to "warm-up"
 sudo $SWITCH_PATH >/dev/null 2>&1
-sudo PYTHONPATH=$PYTHONPATH:$BMV2_PATH/mininet/ python topo.py \
+sudo PYTHONPATH=$PYTHONPATH:$BMV2_PATH/mininet/ python s1_topo.py \
     --behavioral-exe $SWITCH_PATH \
     --json source_routing.json \
     --cli $CLI_PATH

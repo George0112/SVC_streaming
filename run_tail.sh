@@ -30,6 +30,8 @@ $P4C_BM_SCRIPT p4src/tail.p4 --json source_routing.json
 #$P4C_BM_SCRIPT p4src/90.p4 --json source_routing.json
 #$P4C_BM_SCRIPT p4src/simple_router.p4 --json source_routing.json
 
+rm -f buffer.txt output.txt
+
 # This gives libtool the opportunity to "warm-up"
 sudo $SWITCH_PATH >/dev/null 2>&1
 sudo PYTHONPATH=$PYTHONPATH:$BMV2_PATH/mininet/ python topo.py \

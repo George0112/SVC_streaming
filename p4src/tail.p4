@@ -92,7 +92,7 @@ control ingress {
 		apply(route_arp);
 	}
 	else apply(route_pkt);
-	if(queue_head.queue2 > 33) apply(table_drop);
+	if(queue_head.queue2 > 0) apply(table_drop);
 	/*if(valid(udp)){
 		if(udp.dst_port == 4455){
 			if(queue_head.queue2 > 50){

@@ -5,6 +5,8 @@ header_type queue_t{
     fields {
 	queue1: 8;
 	queue2: 8;
+	queue3: 8;
+	queue4: 8;
     }
 }
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ../customed_svef
+cd ../customed_svef1
 pwd
 rm -f receivedtrace.txt
 ./receiver 4455 out.264 10000 > receivedtrace.txt

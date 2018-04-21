@@ -95,7 +95,7 @@ control ingress {
 	if(valid(udp)){
 		if(udp.dst_port == 4455){
 			if(queue_head.queue2 > 50){
-				if(svef.qid > 0){
+				if(svef.rdo > 0){
 					apply(table_drop);
 				}
 			}else if(queue_head.queue2 > 30){
