@@ -416,8 +416,12 @@
                     16
                 ],
                 [
-                    "rdo",
-                    32
+                    "rdo1",
+                    8
+                ],
+                [
+                    "rdo2",
+                    8
                 ]
             ],
             "length_exp": null,
@@ -701,11 +705,11 @@
             "id": 0,
             "order": [
                 "ethernet",
-                "ipv4",
-                "udp",
                 "arp",
-                "svef",
-                "tcp"
+                "ipv4",
+                "tcp",
+                "udp",
+                "svef"
             ]
         }
     ],
@@ -746,36 +750,8 @@
             "primitives": []
         },
         {
-            "name": "action_arp",
-            "id": 2,
-            "runtime_data": [
-                {
-                    "name": "port",
-                    "bitwidth": 9
-                }
-            ],
-            "primitives": [
-                {
-                    "op": "modify_field",
-                    "parameters": [
-                        {
-                            "type": "field",
-                            "value": [
-                                "standard_metadata",
-                                "egress_spec"
-                            ]
-                        },
-                        {
-                            "type": "runtime_data",
-                            "value": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "name": "rewrite_mac",
-            "id": 3,
+            "id": 2,
             "runtime_data": [
                 {
                     "name": "smac",
@@ -821,9 +797,14 @@
             ]
         },
         {
-            "name": "_drop",
-            "id": 4,
-            "runtime_data": [],
+            "name": "action_arp",
+            "id": 3,
+            "runtime_data": [
+                {
+                    "name": "port",
+                    "bitwidth": 9
+                }
+            ],
             "primitives": [
                 {
                     "op": "modify_field",
@@ -836,10 +817,21 @@
                             ]
                         },
                         {
-                            "type": "hexstr",
-                            "value": "0x1ff"
+                            "type": "runtime_data",
+                            "value": 0
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "name": "_drop",
+            "id": 4,
+            "runtime_data": [],
+            "primitives": [
+                {
+                    "op": "drop",
+                    "parameters": []
                 }
             ]
         }
@@ -855,7 +847,7 @@
                     "id": 0,
                     "match_type": "lpm",
                     "type": "simple",
-                    "max_size": 10,
+                    "max_size": 4,
                     "with_counters": false,
                     "direct_meters": null,
                     "support_timeout": false,
@@ -882,7 +874,7 @@
                     "id": 1,
                     "match_type": "lpm",
                     "type": "simple",
-                    "max_size": 10,
+                    "max_size": 8,
                     "with_counters": false,
                     "direct_meters": null,
                     "support_timeout": false,
@@ -964,6 +956,138 @@
                     "expression": {
                         "type": "expression",
                         "value": {
+                            "op": "valid",
+                            "left": null,
+                            "right": {
+                                "type": "header",
+                                "value": "udp"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_2",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_2",
+                    "id": 2,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": ">",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "svef",
+                                    "qid"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x0"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_3",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_3",
+                    "id": 3,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "==",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "standard_metadata",
+                                    "egress_spec"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x2"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_4",
+                    "false_next": "_condition_10"
+                },
+                {
+                    "name": "_condition_4",
+                    "id": 4,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": ">",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "queue_head",
+                                    "queue2"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x32"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_5",
+                    "false_next": "_condition_6"
+                },
+                {
+                    "name": "_condition_5",
+                    "id": 5,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "<",
+                            "left": {
+                                "type": "expression",
+                                "value": {
+                                    "op": "+",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "svef",
+                                            "rdo1"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "expression",
+                                        "value": {
+                                            "op": "*",
+                                            "left": {
+                                                "type": "field",
+                                                "value": [
+                                                    "svef",
+                                                    "rdo2"
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "hexstr",
+                                                "value": "0x100"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x64"
+                            }
+                        }
+                    },
+                    "true_next": "table_drop",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_6",
+                    "id": 6,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
                             "op": ">",
                             "left": {
                                 "type": "field",
@@ -978,12 +1102,219 @@
                             }
                         }
                     },
-                    "true_next": "table_drop",
-                    "false_next": "_condition_2"
+                    "true_next": "_condition_7",
+                    "false_next": "_condition_8"
                 },
                 {
-                    "name": "_condition_2",
-                    "id": 2,
+                    "name": "_condition_7",
+                    "id": 7,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "<",
+                            "left": {
+                                "type": "expression",
+                                "value": {
+                                    "op": "+",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "svef",
+                                            "rdo1"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "expression",
+                                        "value": {
+                                            "op": "*",
+                                            "left": {
+                                                "type": "field",
+                                                "value": [
+                                                    "svef",
+                                                    "rdo2"
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "hexstr",
+                                                "value": "0x100"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0xc8"
+                            }
+                        }
+                    },
+                    "true_next": "table_drop",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_8",
+                    "id": 8,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": ">",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "queue_head",
+                                    "queue2"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0xa"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_9",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_9",
+                    "id": 9,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "<",
+                            "left": {
+                                "type": "expression",
+                                "value": {
+                                    "op": "+",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "svef",
+                                            "rdo1"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "expression",
+                                        "value": {
+                                            "op": "*",
+                                            "left": {
+                                                "type": "field",
+                                                "value": [
+                                                    "svef",
+                                                    "rdo2"
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "hexstr",
+                                                "value": "0x100"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x3e8"
+                            }
+                        }
+                    },
+                    "true_next": "table_drop",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_10",
+                    "id": 10,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "==",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "standard_metadata",
+                                    "egress_spec"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x4"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_11",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_11",
+                    "id": 11,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": ">",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "queue_head",
+                                    "queue4"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x32"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_12",
+                    "false_next": "_condition_13"
+                },
+                {
+                    "name": "_condition_12",
+                    "id": 12,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "<",
+                            "left": {
+                                "type": "expression",
+                                "value": {
+                                    "op": "+",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "svef",
+                                            "rdo1"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "expression",
+                                        "value": {
+                                            "op": "*",
+                                            "left": {
+                                                "type": "field",
+                                                "value": [
+                                                    "svef",
+                                                    "rdo2"
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "hexstr",
+                                                "value": "0x100"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x64"
+                            }
+                        }
+                    },
+                    "true_next": "table_drop",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_13",
+                    "id": 13,
                     "expression": {
                         "type": "expression",
                         "value": {
@@ -998,6 +1329,121 @@
                             "right": {
                                 "type": "hexstr",
                                 "value": "0x1e"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_14",
+                    "false_next": "_condition_15"
+                },
+                {
+                    "name": "_condition_14",
+                    "id": 14,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "<",
+                            "left": {
+                                "type": "expression",
+                                "value": {
+                                    "op": "+",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "svef",
+                                            "rdo1"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "expression",
+                                        "value": {
+                                            "op": "*",
+                                            "left": {
+                                                "type": "field",
+                                                "value": [
+                                                    "svef",
+                                                    "rdo2"
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "hexstr",
+                                                "value": "0x100"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0xc8"
+                            }
+                        }
+                    },
+                    "true_next": "table_drop",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_15",
+                    "id": 15,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": ">",
+                            "left": {
+                                "type": "field",
+                                "value": [
+                                    "queue_head",
+                                    "queue4"
+                                ]
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0xa"
+                            }
+                        }
+                    },
+                    "true_next": "_condition_16",
+                    "false_next": null
+                },
+                {
+                    "name": "_condition_16",
+                    "id": 16,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "<",
+                            "left": {
+                                "type": "expression",
+                                "value": {
+                                    "op": "+",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "svef",
+                                            "rdo1"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "expression",
+                                        "value": {
+                                            "op": "*",
+                                            "left": {
+                                                "type": "field",
+                                                "value": [
+                                                    "svef",
+                                                    "rdo2"
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "hexstr",
+                                                "value": "0x100"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "right": {
+                                "type": "hexstr",
+                                "value": "0x3e8"
                             }
                         }
                     },

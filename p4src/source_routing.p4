@@ -93,33 +93,33 @@ control ingress {
 	}
 	else apply(route_pkt);
 	if(valid(udp)){
-		if(udp.dst_port >= 4455){
+		if(svef.qid > 0){
 			if(standard_metadata.egress_spec == 2){
 			if(queue_head.queue2 > 50){
-				if(svef.qid > 0){
+				if((svef.rdo1+(svef.rdo2*256)) < 100){
 					apply(table_drop);
 				}
 			}else if(queue_head.queue2 > 30){
-				if(svef.qid > 1){
+				if((svef.rdo1 + (svef.rdo2*256)) < 200){
 					apply(table_drop);
 				}
-			}else if(queue_head.queue2 > 1){
-				if(svef.qid > 2){
+			}else if(queue_head.queue2 > 10){
+				if((svef.rdo1 + (svef.rdo2*256)) < 1000){
 					apply(table_drop);
 				}
 			}
 			}
 			else if(standard_metadata.egress_spec == 4){
 			if(queue_head.queue4 > 50){
-				if(svef.qid > 0){
+				if((svef.rdo1 + (svef.rdo2*256)) < 100){
 					apply(table_drop);
 				}
 			}else if(queue_head.queue4 > 30){
-				if(svef.qid > 1){
+				if((svef.rdo1 + (svef.rdo2* 256)) < 200){
 					apply(table_drop);
 				}
-			}else if(queue_head.queue4 > 1){
-				if(svef.qid > 2){
+			}else if(queue_head.queue4 > 10){
+				if((svef.rdo1 + (svef.rdo2*256)) < 1000){
 					apply(table_drop);
 				}
 			}

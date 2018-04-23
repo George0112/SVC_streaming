@@ -96,30 +96,30 @@ control ingress {
 		if(udp.dst_port >= 4455){
 			if(standard_metadata.egress_spec == 2){
 			if(queue_head.queue2 > 50){
-				if(svef.qid > 0){
+				if(svef.rdo > 0){
 					apply(table_drop);
 				}
 			}else if(queue_head.queue2 > 30){
-				if(svef.qid > 1){
+				if(svef.rdo > 1){
 					apply(table_drop);
 				}
 			}else if(queue_head.queue2 > 1){
-				if(svef.qid > 2){
+				if(svef.rdo > 2){
 					apply(table_drop);
 				}
 			}
 			}
 			else if(standard_metadata.egress_spec == 4){
 			if(queue_head.queue4 > 50){
-				if(svef.qid > 0){
+				if(svef.rdo > 0){
 					apply(table_drop);
 				}
 			}else if(queue_head.queue4 > 30){
-				if(svef.qid > 1){
+				if(svef.rdo > 1){
 					apply(table_drop);
 				}
 			}else if(queue_head.queue4 > 1){
-				if(svef.qid > 2){
+				if(svef.rdo > 2){
 					apply(table_drop);
 				}
 			}

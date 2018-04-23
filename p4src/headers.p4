@@ -110,7 +110,8 @@ header_type svef_t {
 		naluid: 32;
 		total_size: 16;
 		frame_num: 16;
-		rdo: 32;
+		rdo1: 8;
+		rdo2: 8;
 	}
 }
 

@@ -171,8 +171,8 @@ def main():
     h3 = net.get('h3')
     h4 = net.get('h4')
 #    CLI(net)
-    h2.cmd("xterm -hold -e sh receive.sh &")
-    h1.cmd("xterm -hold -e sh send.sh 10.0.0.2 &")
+    h2.cmd("xterm -hold -e sh receive.sh scenario1 &")
+    h1.cmd("xterm -hold -e sh send.sh scenario1 10.0.0.2 &")
     for l in open('bandwidth.txt'):
         l.replace('\n','')
         #link[1].intf1.config(bw=int(l)/10)
@@ -191,10 +191,10 @@ def main():
             print e.output
         sleep(3)
     sleep(3)
-    h2.cmd("xterm -hold -e sh receive.sh &")
-    h2.cmd("xterm -hold -e sh receive1.sh &")
-    h1.cmd("xterm -hold -e sh send.sh 10.0.0.2 &")
-    h1.cmd("xterm -hold -e sh send1.sh 10.0.0.2 &")
+    h2.cmd("xterm -hold -e sh receive.sh scenario2 &")
+    h2.cmd("xterm -hold -e sh receive1.sh scenario2_1 &")
+    h1.cmd("xterm -hold -e sh send.sh scenario2 10.0.0.2 &")
+    h1.cmd("xterm -hold -e sh send1.sh scenario2_1 10.0.0.2 &")
 
     for l in open('bandwidth.txt'):
         l.replace('\n','')
@@ -215,10 +215,10 @@ def main():
         sleep(3)
     sleep(3)
     
-    h2.cmd("xterm -hold -e sh receive.sh &")
-    h4.cmd("xterm -hold -e sh receive1.sh &")
-    h1.cmd("xterm -hold -e sh send.sh 10.0.0.2 &")
-    h3.cmd("xterm -hold -e sh send1.sh 10.0.0.4 &")
+    h2.cmd("xterm -hold -e sh receive.sh scenario3 &")
+    h4.cmd("xterm -hold -e sh receive1.sh scenario3_1 &")
+    h1.cmd("xterm -hold -e sh send.sh scenario3 10.0.0.2 &")
+    h3.cmd("xterm -hold -e sh send1.sh scenario3_1 10.0.0.4 &")
 
     for l in open('bandwidth.txt'):
         l.replace('\n','')

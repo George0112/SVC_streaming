@@ -28,11 +28,13 @@ x1=[i+1 for i in range(1,10001)]
 y1=arr[0,:]
 y2=arr[1,:]
 
+plt.xticks(fontsize=12)
+plt.yticks(fontsize=12)
 plt.plot(x1,y1,linewidth=1,label="Before")
 #plt.plot(x1,y2,linewidth=1,label="After")
-plt.axis([-1,c1-1,-1,65])
-plt.xlabel('Packet Number')
-plt.ylabel('Output Buffer Size')
+plt.axis([-1, c1-1,-1,65])
+plt.xlabel('Packet Number', fontsize=20)
+plt.ylabel('Buffer Level (packes)', fontsize=20)
 
 plt.legend()
 plt.show()

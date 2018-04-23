@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd ../customed_svef1
-./streamer originaltrace-rdo.txt 30 $1 4456 Soccer.264 > sent.txt
+cd ../customed_svef/$1
+./streamer ICE52trace-rdo.txt 30 $2 4456 ICE52.264 > sent.txt
