@@ -103,7 +103,7 @@ control ingress {
 				if(svef.qid > 1){
 					apply(table_drop);
 				}
-			}else if(queue_head.queue2 > 1){
+			}else if(queue_head.queue2 > 10){
 				if(svef.qid > 2){
 					apply(table_drop);
 				}
@@ -118,7 +118,7 @@ control ingress {
 				if(svef.qid > 1){
 					apply(table_drop);
 				}
-			}else if(queue_head.queue4 > 1){
+			}else if(queue_head.queue4 > 10){
 				if(svef.qid > 2){
 					apply(table_drop);
 				}
