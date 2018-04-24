@@ -31,7 +31,7 @@ y2=arr[1,:]
 plt.xticks(fontsize=20)
 plt.yticks(fontsize=20)
 plt.plot(x1,y1,linewidth=1)
-plt.axis([889, 1879,-1,65])
+plt.axis([-1, c1-1,-1,65])
 plt.xlabel('Packet Number', fontsize=30)
 plt.ylabel('Buffer Level (packes)', fontsize=30)
 
