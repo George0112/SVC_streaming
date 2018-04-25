@@ -61,8 +61,8 @@ class MyTopo(Topo):
                                     thrift_port = _THRIFT_BASE_PORT + i,
                                     pcap_dump = True,
                                     device_id = i,
-                                    enable_debugger = True,
-                                    log_console = True)
+                                    enable_debugger = False,
+                                    log_console = False)
 
         
         for h in xrange(nb_hosts):
@@ -114,7 +114,7 @@ def main():
                                 thrift_port = _THRIFT_BASE_PORT + i,
                                 pcap_dump = True,
                                 device_id = i,
-                                enable_debugger = True)
+                                enable_debugger = False)
 
         
     for h in xrange(nb_hosts):

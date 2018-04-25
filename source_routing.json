@@ -705,9 +705,9 @@
             "id": 0,
             "order": [
                 "ethernet",
-                "arp",
                 "ipv4",
                 "tcp",
+                "arp",
                 "udp",
                 "svef"
             ]
