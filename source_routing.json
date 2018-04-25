@@ -705,9 +705,9 @@
             "id": 0,
             "order": [
                 "ethernet",
-                "arp",
                 "ipv4",
                 "tcp",
+                "arp",
                 "udp",
                 "svef"
             ]
@@ -716,7 +716,7 @@
     "meter_arrays": [],
     "actions": [
         {
-            "name": "action_pkt",
+            "name": "action_arp",
             "id": 0,
             "runtime_data": [
                 {
@@ -791,7 +791,7 @@
             ]
         },
         {
-            "name": "action_arp",
+            "name": "action_pkt",
             "id": 2,
             "runtime_data": [
                 {
