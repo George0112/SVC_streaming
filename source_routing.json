@@ -716,7 +716,7 @@
     "meter_arrays": [],
     "actions": [
         {
-            "name": "action_arp",
+            "name": "action_pkt",
             "id": 0,
             "runtime_data": [
                 {
@@ -744,8 +744,14 @@
             ]
         },
         {
-            "name": "rewrite_mac",
+            "name": "_no_action",
             "id": 1,
+            "runtime_data": [],
+            "primitives": []
+        },
+        {
+            "name": "rewrite_mac",
+            "id": 2,
             "runtime_data": [
                 {
                     "name": "smac",
@@ -791,8 +797,8 @@
             ]
         },
         {
-            "name": "action_pkt",
-            "id": 2,
+            "name": "action_arp",
+            "id": 3,
             "runtime_data": [
                 {
                     "name": "port",
@@ -817,12 +823,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "name": "_no_action",
-            "id": 3,
-            "runtime_data": [],
-            "primitives": []
         },
         {
             "name": "_drop",
@@ -973,17 +973,17 @@
                     "expression": {
                         "type": "expression",
                         "value": {
-                            "op": ">=",
+                            "op": ">",
                             "left": {
                                 "type": "field",
                                 "value": [
-                                    "udp",
-                                    "dst_port"
+                                    "svef",
+                                    "qid"
                                 ]
                             },
                             "right": {
                                 "type": "hexstr",
-                                "value": "0x1167"
+                                "value": "0x0"
                             }
                         }
                     },
@@ -1042,17 +1042,40 @@
                     "expression": {
                         "type": "expression",
                         "value": {
-                            "op": ">",
+                            "op": "<",
                             "left": {
-                                "type": "field",
-                                "value": [
-                                    "svef",
-                                    "qid"
-                                ]
+                                "type": "expression",
+                                "value": {
+                                    "op": "+",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "svef",
+                                            "rdo1"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "expression",
+                                        "value": {
+                                            "op": "*",
+                                            "left": {
+                                                "type": "field",
+                                                "value": [
+                                                    "svef",
+                                                    "rdo2"
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "hexstr",
+                                                "value": "0x100"
+                                            }
+                                        }
+                                    }
+                                }
                             },
                             "right": {
                                 "type": "hexstr",
-                                "value": "0x0"
+                                "value": "0x578"
                             }
                         }
                     },
@@ -1088,17 +1111,40 @@
                     "expression": {
                         "type": "expression",
                         "value": {
-                            "op": ">",
+                            "op": "<",
                             "left": {
-                                "type": "field",
-                                "value": [
-                                    "svef",
-                                    "qid"
-                                ]
+                                "type": "expression",
+                                "value": {
+                                    "op": "+",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "svef",
+                                            "rdo1"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "expression",
+                                        "value": {
+                                            "op": "*",
+                                            "left": {
+                                                "type": "field",
+                                                "value": [
+                                                    "svef",
+                                                    "rdo2"
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "hexstr",
+                                                "value": "0x100"
+                                            }
+                                        }
+                                    }
+                                }
                             },
                             "right": {
                                 "type": "hexstr",
-                                "value": "0x1"
+                                "value": "0x96"
                             }
                         }
                     },
@@ -1134,17 +1180,40 @@
                     "expression": {
                         "type": "expression",
                         "value": {
-                            "op": ">",
+                            "op": "<",
                             "left": {
-                                "type": "field",
-                                "value": [
-                                    "svef",
-                                    "qid"
-                                ]
+                                "type": "expression",
+                                "value": {
+                                    "op": "+",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "svef",
+                                            "rdo1"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "expression",
+                                        "value": {
+                                            "op": "*",
+                                            "left": {
+                                                "type": "field",
+                                                "value": [
+                                                    "svef",
+                                                    "rdo2"
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "hexstr",
+                                                "value": "0x100"
+                                            }
+                                        }
+                                    }
+                                }
                             },
                             "right": {
                                 "type": "hexstr",
-                                "value": "0x2"
+                                "value": "0x46"
                             }
                         }
                     },
@@ -1203,17 +1272,40 @@
                     "expression": {
                         "type": "expression",
                         "value": {
-                            "op": ">",
+                            "op": "<",
                             "left": {
-                                "type": "field",
-                                "value": [
-                                    "svef",
-                                    "qid"
-                                ]
+                                "type": "expression",
+                                "value": {
+                                    "op": "+",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "svef",
+                                            "rdo1"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "expression",
+                                        "value": {
+                                            "op": "*",
+                                            "left": {
+                                                "type": "field",
+                                                "value": [
+                                                    "svef",
+                                                    "rdo2"
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "hexstr",
+                                                "value": "0x100"
+                                            }
+                                        }
+                                    }
+                                }
                             },
                             "right": {
                                 "type": "hexstr",
-                                "value": "0x0"
+                                "value": "0x578"
                             }
                         }
                     },
@@ -1249,17 +1341,40 @@
                     "expression": {
                         "type": "expression",
                         "value": {
-                            "op": ">",
+                            "op": "<",
                             "left": {
-                                "type": "field",
-                                "value": [
-                                    "svef",
-                                    "qid"
-                                ]
+                                "type": "expression",
+                                "value": {
+                                    "op": "+",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "svef",
+                                            "rdo1"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "expression",
+                                        "value": {
+                                            "op": "*",
+                                            "left": {
+                                                "type": "field",
+                                                "value": [
+                                                    "svef",
+                                                    "rdo2"
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "hexstr",
+                                                "value": "0x100"
+                                            }
+                                        }
+                                    }
+                                }
                             },
                             "right": {
                                 "type": "hexstr",
-                                "value": "0x1"
+                                "value": "0x96"
                             }
                         }
                     },
@@ -1295,17 +1410,40 @@
                     "expression": {
                         "type": "expression",
                         "value": {
-                            "op": ">",
+                            "op": "<",
                             "left": {
-                                "type": "field",
-                                "value": [
-                                    "svef",
-                                    "qid"
-                                ]
+                                "type": "expression",
+                                "value": {
+                                    "op": "+",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "svef",
+                                            "rdo1"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "expression",
+                                        "value": {
+                                            "op": "*",
+                                            "left": {
+                                                "type": "field",
+                                                "value": [
+                                                    "svef",
+                                                    "rdo2"
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "hexstr",
+                                                "value": "0x100"
+                                            }
+                                        }
+                                    }
+                                }
                             },
                             "right": {
                                 "type": "hexstr",
-                                "value": "0x2"
+                                "value": "0x46"
                             }
                         }
                     },
