@@ -96,30 +96,30 @@ control ingress {
 		if(svef.qid > 0){
 			if(standard_metadata.egress_spec == 2){
 			if(queue_head.queue2 > 50){
-				if((svef.rdo1+(svef.rdo2*256)) < 1400){
+				if((svef.rdo1+(svef.rdo2*256)) < 2400){
 					apply(table_drop);
 				}
 			}else if(queue_head.queue2 > 30){
-				if((svef.rdo1 + (svef.rdo2*256)) < 150){
+				if((svef.rdo1 + (svef.rdo2*256)) < 700){
 					apply(table_drop);
 				}
 			}else if(queue_head.queue2 > 10){
-				if((svef.rdo1 + (svef.rdo2*256)) < 70){
+				if((svef.rdo1 + (svef.rdo2*256)) < 200){
 					apply(table_drop);
 				}
 			}
 			}
 			else if(standard_metadata.egress_spec == 4){
 			if(queue_head.queue4 > 50){
-				if((svef.rdo1 + (svef.rdo2*256)) < 1400){
+				if((svef.rdo1 + (svef.rdo2*256)) < 2400){
 					apply(table_drop);
 				}
 			}else if(queue_head.queue4 > 30){
-				if((svef.rdo1 + (svef.rdo2* 256)) < 150){
+				if((svef.rdo1 + (svef.rdo2* 256)) < 700){
 					apply(table_drop);
 				}
 			}else if(queue_head.queue4 > 10){
-				if((svef.rdo1 + (svef.rdo2*256)) < 70){
+				if((svef.rdo1 + (svef.rdo2*256)) < 200){
 					apply(table_drop);
 				}
 			}

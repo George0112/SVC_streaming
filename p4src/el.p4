@@ -93,7 +93,7 @@ control ingress {
 	}
 	else apply(route_pkt);
 	if(valid(udp)){
-		if(udp.dst_port >= 4455){
+		if(svef.qid > 0){
 			if(standard_metadata.egress_spec == 2){
 			if(queue_head.queue2 > 50){
 				if(svef.qid > 0){
